@@ -1,0 +1,2054 @@
+[
+{
+"id": "S1",
+"sample": "Q1",
+"t": "T8",
+"q": "According to Trompenaars' cultural dilemmas:",
+"o": [
+"The dilemmas can be solved through recognizing, respecting and reconciling; realizing and rooting actions can only be undertaken by servant leaders.",
+"Both statements are correct.",
+"Five of the dilemmas relate to human interactions, and two relate to time and the environment."
+],
+"a": 2,
+"x": "7 dimensions: 5 concern relationships with people, 2 concern time and environment. The 4R model (recognize, respect, reconcile, realize & root) is not reserved for servant leaders.",
+"s": "Handout wk 2 pt 2; ICC Script 4.4"
+},
+{
+"id": "S2",
+"sample": "Q2",
+"t": "T9",
+"q": "McCarthy & Dunlap (“A Stakeholder Approach to the Ethicality of BRIC-firm Managers' Use of Favors”) point out that:",
+"o": [
+"‘Jeito’ arose in reaction to the formal and rigid government bureaucracy in the Portuguese colonial administration, but it no longer exists today.",
+"Relationships (guanxi) were traditionally based on key principles of Confucian moral behavior (loyalty, respect, kindness, love, trust, justice, harmony and peace). With more emphasis placed on individual opportunism, guanxi, rather than collectivistic goals, and corruption, are becoming more closely intertwined.",
+"Both statements are correct."
+],
+"a": 1,
+"key": 2,
+"flag": "The answer key says C (both), but statement a contains “it no longer exists today”, and jeitinho still exists. Course logic therefore points to B. Read every clause of a statement: one false half-sentence makes the whole option false.",
+"x": "Jeito did arise as a reaction to rigid Portuguese colonial bureaucracy, but it is still alive in Brazil today. Guanxi: Confucian roots, increasingly intertwined with opportunism and corruption.",
+"s": "McCarthy et al. (2012)"
+},
+{
+"id": "S3",
+"sample": "Q3",
+"t": "T10",
+"q": "Foreign managers active in China need to know that:",
+"o": [
+"Chinese politics is increasingly centralized under Xi; managers should focus exclusively on Xi's priorities and not on central or local regulators.",
+"Both central and local regulators matter, but substantial differences exist in the implementation of laws and regulations amongst provinces; hence managers should focus on understanding the regulations implemented by local regulators in the provinces where they operate.",
+"The centralized nature of the Chinese government means all laws are equally applied across provinces; managers should focus on central regulators only."
+],
+"a": 1,
+"x": "Federalism and provincial variation (also visible in the SCS: Shanghai vs Jiangsu vs Beijing) mean local regulators matter.",
+"s": "Handout wk 5 pt 2; Serrano et al. (2022)"
+},
+{
+"id": "S4",
+"sample": "Q4",
+"t": "T7",
+"q": "Political risk includes expropriation. This occurs when a government…",
+"o": [
+"Compensates a company after nationalizing its assets.",
+"Nationalizes a foreign firm with little or no compensation offered.",
+"None of these statements are correct."
+],
+"a": 0,
+"key": 1,
+"flag": "The answer key says B, but the course slide (wk 3 pt 2, p. 24) defines EXPROPRIATION as compensating a company after nationalizing its assets and CONFISCATION as nationalization with little or no compensation. Go with the slide definitions; if the lecturer's own key differs, ask them.",
+"x": "Course slide: expropriation = compensation after nationalization; confiscation = little or no compensation; nationalization = forced transfer to the state.",
+"s": "Handout wk 3 pt 2, p. 24"
+},
+{
+"id": "S5",
+"sample": "Q5",
+"t": "T7",
+"q": "Indicate one example of ECONOMIC risk (i.e. not political or cultural) that could affect a company operation abroad:",
+"o": [
+"Appropriateness of technology.",
+"Currency depreciation.",
+"Expropriation."
+],
+"a": 1,
+"x": "Exchange-rate fluctuations are a category of economic risk. Expropriation is political risk; appropriateness of technology belongs to the technological environment.",
+"s": "Handout wk 3 pt 2; Deresky"
+},
+{
+"id": "S6",
+"sample": "Q6",
+"t": "T9",
+"q": "McCarthy & Dunlap (favors in BRIC) point out that…",
+"o": [
+"Both statements are correct.",
+"Favors are also used in developed economies like the US, but in a more limited way.",
+"The use of favors may over time affect society, since such practices generally impede the development of legitimate formal institutions that sustain civil societies."
+],
+"a": 2,
+"key": 2,
+"flag": "Uncertain item: the key says C, but statement b may also appear in the paper, which would make A right. The McCarthy et al. paper wasn't in the files provided. Check the paper if you can.",
+"x": "Favors substitute for weak formal institutions and, over time, impede the development of legitimate formal institutions.",
+"s": "McCarthy et al. (2012)"
+},
+{
+"id": "S7",
+"sample": "Q7",
+"t": "T11",
+"q": "According to Serrano et al. (Techno-Regulation in China):",
+"o": [
+"Penalties given to Bavarian firms vary significantly among provinces, with Shanghai strongly focusing on environmental protection and Jiangsu on health and safety.",
+"Most Bavarian firms have received positive ratings (redlists), including from tax and customs authorities, but larger firms tend to be overrepresented in these lists.",
+"Both statements are correct."
+],
+"a": 2,
+"x": "80% redlisted (mostly Class A taxpayer, some customs), large firms over-represented; Shanghai = environment, Jiangsu = health & safety.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "S8",
+"sample": "Q8",
+"t": "T7",
+"q": "Which of the following is a REACTIVE reason for a firm to extend its operations overseas?",
+"o": [
+"Resources access.",
+"Economies of scale.",
+"Saturated domestic market."
+],
+"a": 2,
+"x": "Saturated domestic market is reactive/defensive; resource access and economies of scale are proactive.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "S9",
+"sample": "Q9",
+"t": "T10",
+"q": "Under Xi Jinping (as of 2013):",
+"o": [
+"The number of laws and regulations in China has been reduced.",
+"The number of laws and regulations in China has been substantially raised.",
+"None of these responses is correct."
+],
+"a": 1,
+"x": "NPC lawmaking chart: from 8 items (2013) to 48 (2021); a push for law-based governance.",
+"s": "Handout wk 7 pt 2, p. 10"
+},
+{
+"id": "S11",
+"sample": "Q11",
+"t": "T10",
+"q": "Nicholas Lardy (“Markets Over Mao”) points out that…",
+"o": [
+"State or collective firms currently produce most economic output and urban employment.",
+"State/collective and private firms produce roughly the same level of output and urban employment.",
+"Private firms currently produce two-thirds of output and almost all urban employment."
+],
+"a": 2,
+"x": "Lardy: the private sector, not the state, drives China's growth.",
+"s": "Lardy (2014)"
+},
+{
+"id": "S12",
+"sample": "Q12",
+"t": "T8",
+"q": "Case study GBS: American and Indian management styles differ. You can conclude that:",
+"o": [
+"Indian communication style tends to be influenced by differences in rank.",
+"US American managers prefer more control over the work of their staff, and staff expect close guidance and supervision.",
+"US Americans' preferred style of communication is high context."
+],
+"a": 0,
+"x": "India: higher power distance, so communication follows rank. US: low-context, more autonomy for staff.",
+"s": "Handout wk 7 pt 2 (outsourcing to India)"
+},
+{
+"id": "S13",
+"sample": "Q13",
+"t": "T9",
+"q": "The research findings in “The relationship between culture and corruption: a cross-national study” indicate that…",
+"o": [
+"Cultural values, rather than cultural practices, best explain corruption.",
+"There is no great difference in significance between cultural values and cultural practices in understanding corruption.",
+"Cultural practices, rather than cultural values, best explain corruption."
+],
+"a": 2,
+"key": 0,
+"flag": "The answer key says A, but the paper supports only 1 of 9 value hypotheses vs 7 of 9 practice hypotheses, and the practices model explains more variance (66.7% vs 59.7%). Course evidence points to C.",
+"x": "Seleim & Bontis: practices (“what is”) explain corruption better than values (“what should be”).",
+"s": "Seleim & Bontis (2009)"
+},
+{
+"id": "S14",
+"sample": "Q14",
+"t": "T10",
+"q": "Competition in China. Which statement is correct?",
+"o": [
+"Chinese companies in telecoms, batteries and cars have become key innovators; foreign companies need to take them seriously, both within China and in global markets.",
+"Chinese companies rely on cheap labour and produce unsophisticated goods; foreign companies need not worry.",
+"Chinese companies are only competitive due to government protection; foreign firms should seek protection from regulators."
+],
+"a": 0,
+"x": "China leads in 37 of 44 technologies (ASPI); EVs, batteries, 5G.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "S15",
+"sample": "Q15",
+"t": "T11",
+"q": "According to Bavarian managers interviewed, a positive potential effect of the Social Credit System is:",
+"o": [
+"None of the above.",
+"A much larger number of public contracts given to foreign firms due to their positive rankings.",
+"A more leveled playing field, with Chinese companies having to apply similar standards as foreign (Bavarian) firms."
+],
+"a": 2,
+"x": "Interviewees: more transparency, a level playing field, less corruption.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "S16",
+"sample": "Q16",
+"t": "T3",
+"q": "Which statement about moral values is correct?",
+"o": [
+"Values define standards and ideals shared by a group.",
+"Values are historically and culturally independent.",
+"Moral values are oriented towards economic profits."
+],
+"a": 0,
+"x": "Social values and norms define standards and ideals shared by a group; they are culturally and historically shaped and change.",
+"s": "Handout wk 3 pt 1, p. 20"
+},
+{
+"id": "S17",
+"sample": "Q17",
+"t": "T5",
+"q": "Basic principles of deontological ethics. Which statement is true?",
+"o": [
+"Quantifying the consequences of an action is the basis for the deontological assessment.",
+"The basic principle is to achieve the greatest possible happiness for all mankind.",
+"Respect for human dignity and the UN's international charter of human rights are based on deontological ethics."
+],
+"a": 2,
+"x": "a and b describe utilitarianism.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "S18",
+"sample": "Q18",
+"t": "T5",
+"q": "Kant's Categorical Imperative. Which statement is true?",
+"o": [
+"Man has the right to kill one person to save the lives of thousands.",
+"Humans must never be used as mere means for higher purposes.",
+"Personal action should be judged by its moral consequences."
+],
+"a": 1,
+"x": "CI II: treat humanity never simply as a means, always also as an end.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "S19",
+"sample": "Q19",
+"t": "T2",
+"q": "Students at the highest stage of Kohlberg's moral development choose their behavior on the basis of:",
+"o": [
+"Behavior driven by universal principles.",
+"The Golden Rule.",
+"What fulfills their own desires."
+],
+"a": 0,
+"x": "Post-conventional = universal principles; the Golden Rule = conventional; own desires = pre-conventional.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "S20",
+"sample": "Q20",
+"t": "T6",
+"q": "Which characteristic applies to virtue ethics?",
+"o": [
+"Virtue ethics deals with the ethical ability of people/companies to act.",
+"Virtue ethics says people/companies have to follow specific ethical guidelines.",
+"Virtue ethics assumes virtues are always detached from concrete action."
+],
+"a": 0,
+"x": "Situation + ability = capability; b describes duty ethics.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "S21",
+"sample": "Q21",
+"t": "T5",
+"q": "Which example is morally good from the perspective of Kant's Categorical Imperative?",
+"o": [
+"A client advisor may sell a financial product without informing the client about risks and alternatives.",
+"Tepco may require its employees to participate in cleaning radioactively contaminated equipment.",
+"A company may not purchase from suppliers who use child labour in production."
+],
+"a": 2,
+"x": "a and b treat people as mere means.",
+"s": "Handout wk 5 pt 1, p. 18"
+},
+{
+"id": "S22",
+"sample": "Q22",
+"t": "T4",
+"q": "Bribes to win an aircraft order: why is corruption unethical here from a utilitarian perspective?",
+"o": [
+"Because the Transport Minister can pay his gambling debts.",
+"Because its total damage is greater than its total benefit.",
+"Because the direct damage to the manufacturer's workforce is less than its benefit."
+],
+"a": 1,
+"x": "Utilitarian balance of all stakeholders.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "S23",
+"sample": "Q23",
+"t": "T4",
+"q": "Which statement refers to utilitarian ethics?",
+"o": [
+"The focus is on the consequences of an action.",
+"The focus is on the initial intention of an action.",
+"The focus is on the underlying principles of an action."
+],
+"a": 0,
+"x": "Utilitarianism ignores intention and judges consequences.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "S24",
+"sample": "Q24",
+"t": "T1",
+"q": "What applies to “responsibility” and “ethics”?",
+"o": [
+"Anyone who assumes responsibility also acts ethically.",
+"CEOs are increasingly dismissed for unethical behaviour, partly due to the increasing importance of stakeholder demands.",
+"Taking responsibility means justifying oneself before ALL instances that make demands on me and my company."
+],
+"a": 1,
+"x": "CEO study: ethics dismissals rising. Responsibility ≠ automatically ethical (even a Mafia boss takes ‘responsibility’); you justify yourself towards ACCEPTED authorities, not all.",
+"s": "CEO Success study; Handout wk 3 pt 1"
+},
+{
+"id": "S25",
+"sample": "Q25",
+"t": "T6",
+"q": "Virtue ethics of the ancient Greeks. Which statement is true?",
+"o": [
+"Virtues are unchangeable.",
+"Through self-reflection a person can use his abilities correctly according to a certain situation.",
+"For Aristotle, virtue is an extreme predisposition."
+],
+"a": 1,
+"x": "Virtues can be developed; virtue is the golden MEAN, not an extreme.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "S26",
+"sample": "Q26",
+"t": "T2",
+"q": "Ranges of responsibility and Kohlberg. Which is correct?",
+"o": [
+"A timber construction company shows universal responsibility when it protects the wood species it needs for production.",
+"A company that consciously avoids animal testing has a universal social responsibility.",
+"According to Kohlberg, the Golden Rule refers to the pre-conventional stage."
+],
+"a": 1,
+"x": "Protecting what you need = self-preservation; Golden Rule = conventional.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "S27",
+"sample": "Q27",
+"t": "T4",
+"q": "What is the most common criticism of utilitarian ethics?",
+"o": [
+"It is difficult to use the theory as a decision-making tool.",
+"The individual can be sacrificed to the common good.",
+"The good will of the actor is focused too strongly."
+],
+"a": 1,
+"x": "Summation of utility ignores the individual's fate (Schüz ch. 4).",
+"s": "Schüz ch. 4"
+},
+{
+"id": "S28",
+"sample": "Q28",
+"t": "T1",
+"q": "Which characteristic applies to LOHAS consumers?",
+"o": [
+"They make purchasing decisions based on price-performance criteria.",
+"They pay close attention to how their own values align with producers of goods and services.",
+"They have relatively small purchasing power."
+],
+"a": 1,
+"x": "LOHAS: high buying power; reward firms whose values match theirs.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "S29",
+"sample": "Q29",
+"t": "T6",
+"q": "Which statement is true?",
+"o": [
+"Virtuous action by a company can be identified as “best practice” regardless of the situation (e.g. industry).",
+"The virtue of empathy has helped Levi's solve the problem of child labour in the supply chain.",
+"Active and lived virtue ethics strengthens the profitability of an entire company."
+],
+"a": 2,
+"x": "Levi's: “profits through principles”. Virtue is situational, so there is no universal best practice.",
+"s": "Handout wk 7 pt 1"
+},
+{
+"id": "S30",
+"sample": "Q30",
+"t": "T3",
+"q": "Which statement applies to ethics?",
+"o": [
+"Normative ethics describes the actual preferences for action.",
+"Normative ethics deals with the question of what is good.",
+"Morality seeks a basis accepted by all, which should be regarded as “good” and “bad”."
+],
+"a": 1,
+"x": "Descriptive ethics describes actual preferences; ETHICS (not morality) seeks a basis acceptable to all.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N1",
+"t": "T1",
+"q": "Crane & Matten define business ethics as…",
+"o": [
+"a set of legal rules that applies only to listed companies",
+"the maximisation of shareholder value within legal limits",
+"the examination of business situations, activities and decisions from the point of view of right and wrong"
+],
+"a": 2,
+"x": "Right and wrong in a moral, not economic, sense; it applies to all organisations.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "N2",
+"t": "T1",
+"q": "Which is NOT one of the three reasons for the growing interest in corporate responsibility (Schüz)?",
+"o": [
+"Radical transparency",
+"Declining resources",
+"Falling interest rates"
+],
+"a": 2,
+"x": "The three: declining resources, radical transparency, increasing stakeholder expectations.",
+"s": "Schüz ch. 1"
+},
+{
+"id": "N3",
+"t": "T1",
+"q": "The VW emissions scandal is used in class mainly to illustrate…",
+"o": [
+"the LOHAS movement",
+"declining resources",
+"radical transparency"
+],
+"a": 2,
+"x": "Misconduct is instantly placed in the centre of critical public attention.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "N4",
+"t": "T1",
+"q": "“Bluewashing” refers to…",
+"o": [
+"deceptive green marketing of products",
+"criticism of corporate partnerships under the UN Global Compact and of dubious water-use projects",
+"certified ocean-friendly labels"
+],
+"a": 1,
+"x": "Greenwashing = deceptive green PR; bluewashing = UN Global Compact / water.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "N5",
+"t": "T1",
+"q": "Which is one of the “seven sins of greenwashing”?",
+"o": [
+"Sin of the hidden trade-off",
+"Sin of overpricing",
+"Sin of certification"
+],
+"a": 0,
+"x": "Hidden trade-off, no proof, vagueness, false labels, irrelevance, lesser of two evils, fibbing.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "N6",
+"t": "T1",
+"q": "Swiss VR Monitor 2020 on CSR:",
+"o": [
+"81% see CSR as part of their strategy, but about 2 in 5 boards lack the resources and expertise to implement it",
+"Boards rank climate change above responsibility for employees",
+"CSR ranks among the top three issues for boards"
+],
+"a": 0,
+"x": "Digitalisation is the top issue; internal CSR (employees 69%) comes before climate (31%).",
+"s": "Swiss VR Monitor 2020"
+},
+{
+"id": "N7",
+"t": "T1",
+"q": "Swiss VR Monitor: the conflict between costs and benefits of CSR is felt most strongly by…",
+"o": [
+"small companies",
+"large companies",
+"there is no difference by size"
+],
+"a": 0,
+"x": "Small 40%, medium 30%, large 26%.",
+"s": "Swiss VR Monitor 2020"
+},
+{
+"id": "N8",
+"t": "T1",
+"q": "CEO Success study: in which region was the share of CEO dismissals for ethical lapses highest in 2012–16?",
+"o": [
+"BRIC countries",
+"Western Europe",
+"US & Canada"
+],
+"a": 0,
+"x": "BRIC 8.8%, W. Europe 5.9%, US & Canada 3.3%.",
+"s": "CEO Success study"
+},
+{
+"id": "N9",
+"t": "T1",
+"q": "How do the authors of the CEO Success study explain the rise in ethics-related dismissals?",
+"o": [
+"More CEOs now also chair the board",
+"The environment changed: a less forgiving public, more punitive regulation, emerging-market risks, digital communication and 24/7 news",
+"CEOs today commit more wrongdoing than in the past"
+],
+"a": 1,
+"x": "They doubt wrongdoing has increased; CEO-plus-chair fell from 48% to 10%.",
+"s": "CEO Success study"
+},
+{
+"id": "N10",
+"t": "T1",
+"q": "LOHAS stands for…",
+"o": [
+"Low Air and Soil pollution",
+"Long-term Holistic Accounting Standards",
+"Lifestyle of Health and Sustainability"
+],
+"a": 2,
+"x": "Also called “cultural creatives”, 20–30% of US adults.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "N11",
+"t": "T2",
+"q": "The structure of ethical responsibility means that…",
+"o": [
+"a subject is responsible for consequences towards authorities",
+"authorities are responsible for the subject's consequences",
+"consequences are responsible only to shareholders"
+],
+"a": 0,
+"x": "Subject, consequences, authorities: the triangle.",
+"s": "Handout wk 2–3"
+},
+{
+"id": "N12",
+"t": "T2",
+"q": "What is the underlying assumption of the systemic structure of ethical responsibility?",
+"o": [
+"Only the CEO bears responsibility",
+"Companies are open systems interrelated with their environment through input and output",
+"Companies are closed systems"
+],
+"a": 1,
+"x": "Inputs (resources, claims) → outputs (goods, reputation, or waste and mistrust).",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N13",
+"t": "T2",
+"q": "Ecological responsibility focuses on…",
+"o": [
+"self-preservation",
+"fitting into the whole",
+"co-existence"
+],
+"a": 1,
+"x": "Economic = self-preservation; social = co-existence; sustainable = lasting long-term.",
+"s": "Handout wk 3 pt 1, p. 14"
+},
+{
+"id": "N14",
+"t": "T2",
+"q": "Sustainable responsibility means responding to…",
+"o": [
+"future generations",
+"the state only",
+"shareholders"
+],
+"a": 0,
+"x": "The fourth dimension: lasting, long-term.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N15",
+"t": "T2",
+"q": "Kohlberg's conventional stage is driven by…",
+"o": [
+"mutual / reciprocal benefit",
+"egoistic benefit",
+"universal principles"
+],
+"a": 0,
+"x": "Conventional = reciprocity, the Golden Rule.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N16",
+"t": "T2",
+"q": "The Brundtland Commission's definition of sustainable development:",
+"o": [
+"Satisfy current requirements so that future generations are not disadvantaged",
+"Maximise growth to fund future environmental repair",
+"Freeze consumption at today's level"
+],
+"a": 0,
+"x": "A normative idea of intra- and intergenerational justice.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N17",
+"t": "T2",
+"q": "Milton Friedman's view of corporate social responsibility is that…",
+"o": [
+"business must above all protect nature",
+"business is responsible to all stakeholders",
+"the social responsibility of business is to increase its profits"
+],
+"a": 2,
+"x": "Schüz calls this an “autistic economy”.",
+"s": "Handout wk 2 pt 1"
+},
+{
+"id": "N18",
+"t": "T2",
+"q": "A firm that protects only the natural resources it needs for its own production shows…",
+"o": [
+"universal responsibility",
+"conventional reciprocal responsibility towards competitors",
+"self-preservation (egoistic / pre-conventional scope)"
+],
+"a": 2,
+"x": "Classic exam trap (timber company).",
+"s": "Sample exam Q26"
+},
+{
+"id": "N19",
+"t": "T3",
+"q": "The difference between morals and ethics:",
+"o": [
+"Ethics is group-specific, while morals are universal",
+"They are synonyms",
+"Morals define good/bad within a group; ethics reflects on morals and seeks a basis acceptable to all"
+],
+"a": 2,
+"x": "Even the Mafia has morals.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N20",
+"t": "T3",
+"q": "Descriptive ethics…",
+"o": [
+"is the same as discourse ethics",
+"describes actually existing preferences for action",
+"establishes universally valid norms"
+],
+"a": 1,
+"x": "Normative ethics establishes norms and asks what is good.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N21",
+"t": "T3",
+"q": "The word “moral” stems from…",
+"o": [
+"Greek ethos",
+"Greek deon",
+"Latin mos"
+],
+"a": 2,
+"x": "Ethos = ethics (Greek); deon = duty.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N22",
+"t": "T3",
+"q": "Which value appears in BOTH the economic and the ethical value lists?",
+"o": [
+"Autonomy",
+"Profit",
+"Justice"
+],
+"a": 0,
+"x": "Welfare and autonomy are in both.",
+"s": "Handout wk 3 pt 1, p. 21"
+},
+{
+"id": "N23",
+"t": "T3",
+"q": "Business ethics that considers ALL stakeholders is called…",
+"o": [
+"economistic business ethics",
+"biocentric ethics",
+"holistic business ethics"
+],
+"a": 2,
+"x": "Shareholders only = economistic.",
+"s": "Handout wk 3 pt 1, p. 24"
+},
+{
+"id": "N24",
+"t": "T3",
+"q": "Ethics that includes all living beings is…",
+"o": [
+"intergenerative",
+"biocentric",
+"anthropocentric"
+],
+"a": 1,
+"x": "All humans = anthropocentric; future generations = intergenerative; all existing beings = physiocentric.",
+"s": "Handout wk 3 pt 1"
+},
+{
+"id": "N25",
+"t": "T3",
+"q": "In the synthesis diagram, deontological ethics corresponds to…",
+"o": [
+"responsibility towards authorities: which duties do I have to fulfil?",
+"responsibility for consequences: which benefits result?",
+"the acting subject: what can I do with my abilities?"
+],
+"a": 0,
+"x": "Utilitarian = for consequences; virtue = acting subject, situational.",
+"s": "Handout wk 3 pt 1, p. 28"
+},
+{
+"id": "N26",
+"t": "T3",
+"q": "Growing resistance against “Pawahara” in Japan illustrates…",
+"o": [
+"the relativity of morality: values change over time and place",
+"the Golden Rule",
+"that utilitarianism dominates Japan"
+],
+"a": 0,
+"x": "Pawahara = power harassment.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N27",
+"t": "T3",
+"q": "Why is discourse ethics (Apel/Habermas) rarely applied in stakeholder dialogue?",
+"o": [
+"Differences in power, interests and logic make an ideal discourse community almost impossible",
+"It requires a divine authority",
+"It ignores consequences"
+],
+"a": 0,
+"x": "So Schüz proposes a pragmatic discourse.",
+"s": "Schüz ch. 3"
+},
+{
+"id": "N28",
+"t": "T4",
+"q": "The utilitarian criterion is…",
+"o": [
+"act only on maxims that can become universal law",
+"the greatest good for the greatest number of all concerned",
+"the golden mean between extremes"
+],
+"a": 1,
+"x": "Utilitas = benefit.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N29",
+"t": "T4",
+"q": "In business, utility is usually measured…",
+"o": [
+"through human dignity",
+"in money, through cost-benefit analysis",
+"through virtues"
+],
+"a": 1,
+"x": "The aim is to maximise profit as the main utility.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N30",
+"t": "T4",
+"q": "Who is regarded as the founder of utilitarian ethics?",
+"o": [
+"Jeremy Bentham",
+"Aristotle",
+"Immanuel Kant"
+],
+"a": 0,
+"x": "Followed by J. S. Mill and G. E. Moore.",
+"s": "Schüz ch. 4"
+},
+{
+"id": "N31",
+"t": "T4",
+"q": "Which is a MACRO-economic reason to fight corruption?",
+"o": [
+"Susceptibility to blackmail",
+"Distortion of competition",
+"Violation of democratic principles"
+],
+"a": 1,
+"x": "Blackmail = micro; democratic principles = social/political.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N32",
+"t": "T4",
+"q": "Which is a MICRO-economic reason to fight corruption?",
+"o": [
+"Misinvestment",
+"Damage to reputation and trust",
+"Decreasing trust in governmental institutions"
+],
+"a": 1,
+"x": "Also blackmail and exclusion from public tenders.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N33",
+"t": "T4",
+"q": "Corruption is defined in class as…",
+"o": [
+"legal lobbying",
+"the misuse of public power for private gain",
+"any gift between companies"
+],
+"a": 1,
+"x": "World Bank: more than $1,000bn in bribes a year.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N34",
+"t": "T4",
+"q": "To what extent is modern risk management a form of utilitarian ethics?",
+"o": [
+"It trains managers' character",
+"It weighs the probability and size of damage against benefits, a consequence calculation",
+"It follows unconditional duties"
+],
+"a": 1,
+"x": "Review question, week 4.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N35",
+"t": "T4",
+"q": "In the lever version of the trolley dilemma, a strict utilitarian would…",
+"o": [
+"flip a coin",
+"refuse, because killing is never allowed",
+"pull the lever so that one person dies instead of five"
+],
+"a": 2,
+"x": "Deontology objects: using a person as a mere means.",
+"s": "Handout wk 4–6"
+},
+{
+"id": "N36",
+"t": "T4",
+"q": "How should a responsible leader deal with stakeholders from a utilitarian perspective?",
+"o": [
+"Identify all affected stakeholders, weigh benefits and harms for each, and choose the best overall balance",
+"Serve shareholders only",
+"Follow the code of conduct whatever the consequences"
+],
+"a": 0,
+"x": "Review question, week 4.",
+"s": "Handout wk 4 pt 1"
+},
+{
+"id": "N37",
+"t": "T4",
+"q": "Why does Schüz say utilitarianism must be complemented?",
+"o": [
+"Because the individual may be sacrificed, so an ethical authority (duties) must protect individuals",
+"Because it is too emotional",
+"Because it ignores profits"
+],
+"a": 0,
+"x": "This leads to duty ethics.",
+"s": "Schüz ch. 4"
+},
+{
+"id": "N38",
+"t": "T5",
+"q": "“Deontology” derives from the Greek word deon, meaning…",
+"o": [
+"obligation / duty",
+"benefit",
+"custom"
+],
+"a": 0,
+"x": "The ethics of duties.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N39",
+"t": "T5",
+"q": "Which is NOT an example of an ethics of duties?",
+"o": [
+"A code of conduct",
+"The UN Global Compact",
+"A cost-benefit analysis"
+],
+"a": 2,
+"x": "Cost-benefit analysis is utilitarian.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N40",
+"t": "T5",
+"q": "A limitation of the Golden Rule is that…",
+"o": [
+"people have different tastes and interests, and it does not prohibit corruption",
+"it is only found in Christianity",
+"it focuses only on consequences"
+],
+"a": 0,
+"x": "Shaw: “Their tastes may not be the same.”",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N41",
+"t": "T5",
+"q": "Kant's first formulation of the Categorical Imperative is about…",
+"o": [
+"universalisation: act only on a maxim you can will to become a universal law",
+"situational virtues",
+"maximising happiness"
+],
+"a": 0,
+"x": "CI II is about human dignity.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N42",
+"t": "T5",
+"q": "In the Tylenol case, Johnson & Johnson's Credo states that its first responsibility is to…",
+"o": [
+"the US government",
+"doctors, nurses, mothers and all who use its products",
+"stockholders"
+],
+"a": 1,
+"x": "Stockholders come fifth and last; the result was a nationwide recall.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N43",
+"t": "T5",
+"q": "What does the Enron example in the duty-ethics lecture show?",
+"o": [
+"Utilitarianism caused the fraud",
+"Written ethical principles are worthless if they are not lived",
+"Codes of conduct always prevent fraud"
+],
+"a": 1,
+"x": "Enron had a fine human-rights principle yet committed balance-sheet fraud.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N44",
+"t": "T5",
+"q": "Why did Thiokol's engineers not press their warnings before the Challenger launch?",
+"o": [
+"They did not know about the O-rings",
+"Kant forbids warnings",
+"They did not want to lose NASA, their most important customer"
+],
+"a": 2,
+"x": "The dilemma of functional duty vs ethical responsibility.",
+"s": "Exercise Deontological Ethics"
+},
+{
+"id": "N45",
+"t": "T5",
+"q": "According to Kant (CI II), what should NASA have done in the Challenger case?",
+"o": [
+"Informed the astronauts about the risk (self-determination)",
+"Launched to protect the program",
+"Calculated the expected value only"
+],
+"a": 0,
+"x": "Not treating the crew as a mere means.",
+"s": "Exercise Deontological Ethics"
+},
+{
+"id": "N46",
+"t": "T5",
+"q": "In De Bono's six thinking hats, the BLACK hat stands for…",
+"o": [
+"bad points: logic applied to identifying flaws",
+"emotions",
+"creativity"
+],
+"a": 0,
+"x": "White = facts, red = emotions, yellow = good points, green = creativity, blue = thinking about thinking.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N47",
+"t": "T5",
+"q": "In the Milgram experiment shown in class…",
+"o": [
+"participants refused immediately",
+"26 of 40 participants went to the maximum 450 V",
+"nobody went beyond 300 V"
+],
+"a": 1,
+"x": "Humans under functional constraint lose their autonomy.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N48",
+"t": "T5",
+"q": "Which is a SOCIAL-psychological reason for the loss of ethical competence?",
+"o": [
+"Dutifulness",
+"The shadow side of the human psyche",
+"Diffusion of responsibility"
+],
+"a": 2,
+"x": "Dutifulness and the shadow side are individual-psychological.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N49",
+"t": "T5",
+"q": "Which is an INDIVIDUAL-psychological reason for the loss of ethical competence?",
+"o": [
+"Peer pressure",
+"Systems of reward and punishment (greed and fear)",
+"Distance to the victims"
+],
+"a": 1,
+"x": "Peer pressure and distance to the victims are social-psychological.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N50",
+"t": "T5",
+"q": "According to Kant, may a company lie to customers about harmful substances to avoid panic?",
+"o": [
+"Yes, if the Golden Rule allows it",
+"No: there is no right to lie, even out of alleged love for humanity",
+"Yes, if it maximises overall happiness"
+],
+"a": 1,
+"x": "Universalised lying destroys trust; it uses people as means.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N51",
+"t": "T5",
+"q": "Liverpool FC declining the Kempinski hotel in Qatar is an example of…",
+"o": [
+"acting on human rights (deontological principles)",
+"greenwashing",
+"utilitarian cost savings"
+],
+"a": 0,
+"x": "Concern about breaches of labour law.",
+"s": "Handout wk 5 pt 1"
+},
+{
+"id": "N52",
+"t": "T6",
+"q": "According to Aristotle, generosity is the mean between…",
+"o": [
+"inaction and haste",
+"stinginess and extravagance",
+"cowardice and recklessness"
+],
+"a": 1,
+"x": "Courage = cowardice/recklessness; prudence = inaction/haste.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N53",
+"t": "T6",
+"q": "In situational virtue ethics, capability is…",
+"o": [
+"situation + ability",
+"profit + reputation",
+"duty + consequence"
+],
+"a": 0,
+"x": "Hence there is no universal best practice.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N54",
+"t": "T6",
+"q": "Plato's four cardinal virtues are…",
+"o": [
+"faith, hope, love, prudence",
+"wisdom, courage, moderation, justice",
+"empathy, originality, integrity, courage"
+],
+"a": 1,
+"x": "“Empathy, originality, integrity, courage” are Levi's values, not Plato's.",
+"s": "Handout wk 6 pt 1; Schüz ch. 6"
+},
+{
+"id": "N55",
+"t": "T6",
+"q": "Levi Strauss's four core values are…",
+"o": [
+"empathy, originality, integrity, courage",
+"justice, fairness, truth, dignity",
+"efficiency, growth, profit, competition"
+],
+"a": 0,
+"x": "“Profits through principles.”",
+"s": "Handout wk 7 pt 1"
+},
+{
+"id": "N56",
+"t": "T6",
+"q": "Paine: the objective of a COMPLIANCE strategy is to…",
+"o": [
+"maximise shareholder value",
+"enable responsible conduct",
+"prevent criminal misconduct"
+],
+"a": 2,
+"x": "Integrity = enable responsible conduct.",
+"s": "Paine 1994"
+},
+{
+"id": "N57",
+"t": "T6",
+"q": "Paine: the ethos of an INTEGRITY strategy is…",
+"o": [
+"conformity with externally imposed standards",
+"lawyer-driven control",
+"self-governance according to chosen standards"
+],
+"a": 2,
+"x": "Compliance = conformity with external standards, lawyer-driven.",
+"s": "Paine 1994"
+},
+{
+"id": "N58",
+"t": "T6",
+"q": "Paine: the behavioural assumption of an INTEGRITY strategy is that people are…",
+"o": [
+"social beings guided by material self-interest, values, ideals and peers",
+"purely altruistic",
+"autonomous beings guided only by material self-interest"
+],
+"a": 0,
+"x": "“Autonomous beings guided only by material self-interest” is the compliance assumption.",
+"s": "Paine 1994"
+},
+{
+"id": "N59",
+"t": "T6",
+"q": "Which ethical approaches underlie compliance and integrity management?",
+"o": [
+"Compliance ≈ deontological (external rules); integrity ≈ virtue ethics (character, self-governance)",
+"Compliance ≈ virtue; integrity ≈ utilitarian",
+"Both are purely utilitarian"
+],
+"a": 0,
+"x": "Review question, week 7.",
+"s": "Handout wk 7 pt 1"
+},
+{
+"id": "N60",
+"t": "T6",
+"q": "Paine's Sears Auto Centers case shows that…",
+"o": [
+"compliance programmes always work",
+"only rogue individuals cause misconduct",
+"organisational factors such as sales quotas and commissions can push employees into unethical behaviour"
+],
+"a": 2,
+"x": "Ethics is as much an organisational as a personal issue.",
+"s": "Paine 1994"
+},
+{
+"id": "N61",
+"t": "T6",
+"q": "In the honesty experiment (“Transactions”), what reduced cheating most?",
+"o": [
+"A signed commitment (≈22%)",
+"Doing nothing (≈33%)",
+"Dealing with values and norms beforehand (≈6%)"
+],
+"a": 2,
+"x": "Reflecting on values beats signatures.",
+"s": "Handout wk 7 pt 1"
+},
+{
+"id": "N62",
+"t": "T6",
+"q": "Why is virtue ethics needed in addition to duty ethics?",
+"o": [
+"To calculate consequences more precisely",
+"Because duties are always wrong",
+"To strengthen character so people can resist internal and external influences that make them lose autonomy"
+],
+"a": 2,
+"x": "Milgram and the 18 reasons.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N63",
+"t": "T6",
+"q": "In the middle-manager case (Adario), which virtue did he have to DEVELOP (challenge virtue)?",
+"o": [
+"Empathy",
+"Courage",
+"Stinginess"
+],
+"a": 1,
+"x": "Strength virtue = empathy.",
+"s": "Exercise Virtue Ethics"
+},
+{
+"id": "N64",
+"t": "T6",
+"q": "One of Paine's hallmarks of an effective integrity strategy is that…",
+"o": [
+"lawyers draft all values",
+"leaders are personally committed, credible and willing to take action on the values they espouse",
+"the values are kept confidential"
+],
+"a": 1,
+"x": "Also: values integrated into decision-making; supporting systems; skilled managers.",
+"s": "Paine 1994"
+},
+{
+"id": "N65",
+"t": "T6",
+"q": "According to Aristotle, virtues…",
+"o": [
+"are innate and fixed",
+"are extremes",
+"can be developed and shape a good character"
+],
+"a": 2,
+"x": "Taming the drives.",
+"s": "Handout wk 6 pt 1"
+},
+{
+"id": "N66",
+"t": "T7",
+"q": "International management (Luthans & Doh) is…",
+"o": [
+"managing exports only",
+"applying management concepts in a multinational environment and adapting practices to different economic, political and cultural contexts",
+"the same as domestic management"
+],
+"a": 1,
+"x": "Definition slide.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N67",
+"t": "T7",
+"q": "Which is a PROACTIVE reason for going international?",
+"o": [
+"Trade barriers",
+"Economies of scale",
+"Customer demands"
+],
+"a": 1,
+"x": "Trade barriers and customer demands are reactive.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N68",
+"t": "T7",
+"q": "H&M opening in India after Zara had expanded there is an example of…",
+"o": [
+"a reaction to the actions of a competitor (reactive)",
+"resource access (proactive)",
+"tax benefits"
+],
+"a": 0,
+"x": "Also: unsolicited orders (A&F), prestige (Nivea).",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N69",
+"t": "T7",
+"q": "Economies of scale are…",
+"o": [
+"import tariffs",
+"exchange-rate gains",
+"factors that cause the average cost of producing something to fall as output volume increases"
+],
+"a": 2,
+"x": "A proactive reason.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N70",
+"t": "T7",
+"q": "Confiscation (course slide) occurs when…",
+"o": [
+"nationalization of foreign firms happens with little or no compensation",
+"a nation challenges another state's internal actions",
+"the government compensates a firm after nationalizing it"
+],
+"a": 0,
+"x": "Compensation after nationalizing = expropriation; challenging another state's actions is what sovereign immunity rules out.",
+"s": "Handout wk 3 pt 2, p. 24"
+},
+{
+"id": "N71",
+"t": "T7",
+"q": "Sovereign immunity is…",
+"o": [
+"immunity of firms from taxes",
+"the principle that no nation may challenge the internal actions of another state if it proceeded justly",
+"the right to nationalize without compensation"
+],
+"a": 1,
+"x": "One of the macro political risks.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N72",
+"t": "T7",
+"q": "An EMBARGO is…",
+"o": [
+"a collaborative effort among countries to prohibit trade with a nation",
+"a government-imposed unilateral prohibition of trade with another country",
+"a fee paid by an exporter"
+],
+"a": 1,
+"x": "A collaborative ban by several countries = boycott; a fee paid by an exporter = tariff.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N73",
+"t": "T7",
+"q": "Diversion means…",
+"o": [
+"diversifying products",
+"using an export licence to supply a third party not included on the licence",
+"redirecting a supply chain to avoid tariffs"
+],
+"a": 1,
+"x": "External economic relations as a risk factor.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N74",
+"t": "T7",
+"q": "Economic risk is determined by…",
+"o": [
+"a country's ability or intention to meet its financial obligations",
+"the number of cultural dimensions",
+"the firm's CSR report"
+],
+"a": 0,
+"x": "Closely related to political risk.",
+"s": "Handout wk 3 pt 2"
+},
+{
+"id": "N75",
+"t": "T7",
+"q": "Forming a joint venture with nationals to reduce political risk is called…",
+"o": [
+"position control",
+"hedging",
+"equity sharing (adaptation)"
+],
+"a": 2,
+"x": "Adaptation: equity sharing, participative management, localisation, development assistance.",
+"s": "Deresky"
+},
+{
+"id": "N76",
+"t": "T7",
+"q": "Keeping key positions in the hands of expatriates is a form of…",
+"o": [
+"localisation",
+"dependency (position control)",
+"development assistance"
+],
+"a": 1,
+"x": "Dependency: input, market and position control.",
+"s": "Deresky"
+},
+{
+"id": "N77",
+"t": "T7",
+"q": "Political risk insurance and local debt financing are forms of…",
+"o": [
+"adaptation",
+"avoidance",
+"hedging"
+],
+"a": 2,
+"x": "Hedging minimises losses from political events.",
+"s": "Deresky"
+},
+{
+"id": "N78",
+"t": "T7",
+"q": "Which entry mode carries the HIGHEST risk?",
+"o": [
+"Exporting",
+"Licensing",
+"Fully owned subsidiary"
+],
+"a": 2,
+"x": "Total control, highest risk.",
+"s": "Deresky"
+},
+{
+"id": "N79",
+"t": "T7",
+"q": "In a turnkey operation, a company…",
+"o": [
+"manages daily operations without ownership decisions",
+"designs and builds a facility abroad, trains local staff and hands it over for a fee",
+"licenses its trademark for royalties"
+],
+"a": 1,
+"x": "Running daily operations without ownership decisions = management contract; licensing a trademark for royalties = licensing/franchising.",
+"s": "Deresky"
+},
+{
+"id": "N80",
+"t": "T7",
+"q": "Google's difficulties with censorship in China illustrate which CAGE distance?",
+"o": [
+"Cultural",
+"Administrative",
+"Geographic"
+],
+"a": 1,
+"x": "Russia language = cultural; payment infrastructure = economic.",
+"s": "Deresky / Ghemawat"
+},
+{
+"id": "N81",
+"t": "T7",
+"q": "An Italian working in the Berlin subsidiary of a US company is a…",
+"o": [
+"parent-country national (expatriate)",
+"third-country national",
+"host-country national"
+],
+"a": 1,
+"x": "PCN = home-country citizen abroad; HCN = local citizen.",
+"s": "IBE reading ch. 8"
+},
+{
+"id": "N82",
+"t": "T7",
+"q": "Under common law…",
+"o": [
+"law is based on religious beliefs",
+"law is a comprehensive code",
+"past court decisions act as precedents"
+],
+"a": 2,
+"x": "Civil law = codes (~70 countries); Islamic law = religion (27 countries).",
+"s": "Deresky"
+},
+{
+"id": "N83",
+"t": "T7",
+"q": "Appropriability of technology refers to…",
+"o": [
+"whether technology suits local culture",
+"technology transfer subsidies",
+"the innovating firm's ability to profit from its own technology by protecting it from competitors"
+],
+"a": 2,
+"x": "Suitability for the local context = appropriateness.",
+"s": "Deresky"
+},
+{
+"id": "N84",
+"t": "T8",
+"q": "High-context communication is characterised by…",
+"o": [
+"implicit messages, long-term relationships and strong in-group boundaries",
+"task over relationship",
+"explicit rules and codified knowledge"
+],
+"a": 0,
+"x": "Low context: explicit, rule- and task-oriented.",
+"s": "ICC Script (Hall)"
+},
+{
+"id": "N85",
+"t": "T8",
+"q": "Polychronic people…",
+"o": [
+"do one thing at a time and treat deadlines as sacred",
+"are always low-context",
+"do many things at once and base promptness on the relationship"
+],
+"a": 2,
+"x": "Monochronic = one thing at a time.",
+"s": "ICC Script (Hall)"
+},
+{
+"id": "N86",
+"t": "T8",
+"q": "Which is NOT one of Hofstede's dimensions?",
+"o": [
+"Uncertainty avoidance",
+"Indulgence vs restraint",
+"Specific vs diffuse"
+],
+"a": 2,
+"x": "Specific vs diffuse is Trompenaars'.",
+"s": "ICC Script"
+},
+{
+"id": "N87",
+"t": "T8",
+"q": "Hofstede's power distance is the degree to which…",
+"o": [
+"less powerful members of a society accept and expect that power is distributed unequally",
+"people separate private and business life",
+"people avoid uncertainty"
+],
+"a": 0,
+"x": "Low PD societies demand justification for inequality.",
+"s": "ICC Script"
+},
+{
+"id": "N88",
+"t": "T8",
+"q": "A universalist culture (Trompenaars)…",
+"o": [
+"focuses more on rules than relationships: “a deal is a deal”",
+"treats every case on its special merits",
+"modifies contracts as relationships evolve"
+],
+"a": 0,
+"x": "Modifying contracts as relationships evolve and judging each case on its merits are particularist traits.",
+"s": "ICC Script"
+},
+{
+"id": "N89",
+"t": "T8",
+"q": "In a DIFFUSE-oriented culture…",
+"o": [
+"conflicts of interest are frowned upon",
+"reports begin with an executive summary",
+"private and business issues interpenetrate"
+],
+"a": 2,
+"x": "Executive summaries first and frowning on conflicts of interest are specific-oriented traits.",
+"s": "ICC Script"
+},
+{
+"id": "N90",
+"t": "T8",
+"q": "In an ASCRIPTION-oriented culture, respect for a manager is based on…",
+"o": [
+"the latest performance review",
+"seniority, titles and background",
+"knowledge and skills"
+],
+"a": 1,
+"x": "Achievement = what you do; ascription = who you are.",
+"s": "ICC Script"
+},
+{
+"id": "N91",
+"t": "T8",
+"q": "The correct order of Trompenaars' 4R model is…",
+"o": [
+"Respect → Recognize → Root → Reconcile",
+"Reconcile → Respect → Recognize → Realize",
+"Recognize → Respect → Reconcile → Realize & Root"
+],
+"a": 2,
+"x": "It leads to concrete, measurable actions over time.",
+"s": "Handout wk 2 pt 2"
+},
+{
+"id": "N92",
+"t": "T8",
+"q": "Which describes a SERVANT leader?",
+"o": [
+"Shares power and control to drive engagement, and measures success through growth and development",
+"Measures success through output only",
+"Sees leadership as a rank to obtain"
+],
+"a": 0,
+"x": "Servant leaders listen and understand it's not about them.",
+"s": "Handout wk 2 pt 2"
+},
+{
+"id": "N93",
+"t": "T8",
+"q": "In the GLOBE study, cultural PRACTICES are measured as…",
+"o": [
+"Hofstede's IBM scores",
+"“what is”: common behaviours and institutional practices",
+"“what should be”: judgements of ideals"
+],
+"a": 1,
+"x": "Values = “what should be”.",
+"s": "Handout wk 2 pt 2"
+},
+{
+"id": "N94",
+"t": "T8",
+"q": "According to the GLOBE table, Switzerland ranks LOW on…",
+"o": [
+"uncertainty avoidance",
+"assertiveness",
+"performance orientation"
+],
+"a": 1,
+"x": "Switzerland is high on UA, future orientation and performance orientation.",
+"s": "Handout wk 2 pt 2, p. 14"
+},
+{
+"id": "N95",
+"t": "T8",
+"q": "In Lewin's metaphor, Americans are typically…",
+"o": [
+"peaches: friendly outside, private core",
+"coconuts: reserved outside, warm inside",
+"neither"
+],
+"a": 0,
+"x": "Germans, French and Russians = coconuts.",
+"s": "ICC Script"
+},
+{
+"id": "N96",
+"t": "T8",
+"q": "The ethnocentric stages of Bennett's DMIS are…",
+"o": [
+"acceptance, adaptation, integration",
+"recognize, respect, reconcile",
+"denial, defense, minimization"
+],
+"a": 2,
+"x": "Ethnorelative = acceptance, adaptation, integration.",
+"s": "ICC Script / Reader"
+},
+{
+"id": "N97",
+"t": "T8",
+"q": "Cultural intelligence (CQ) is generally described as comprising…",
+"o": [
+"IQ, EQ and SQ",
+"knowledge, mindfulness and skills",
+"values, norms and sanctions"
+],
+"a": 1,
+"x": "Interconnected and building on each other.",
+"s": "ICC Script"
+},
+{
+"id": "N98",
+"t": "T8",
+"q": "In Trompenaars' framework, the sequential vs synchronic dimension concerns…",
+"o": [
+"relationships with people",
+"the natural environment",
+"attitudes to time"
+],
+"a": 2,
+"x": "Inner/outer-directed concerns the environment.",
+"s": "ICC Script"
+},
+{
+"id": "N99",
+"t": "T8",
+"q": "How many countries and dimensions does the GLOBE study cover?",
+"o": [
+"100 countries, 7 dimensions",
+"62 countries, 9 dimensions",
+"40 countries, 4 dimensions"
+],
+"a": 1,
+"x": "Led by Robert House.",
+"s": "Handout wk 2 pt 2"
+},
+{
+"id": "N100",
+"t": "T9",
+"q": "Which data did Seleim & Bontis use?",
+"o": [
+"World Bank Doing Business scores",
+"GLOBE values and practices plus Transparency International's Corruption Perception Index",
+"Hofstede's 1980 IBM data only"
+],
+"a": 1,
+"x": "Controlled for GDP per capita and HDI.",
+"s": "Seleim & Bontis (2009)"
+},
+{
+"id": "N101",
+"t": "T9",
+"q": "Seleim & Bontis: after controlling for GDP and HDI, which remained significant?",
+"o": [
+"Assertiveness values only",
+"No cultural variable",
+"Uncertainty avoidance values, humane orientation practices and in-group collectivism practices"
+],
+"a": 2,
+"x": "Practices model R² 66.7% vs values 59.7%.",
+"s": "Seleim & Bontis (2009)"
+},
+{
+"id": "N102",
+"t": "T9",
+"q": "Societies with high in-group (family) collectivism PRACTICES tend to be…",
+"o": [
+"less corrupt",
+"more corrupt",
+"unaffected"
+],
+"a": 1,
+"x": "People prioritise in-group goals over public goals.",
+"s": "Seleim & Bontis (2009)"
+},
+{
+"id": "N103",
+"t": "T9",
+"q": "Which pairing of favor practice and country is correct?",
+"o": [
+"Guanxi: Brazil; Jeitinho: China",
+"Blat: India; Jugaad: Russia",
+"Blat: Russia; Jugaad: India"
+],
+"a": 2,
+"x": "Guanxi = China, jeitinho = Brazil.",
+"s": "McCarthy et al. (2012)"
+},
+{
+"id": "N104",
+"t": "T9",
+"q": "Why do favors such as guanxi exist, according to the readings?",
+"o": [
+"They substitute for weak or unreliable formal institutions",
+"They only exist in developed economies",
+"They are required by law"
+],
+"a": 0,
+"x": "Social capital where formal institutions fail.",
+"s": "Berger et al. (2013); McCarthy et al."
+},
+{
+"id": "N105",
+"t": "T10",
+"q": "China's governance system rests on which three pillars?",
+"o": [
+"Party, government, military",
+"Provinces, cities, villages",
+"Courts, parliament, press"
+],
+"a": 0,
+"x": "CCP leadership: an autocratic one-party system.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "N106",
+"t": "T10",
+"q": "What happened in 2018 in China?",
+"o": [
+"The Social Credit System was launched",
+"China joined the WTO",
+"The National People's Congress removed the two-term limit on the presidency"
+],
+"a": 2,
+"x": "WTO 2001; SCS 2014–2020; Xi Thought in the constitution 2017.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "N107",
+"t": "T10",
+"q": "China's “Two Centenaries” goals target…",
+"o": [
+"2025 and 2035",
+"2021 (moderately prosperous society) and 2049 (modern socialist country)",
+"2008 and 2022 Olympics"
+],
+"a": 1,
+"x": "The 2021 goal is described as achieved.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "N108",
+"t": "T10",
+"q": "Federalism in China leads to…",
+"o": [
+"the abolition of provinces",
+"competition between local and central governments",
+"uniform application of laws in all provinces"
+],
+"a": 1,
+"x": "Factionalism leads to experimentation.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "N109",
+"t": "T10",
+"q": "According to ASPI (2023), China leads in…",
+"o": [
+"37 of 44 critical technologies",
+"all 44",
+"5 of 44"
+],
+"a": 0,
+"x": "Batteries, hypersonics, 5G/6G.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "N110",
+"t": "T10",
+"q": "In Berger et al., guanxi is best described as…",
+"o": [
+"a social network / social capital used when formal legal institutions are unavailable or unreliable",
+"a government agency",
+"a written contract system"
+],
+"a": 0,
+"x": "Rooted in Confucianism and Taoism.",
+"s": "Berger, Herstein & Mitki (2013)"
+},
+{
+"id": "N111",
+"t": "T10",
+"q": "Berger et al.: which philosophy “instructs the manager how to run a good company” by stressing harmony?",
+"o": [
+"Taoism",
+"Protestantism",
+"Confucianism"
+],
+"a": 0,
+"x": "Confucianism teaches how to be a good human and manager.",
+"s": "Berger et al. (2013)"
+},
+{
+"id": "N112",
+"t": "T10",
+"q": "The “modern managerial period” in China began with…",
+"o": [
+"the 2008 Olympics",
+"Mao's death in 1976",
+"WTO entry on 11 December 2001"
+],
+"a": 2,
+"x": "Stage 5 of 5.",
+"s": "Berger et al. (2013)"
+},
+{
+"id": "N113",
+"t": "T10",
+"q": "FT charts in class: Germany is…",
+"o": [
+"growing factories in China, not exports to China",
+"rapidly increasing exports to China",
+"withdrawing all investment"
+],
+"a": 0,
+"x": "China is Germany's top source of imports; car imports from China surged.",
+"s": "Handout wk 7 pt 2"
+},
+{
+"id": "N114",
+"t": "T10",
+"q": "Which is listed as a major challenge for China?",
+"o": [
+"A lack of industrial capacity",
+"A shrinking working-age population (ageing)",
+"Too little investment"
+],
+"a": 1,
+"x": "Also geopolitics, inequality, authoritarianism.",
+"s": "Handout wk 5 pt 2"
+},
+{
+"id": "N115",
+"t": "T11",
+"q": "For companies, China's government-run SCS is mainly implemented through…",
+"o": [
+"a single national numerical score",
+"red- and blacklists plus administrative penalty records kept by different regulators",
+"Alibaba's Sesame Credit"
+],
+"a": 1,
+"x": "Sesame/Zhima is the voluntary commercial arm.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N116",
+"t": "T11",
+"q": "What share of Bavarian firms in China were on redlists?",
+"o": [
+"About 9%",
+"About 50%",
+"About 80%"
+],
+"a": 2,
+"x": "136 of 170, mostly Class A taxpayers.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N117",
+"t": "T11",
+"q": "How many Bavarian firms were found on a BLACKLIST?",
+"o": [
+"About 9%",
+"About a quarter",
+"None (but about 9% had administrative penalties)"
+],
+"a": 2,
+"x": "15 firms with penalties, none blacklisted.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N118",
+"t": "T11",
+"q": "Every company registered in China receives…",
+"o": [
+"a mandatory Communist Party cell",
+"a points score starting at 1,000",
+"an 18-digit Unified Social Credit Code"
+],
+"a": 2,
+"x": "So firms are automatically part of the SCS.",
+"s": "Serrano et al.; Handout wk 7 pt 2"
+},
+{
+"id": "N119",
+"t": "T11",
+"q": "Which is a NEGATIVE effect of the SCS perceived by Bavarian managers?",
+"o": [
+"Possible misuse of the system by local regulators and ambiguity by design",
+"A level playing field",
+"Less corruption"
+],
+"a": 0,
+"x": "Also a new layer of bureaucracy and a lack of information.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N120",
+"t": "T11",
+"q": "What did interviewed firms see as the best strategy under the SCS?",
+"o": [
+"Ignoring the system",
+"Compliance with local rules and regulations to avoid penalties or blacklisting",
+"Lobbying for redlist status"
+],
+"a": 1,
+"x": "Removing negative records is unclear and difficult.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N121",
+"t": "T11",
+"q": "The SCS is best described as strengthening…",
+"o": [
+"a free-market rating agency",
+"the independent rule of law with autonomous courts",
+"“rule by law”: enforcing existing laws and regulations"
+],
+"a": 2,
+"x": "Existing rules “on steroids”.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N122",
+"t": "T11",
+"q": "Which statement on SCS implementation is correct?",
+"o": [
+"It applies only to foreign firms",
+"It is a fully centralised AI scoring system",
+"It is less high-tech and less centralised than often assumed, and varies by province"
+],
+"a": 2,
+"x": "It applies to Chinese firms too, hence the level playing field.",
+"s": "Serrano et al. (2022)"
+},
+{
+"id": "N123",
+"t": "T12",
+"q": "Callback rates in Weichselbaumer's study were…",
+"o": [
+"50%, 40%, 30%",
+"18.8% (German name), 13.5% (Turkish name), 4.2% (headscarf)",
+"equal for all three"
+],
+"a": 1,
+"x": "Same CV, same person in the photo.",
+"s": "Weichselbaumer (2020)"
+},
+{
+"id": "N124",
+"t": "T12",
+"q": "How many more applications must the headscarf applicant send to get as many callbacks as the German-named applicant?",
+"o": [
+"About 20 times",
+"About 1.1 times",
+"About 4.5 times as many"
+],
+"a": 2,
+"x": "7.6× for chief accountant positions.",
+"s": "Weichselbaumer (2020)"
+},
+{
+"id": "N125",
+"t": "T12",
+"q": "Which method did Weichselbaumer use?",
+"o": [
+"A survey of HR managers",
+"Correspondence testing (fictitious job applications)",
+"Analysis of tax data"
+],
+"a": 1,
+"x": "Measures discrimination in a controlled field setting.",
+"s": "Weichselbaumer (2020)"
+},
+{
+"id": "N126",
+"t": "T12",
+"q": "Which concept explains the extra penalty for the headscarf?",
+"o": [
+"Multiple discrimination / intersectionality (ethnicity + religion)",
+"Economies of scale",
+"Uncertainty avoidance"
+],
+"a": 0,
+"x": "Based on stigma and social identity theory.",
+"s": "Weichselbaumer (2020)"
+}
+]
