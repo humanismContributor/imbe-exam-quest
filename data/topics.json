@@ -1,290 +1,976 @@
 [
-  {
-    "id": "T1",
-    "emoji": "🌍",
-    "title": "Why business ethics now?",
-    "area": "Business Ethics",
-    "week": "BE week 2",
-    "sources": ["Handout wk 2 pt 1", "Schüz (2019) ch. 1", "Swiss VR Monitor I/2020", "CEO Success study (Strategy&/PwC 2017)"],
-    "points": [
-      "**Business ethics** (Crane & Matten 2010) = examining business situations, activities and decisions from the point of view of **(moral) right and wrong**, not economic criteria. It applies to all organisations and supports decisions without giving unambiguous answers.",
-      "**Three reasons for growing interest** (Schüz ch. 1): **declining resources**, **radical transparency** and **increasing stakeholder expectations**. They serve the company's self-preservation, its overall preservation (being embedded in its environment) and co-preservation (with stakeholders).",
-      "Examples. Declining resources: Glencore (raw materials), Monsanto (GMOs), Nestlé (drinking water). Radical transparency: VW emissions scandal (CEO Müller called it a “technical problem”), Shell's Brent Spar, hydro dams in rainforests. Stakeholder expectations: corruption at Petrobras and Siemens, supply chains at Nike and Apple, socially responsible investing (SRI), LOHAS.",
-      "**LOHAS** = Lifestyle of Health and Sustainability, also called “cultural creatives”: about 20–30% of US adults (≈63 million) with **high buying power** and a market of ≈$226.8bn. They **reward** firms that share their values and **punish** those that don't. They pay close attention to how **their own values align** with producers, employers and charities.",
-      "Market reactions: eco-labels; **greenwashing** (deceptive green PR or marketing); **bluewashing** (critique of UN Global Compact partnerships and dubious water projects); social businesses (NIKIN plants a tree per product; Fairphone); CR reporting (KPMG); a Chief Ethics Officer on the executive board.",
-      "**Seven sins of greenwashing**: hidden trade-off, no proof, vagueness, worshipping false labels, irrelevance, lesser of two evils, fibbing.",
-      "**Swiss VR Monitor 2020** (429 board members): **81%** say CSR is part of strategy, but **39% (2 in 5)** lack the resources or expertise to implement it. Only just over half have defined their key CSR topics, and about a third set targets. Internal CSR comes first (employees 69%, training 59%, health 48%), external CSR later (climate 31%). Boards say CSR makes the firm a more attractive employer (92%), helps reputation (87%) and gives a competitive advantage (85%). The cost-benefit conflict is felt most in **small firms** (40%, vs. 26% of large ones). Verdict: Swiss companies still lack a **systematic** approach.",
-      "**CEO Success study**: dismissals for **ethical lapses** rose from **3.9% to 5.3%** of all CEO successions (2007–11 vs. 2012–16). By region: US/Canada 1.6→3.3%, Western Europe 4.2→5.9%, **BRIC 3.6→8.8%**. The authors do *not* think CEOs are less ethical. They point to five trends: a less forgiving public, more punitive regulation, emerging markets and long supply chains, digital communication, and the 24/7 news cycle. Forced turnovers overall *fell* (31.1→20.3%)."
+ {
+  "id": "T1",
+  "emoji": "🌍",
+  "title": "Why business ethics now?",
+  "area": "Business Ethics",
+  "week": "BE week 2",
+  "sources": [
+   "Handout wk 2 pt 1",
+   "Schüz (2019) ch. 1",
+   "Swiss VR Monitor I/2020",
+   "CEO Success study (Strategy&/PwC 2017)"
+  ],
+  "points": [
+   "**Business ethics** (Crane & Matten 2010) = examining business situations, activities and decisions from the point of view of **(moral) right and wrong**, not economic criteria. It applies to all organisations and supports decisions without giving unambiguous answers.",
+   "**Three reasons for growing interest** (Schüz ch. 1): **declining resources**, **radical transparency** and **increasing stakeholder expectations**. They serve the company's self-preservation, its overall preservation (being embedded in its environment) and co-preservation (with stakeholders).",
+   "Examples. Declining resources: Glencore (raw materials), Monsanto (GMOs), Nestlé (drinking water). Radical transparency: VW emissions scandal (CEO Müller called it a “technical problem”), Shell's Brent Spar, hydro dams in rainforests. Stakeholder expectations: corruption at Petrobras and Siemens, supply chains at Nike and Apple, socially responsible investing (SRI), LOHAS.",
+   "**LOHAS** = Lifestyle of Health and Sustainability, also called “cultural creatives”: about 20–30% of US adults (≈63 million) with **high buying power** and a market of ≈$226.8bn. They **reward** firms that share their values and **punish** those that don't. They pay close attention to how **their own values align** with producers, employers and charities.",
+   "Market reactions: eco-labels; **greenwashing** (deceptive green PR or marketing); **bluewashing** (critique of UN Global Compact partnerships and dubious water projects); social businesses (NIKIN plants a tree per product; Fairphone); CR reporting (KPMG); a Chief Ethics Officer on the executive board.",
+   "**Seven sins of greenwashing**: hidden trade-off, no proof, vagueness, worshipping false labels, irrelevance, lesser of two evils, fibbing.",
+   "**Swiss VR Monitor 2020** (429 board members): **81%** say CSR is part of strategy, but **39% (2 in 5)** lack the resources or expertise to implement it. Only just over half have defined their key CSR topics, and about a third set targets. Internal CSR comes first (employees 69%, training 59%, health 48%), external CSR later (climate 31%). Boards say CSR makes the firm a more attractive employer (92%), helps reputation (87%) and gives a competitive advantage (85%). The cost-benefit conflict is felt most in **small firms** (40%, vs. 26% of large ones). Verdict: Swiss companies still lack a **systematic** approach.",
+   "**CEO Success study**: dismissals for **ethical lapses** rose from **3.9% to 5.3%** of all CEO successions (2007–11 vs. 2012–16). By region: US/Canada 1.6→3.3%, Western Europe 4.2→5.9%, **BRIC 3.6→8.8%**. The authors do *not* think CEOs are less ethical. They point to five trends: a less forgiving public, more punitive regulation, emerging markets and long supply chains, digital communication, and the 24/7 news cycle. Forced turnovers overall *fell* (31.1→20.3%)."
+  ],
+  "narration": "Welcome to the first topic: why business ethics matters now. Crane and Matten define business ethics as examining business situations, activities and decisions from the point of view of moral right and wrong, not economic criteria. Schüz names three reasons why companies care more and more. First, declining resources, think of Glencore and raw materials, or Nestlé and drinking water. Second, radical transparency: thanks to new media, any misconduct, like the VW emissions scandal, is instantly in the spotlight. Third, growing stakeholder expectations, for example from LOHAS consumers. LOHAS means Lifestyle of Health and Sustainability. These consumers have high buying power. They reward companies whose values match their own and punish those that don't. Companies react with eco-labels, but beware of greenwashing, which is deceptive green marketing, and bluewashing, which is criticism of UN Global Compact partnerships. Two studies matter here. The Swiss VR Monitor 2020 found that 81 percent of board members see CSR as part of their strategy, yet two in five lack the resources and expertise to implement it. Swiss companies still lack a systematic approach. The CEO Success study found that dismissals for ethical lapses rose from 3.9 to 5.3 percent of CEO successions, and to 8.8 percent in the BRIC countries. The authors explain this with a less forgiving public, stricter regulation and the 24 hour news cycle, not with CEOs becoming less ethical.",
+  "visuals": [
+   {
+    "type": "dot",
+    "title": "Three drivers of corporate responsibility (Schüz ch. 1)",
+    "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fillcolor=\"#eef4ff\" fontname=Helvetica]; R[label=\"Declining resources\\n(Glencore, Nestlé water)\"]; T[label=\"Radical transparency\\n(VW, Brent Spar)\"]; S[label=\"Stakeholder expectations\\n(LOHAS, NGOs, investors)\"]; C[label=\"Corporate\\nresponsibility\" fillcolor=\"#ffe9a8\"]; R->C; T->C; S->C;}"
+   },
+   {
+    "type": "bars",
+    "title": "CEO dismissals for ethical lapses (% of successions)",
+    "unit": "%",
+    "series": [
+     "2007–11",
+     "2012–16"
     ],
-    "narration": "Welcome to the first topic: why business ethics matters now. Crane and Matten define business ethics as examining business situations, activities and decisions from the point of view of moral right and wrong, not economic criteria. Schüz names three reasons why companies care more and more. First, declining resources, think of Glencore and raw materials, or Nestlé and drinking water. Second, radical transparency: thanks to new media, any misconduct, like the VW emissions scandal, is instantly in the spotlight. Third, growing stakeholder expectations, for example from LOHAS consumers. LOHAS means Lifestyle of Health and Sustainability. These consumers have high buying power. They reward companies whose values match their own and punish those that don't. Companies react with eco-labels, but beware of greenwashing, which is deceptive green marketing, and bluewashing, which is criticism of UN Global Compact partnerships. Two studies matter here. The Swiss VR Monitor 2020 found that 81 percent of board members see CSR as part of their strategy, yet two in five lack the resources and expertise to implement it. Swiss companies still lack a systematic approach. The CEO Success study found that dismissals for ethical lapses rose from 3.9 to 5.3 percent of CEO successions, and to 8.8 percent in the BRIC countries. The authors explain this with a less forgiving public, stricter regulation and the 24 hour news cycle, not with CEOs becoming less ethical.",
-    "visuals": [
-      {"type": "dot", "title": "Three drivers of corporate responsibility (Schüz ch. 1)", "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fillcolor=\"#eef4ff\" fontname=Helvetica]; R[label=\"Declining resources\\n(Glencore, Nestlé water)\"]; T[label=\"Radical transparency\\n(VW, Brent Spar)\"]; S[label=\"Stakeholder expectations\\n(LOHAS, NGOs, investors)\"]; C[label=\"Corporate\\nresponsibility\" fillcolor=\"#ffe9a8\"]; R->C; T->C; S->C;}"},
-      {"type": "bars", "title": "CEO dismissals for ethical lapses (% of successions)", "unit": "%", "series": ["2007–11", "2012–16"], "items": [["Global", 3.9, 5.3], ["US & Canada", 1.6, 3.3], ["W. Europe", 4.2, 5.9], ["BRIC", 3.6, 8.8]]}
+    "items": [
+     [
+      "Global",
+      3.9,
+      5.3
+     ],
+     [
+      "US & Canada",
+      1.6,
+      3.3
+     ],
+     [
+      "W. Europe",
+      4.2,
+      5.9
+     ],
+     [
+      "BRIC",
+      3.6,
+      8.8
+     ]
     ]
-  },
-  {
-    "id": "T2",
-    "emoji": "⚖️",
-    "title": "Ethical responsibility: structure & scope",
-    "area": "Business Ethics",
-    "week": "BE weeks 2–3",
-    "sources": ["Handout wk 2 pt 1", "Handout wk 3 pt 1", "Schüz (2019) ch. 2"],
-    "points": [
-      "**Structure of ethical responsibility**, a triangle: a **Subject** (e.g. a corporation) is responsible **for Consequences** (C1…m) **towards Authorities** (A1…n), and responds to their questions.",
-      "**Underlying assumption**: companies are **open systems**, linked to their environment through **input** (limited resources, authorities' claims) and **output** (goods, services, reputation and values, or entropy, waste and mistrust). Management, vision, strategy, structure and behaviour sit inside, along with the culture's virtues and vices (the “shadow side”).",
-      "Milton Friedman: “The social responsibility of business is to **increase its profits**” (what Schüz calls an “autistic economy”).",
-      "**Triple corporate responsibility / triple bottom line**: **economic** (techno-economic, functional; self-preservation; shareholders; prosperity), **social** (ethical; co-preservation; stakeholders; people) and **ecological** (preservation of the whole; planet).",
-      "A manager acts responsibly when they can **justify the consequences** of their actions **towards accepted authorities** in **four dimensions**: **economic** (profitability: self-preservation), **social** (stakeholders' ethical demands: co-existence), **ecological** (nature: fitting into the whole) and **sustainable** (future generations: lasting long-term).",
-      "**Scope of responsibility (Kohlberg, 1927–1987)**: **pre-conventional** = driven by egoistic benefit (short scope, self-preservation, selfish); **conventional** = driven by mutual/reciprocal benefit (medium scope, co-perpetuation, the **Golden Rule**); **post-conventional** = driven by **universal principles** (large scope, total maintenance, e.g. Kant's Categorical Imperative).",
-      "**Sustainability** (Brundtland Commission): development that satisfies current requirements so that **future generations are not disadvantaged**. It is a normative idea of intra- and intergenerational justice. **Sustainable ethical responsibility** = economically useful, socially acceptable, ecologically sensible and compatible with future generations.",
-      "Exam pattern: a timber firm protecting the wood species **it needs** = self-preservation (egoistic), *not* universal. A firm that consciously **avoids animal testing** = universal responsibility. Schüz visualises the scope as a **clock with three dials and hands of different lengths**."
+   }
+  ]
+ },
+ {
+  "id": "T2",
+  "emoji": "⚖️",
+  "title": "Ethical responsibility: structure & scope",
+  "area": "Business Ethics",
+  "week": "BE weeks 2–3",
+  "sources": [
+   "Handout wk 2 pt 1",
+   "Handout wk 3 pt 1",
+   "Schüz (2019) ch. 2"
+  ],
+  "points": [
+   "**Structure of ethical responsibility**, a triangle: a **Subject** (e.g. a corporation) is responsible **for Consequences** (C1…m) **towards Authorities** (A1…n), and responds to their questions.",
+   "**Underlying assumption**: companies are **open systems**, linked to their environment through **input** (limited resources, authorities' claims) and **output** (goods, services, reputation and values, or entropy, waste and mistrust). Management, vision, strategy, structure and behaviour sit inside, along with the culture's virtues and vices (the “shadow side”).",
+   "Milton Friedman: “The social responsibility of business is to **increase its profits**” (what Schüz calls an “autistic economy”).",
+   "**Triple corporate responsibility / triple bottom line**: **economic** (techno-economic, functional; self-preservation; shareholders; prosperity), **social** (ethical; co-preservation; stakeholders; people) and **ecological** (preservation of the whole; planet).",
+   "A manager acts responsibly when they can **justify the consequences** of their actions **towards accepted authorities** in **four dimensions**: **economic** (profitability: self-preservation), **social** (stakeholders' ethical demands: co-existence), **ecological** (nature: fitting into the whole) and **sustainable** (future generations: lasting long-term).",
+   "**Scope of responsibility (Kohlberg, 1927–1987)**: **pre-conventional** = driven by egoistic benefit (short scope, self-preservation, selfish); **conventional** = driven by mutual/reciprocal benefit (medium scope, co-perpetuation, the **Golden Rule**); **post-conventional** = driven by **universal principles** (large scope, total maintenance, e.g. Kant's Categorical Imperative).",
+   "**Sustainability** (Brundtland Commission): development that satisfies current requirements so that **future generations are not disadvantaged**. It is a normative idea of intra- and intergenerational justice. **Sustainable ethical responsibility** = economically useful, socially acceptable, ecologically sensible and compatible with future generations.",
+   "Exam pattern: a timber firm protecting the wood species **it needs** = self-preservation (egoistic), *not* universal. A firm that consciously **avoids animal testing** = universal responsibility. Schüz visualises the scope as a **clock with three dials and hands of different lengths**."
+  ],
+  "narration": "Topic two: the structure and scope of ethical responsibility. Picture a triangle. A subject, for example a corporation, is responsible for the consequences of its actions, towards authorities who ask questions, and it must respond to them. The underlying assumption is that companies are open systems: they take inputs from their environment and release outputs into it. Those outputs can be goods, services and reputation, or waste and mistrust. Milton Friedman famously said the social responsibility of business is to increase its profits. The course goes further, with triple corporate responsibility, also known as the triple bottom line: economic, social and ecological. A responsible manager can justify the consequences of their actions towards accepted authorities in four dimensions: economic, meaning profitability and self-preservation; social, meaning co-existence with stakeholders; ecological, meaning fitting into the whole of nature; and sustainable, meaning responsibility to future generations. Now link this to Lawrence Kohlberg. At the pre-conventional stage, people act out of egoistic benefit. At the conventional stage they act out of mutual or reciprocal benefit, which is the Golden Rule. At the post-conventional stage they follow universal principles. So a timber company protecting only the trees it needs is acting out of self-preservation, while a company that avoids animal testing shows universal responsibility. Finally, the Brundtland definition: sustainable development satisfies today's needs without disadvantaging future generations.",
+  "visuals": [
+   {
+    "type": "dot",
+    "title": "Structure of ethical responsibility",
+    "dot": "digraph{node[shape=box style=\"rounded,filled\" fontname=Helvetica]; S[label=\"Subject S\\n(e.g. corporation)\" fillcolor=\"#ffe9a8\"]; C[label=\"Consequences C1…m\\n(economic, social, ecological)\" fillcolor=\"#e6f6ea\"]; A[label=\"Authorities A1…n\\n(stakeholders, law, nature, future generations)\" fillcolor=\"#eef4ff\"]; S->C[label=\" is responsible FOR\"]; S->A[label=\" responds TO\"]; A->C[label=\" judge\" style=dashed];}"
+   },
+   {
+    "type": "dot",
+    "title": "Kohlberg's levels = scope of responsibility",
+    "dot": "digraph{rankdir=BT; node[shape=box style=\"rounded,filled\" fontname=Helvetica width=3.5]; P[label=\"Pre-conventional\\negoistic benefit · self-preservation\" fillcolor=\"#fde2e2\"]; C[label=\"Conventional\\nmutual / reciprocal benefit · Golden Rule\" fillcolor=\"#fff1c9\"]; U[label=\"Post-conventional\\nuniversal principles · Categorical Imperative\" fillcolor=\"#dff3e4\"]; P->C->U;}"
+   }
+  ]
+ },
+ {
+  "id": "T3",
+  "emoji": "🧭",
+  "title": "Ethics, morals & values",
+  "area": "Business Ethics",
+  "week": "BE week 3–4",
+  "sources": [
+   "Handout wk 3 pt 1",
+   "Handout wk 4 pt 1",
+   "Schüz (2019) ch. 3"
+  ],
+  "points": [
+   "**Ethics** comes from Greek *ethos* (custom, habit), originally *äthos*: the accustomed place where everyone met to solve common issues. **Moral** comes from Latin *mos* (custom, habit): the imperatives or rules within a community or group.",
+   "**Morals** define what is “good” and “bad” **within a group** (even the Mafia has a moral code). **Ethics** is moral philosophy: it **reflects on existing morals** and looks for a basis that is **acceptable to all**.",
+   "**Descriptive ethics** describes people's **actual** preferences for action. **Normative (prescriptive) ethics** establishes **universally valid norms and values**: it deals with the question of **what is good**.",
+   "**Values** are important, lasting beliefs or ideals, shared by members of a culture, about what is good or bad, desirable or undesirable: our moral compass. Social values and norms **define standards and ideals shared by a group**. They are **culturally and historically shaped, and they change**. Normative ethics means not simply adopting values because many people share them, but **critically asking whether they can be justified**.",
+   "Basic values of **economics**: efficiency, growth, welfare, autonomy, free markets, competition, profit. Basic values of **ethics**: justice, fairness, welfare, autonomy, moral rights, truth, dignity and equality. *Welfare* and *autonomy* appear in both.",
+   "Short definition: ethics = **“getting along well with each other”**. Business ethics = getting along well with **all stakeholders**, through responsible ethical leadership and stakeholder relationship management (SRM). It is the bridge between the functionalism of pure economics and the rigorism of pure ethics.",
+   "**Scope of ethics** (who is “each other”?): fellows → face-to-face ethics; all human beings → **anthropocentric**; all living beings → **biocentric**; all existing beings → **physiocentric**; future generations → **intergenerative**. In companies: shareholders → **economistic** business ethics; all stakeholders → **holistic** business ethics.",
+   "**Relativity of morality**: values change across time and place, e.g. growing resistance against *Pawahara* (power harassment) in Japan. Moral judgement shows up as outrage, atonement, sin, guilt or remorse.",
+   "**Three ethical approaches** (the synthesis diagram): **utilitarian** = responsibility **for consequences** (“what do we want, which benefits?”); **deontological** = responsibility **towards authorities** (“which duties, what shall we do?”); **virtue** = the **acting subject**, situational (“what can we do with our abilities in this situation?”). Discourse ethics (Apel/Habermas) is limited by power differences, so Schüz proposes a pragmatic discourse instead."
+  ],
+  "narration": "Topic three: ethics, morals and values. The word ethics comes from the Greek ethos, meaning custom or habit. Moral comes from the Latin mos, which also means custom. The difference matters. Morals define what counts as good or bad within a particular group, and even the Mafia has its morals. Ethics is moral philosophy: it reflects critically on existing morals and looks for a basis that everyone can accept. Descriptive ethics simply describes people's actual preferences for action. Normative ethics establishes universally valid norms: it asks what is good. Values are lasting beliefs, shared by a group, about what is desirable. They define standards and ideals shared by a group, and they are shaped by culture and history, so they change. Normative ethics does not simply adopt values because many people share them. It asks whether they can be justified with good reasons. The course offers a very short definition: ethics is about getting along well with each other, and business ethics is about getting along well with all stakeholders. Who counts as each other? Fellow humans gives face-to-face ethics, all humans gives anthropocentric ethics, all living beings gives biocentric ethics, and future generations gives intergenerative ethics. Finally, remember the three approaches. Utilitarian ethics looks at consequences. Deontological ethics looks at duties towards authorities. Virtue ethics looks at the acting subject and what they are capable of in a given situation.",
+  "visuals": [
+   {
+    "type": "dot",
+    "title": "The three ethical approaches",
+    "dot": "digraph{node[style=\"filled\" fontname=Helvetica shape=ellipse]; C[label=\"Structure of\\nethical responsibility\" shape=circle fillcolor=white]; V[label=\"VIRTUE ETHICS\\nacting subject · situational\\n“What can we do?”\" fillcolor=\"#ffe08a\"]; D[label=\"DEONTOLOGICAL\\nTOWARDS authorities · duties\\n“What shall we do?”\" fillcolor=\"#b9d8ff\"]; U[label=\"UTILITARIAN\\nFOR consequences · benefits\\n“What do we want?”\" fillcolor=\"#c8eba0\"]; V->C[dir=none]; D->C[dir=none]; U->C[dir=none];}"
+   },
+   {
+    "type": "versus",
+    "title": "Morals vs. ethics",
+    "left": {
+     "title": "Morals (Latin mos)",
+     "items": [
+      "Define good/bad within a group",
+      "Rules of a community",
+      "Even the Mafia has morals",
+      "Describes what IS held"
+     ]
+    },
+    "right": {
+     "title": "Ethics (Greek ethos)",
+     "items": [
+      "Moral philosophy",
+      "Reflects on existing morals",
+      "Seeks a basis acceptable to all",
+      "Normative: asks what is good"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "T4",
+  "emoji": "🧮",
+  "title": "Utilitarian (utility) ethics",
+  "area": "Business Ethics",
+  "week": "BE week 4",
+  "sources": [
+   "Handout wk 4 pt 1",
+   "Schüz (2019) ch. 4"
+  ],
+  "points": [
+   "Utilitarian ethics is **not interested in the intention** behind an action but in its **consequences**, beneficial or harmful. It asks for the overall **utility** (Latin *utilitas* = benefit). Criterion: **the greatest good (happiness, pleasure, wellbeing) for the greatest number of all concerned**.",
+   "In business the good is usually measured **in money** and calculated through **cost-benefit analysis**, aiming to maximise profit. The difference: business counts only its own utility, whereas utilitarian ethics counts **everyone** affected.",
+   "Thinkers: **Jeremy Bentham** (founder; pleasures that are *likely, pure, fruitful, intense, prolonged* score higher), Francis Hutcheson, John Stuart Mill, and G. E. Moore (“ideal utilitarianism”: happiness, wealth, love and realisation all count). This is the *eudaimonic* approach.",
+   "**Bribery case** (aircraft maker; foreign minister with $1m gambling debts): weigh the benefits and harms for every stakeholder (politician, manufacturer, employees, airline, all market participants, the state). Utilitarian verdict: **unethical, because the total damage is greater than the total benefit**.",
+   "**Corruption** = “the misuse of public power for private gain”. The World Bank estimates bribes at **more than $1,000bn a year**.",
+   "Why fight corruption? **Macro-economic**: distorted competition, misinvestment, misuse of resources, lower quality, less willingness to invest, bribes acting as an extra tax. **Micro-economic**: damage to reputation and trust, **susceptibility to blackmail**, exclusion from public tenders. **Social/political**: less trust in government, violation of democratic principles, a few enriched at the majority's expense, and the most corrupt countries are the poorest.",
+   "**Trolley dilemma**: a utilitarian pulls the lever (1 dies instead of 5). Real case: Bad Dürrenast 2006, where a dispatcher diverted a runaway train (3 died, 11 track workers saved). Fukushima liquidators: “4,000 sacrificed for some million saved?”",
+   "**Risk management is utilitarian**: it weighs the probability and size of damage against the benefits, which is a consequence calculation.",
+   "**Main criticism**: the **individual can be sacrificed for the common good**, because utility is summed regardless of individual fate. Consequences are also hard to quantify or foresee, and intentions and rights are ignored. So an ethical authority that protects the individual is needed (→ Kant).",
+   "A responsible leader (utilitarian view) identifies **all affected stakeholders**, weighs the benefits and harms for each, and chooses the option with the best overall balance."
+  ],
+  "narration": "Topic four: utilitarian ethics. Utilitarians do not care about the intention behind an action. They care about its consequences. The criterion is the greatest good for the greatest number of all concerned. In business the good is usually measured in money, through cost-benefit analysis, but true utilitarianism counts everyone affected, not just the company. The founder is Jeremy Bentham, who valued pleasures that are likely, pure, fruitful, intense and prolonged. The course case: an aircraft manufacturer could win a huge order by paying a foreign minister's gambling debts of one million dollars. List every stakeholder: the politician, the manufacturer, its employees, the airline, all market participants and the state. Then weigh benefits against harms. The bribe is unethical from a utilitarian view because its total damage is greater than its total benefit. Corruption is defined as the misuse of public power for private gain, and bribes worldwide exceed a thousand billion dollars a year. Reasons to fight it come at three levels. Macro-economic: distorted competition and misinvestment. Micro-economic: reputation damage and blackmail. Social and political: loss of trust and violated democratic principles. Modern risk management is a form of utilitarian thinking, because it weighs probabilities and damages. The key criticism to remember for the exam: the individual can be sacrificed for the common good, as in the trolley dilemma. That is why we need duty ethics as a counterweight.",
+  "visuals": [
+   {
+    "type": "table",
+    "title": "Bribery case: utilitarian stakeholder balance",
+    "columns": [
+     "Stakeholder",
+     "Benefit (+)",
+     "Harm (−)"
     ],
-    "narration": "Topic two: the structure and scope of ethical responsibility. Picture a triangle. A subject, for example a corporation, is responsible for the consequences of its actions, towards authorities who ask questions, and it must respond to them. The underlying assumption is that companies are open systems: they take inputs from their environment and release outputs into it. Those outputs can be goods, services and reputation, or waste and mistrust. Milton Friedman famously said the social responsibility of business is to increase its profits. The course goes further, with triple corporate responsibility, also known as the triple bottom line: economic, social and ecological. A responsible manager can justify the consequences of their actions towards accepted authorities in four dimensions: economic, meaning profitability and self-preservation; social, meaning co-existence with stakeholders; ecological, meaning fitting into the whole of nature; and sustainable, meaning responsibility to future generations. Now link this to Lawrence Kohlberg. At the pre-conventional stage, people act out of egoistic benefit. At the conventional stage they act out of mutual or reciprocal benefit, which is the Golden Rule. At the post-conventional stage they follow universal principles. So a timber company protecting only the trees it needs is acting out of self-preservation, while a company that avoids animal testing shows universal responsibility. Finally, the Brundtland definition: sustainable development satisfies today's needs without disadvantaging future generations.",
-    "visuals": [
-      {"type": "dot", "title": "Structure of ethical responsibility", "dot": "digraph{node[shape=box style=\"rounded,filled\" fontname=Helvetica]; S[label=\"Subject S\\n(e.g. corporation)\" fillcolor=\"#ffe9a8\"]; C[label=\"Consequences C1…m\\n(economic, social, ecological)\" fillcolor=\"#e6f6ea\"]; A[label=\"Authorities A1…n\\n(stakeholders, law, nature, future generations)\" fillcolor=\"#eef4ff\"]; S->C[label=\" is responsible FOR\"]; S->A[label=\" responds TO\"]; A->C[label=\" judge\" style=dashed];}"},
-      {"type": "dot", "title": "Kohlberg's levels = scope of responsibility", "dot": "digraph{rankdir=BT; node[shape=box style=\"rounded,filled\" fontname=Helvetica width=3.5]; P[label=\"Pre-conventional\\negoistic benefit · self-preservation\" fillcolor=\"#fde2e2\"]; C[label=\"Conventional\\nmutual / reciprocal benefit · Golden Rule\" fillcolor=\"#fff1c9\"]; U[label=\"Post-conventional\\nuniversal principles · Categorical Imperative\" fillcolor=\"#dff3e4\"]; P->C->U;}"}
-    ]
-  },
-  {
-    "id": "T3",
-    "emoji": "🧭",
-    "title": "Ethics, morals & values",
-    "area": "Business Ethics",
-    "week": "BE week 3–4",
-    "sources": ["Handout wk 3 pt 1", "Handout wk 4 pt 1", "Schüz (2019) ch. 3"],
-    "points": [
-      "**Ethics** comes from Greek *ethos* (custom, habit), originally *äthos*: the accustomed place where everyone met to solve common issues. **Moral** comes from Latin *mos* (custom, habit): the imperatives or rules within a community or group.",
-      "**Morals** define what is “good” and “bad” **within a group** (even the Mafia has a moral code). **Ethics** is moral philosophy: it **reflects on existing morals** and looks for a basis that is **acceptable to all**.",
-      "**Descriptive ethics** describes people's **actual** preferences for action. **Normative (prescriptive) ethics** establishes **universally valid norms and values**: it deals with the question of **what is good**.",
-      "**Values** are important, lasting beliefs or ideals, shared by members of a culture, about what is good or bad, desirable or undesirable: our moral compass. Social values and norms **define standards and ideals shared by a group**. They are **culturally and historically shaped, and they change**. Normative ethics means not simply adopting values because many people share them, but **critically asking whether they can be justified**.",
-      "Basic values of **economics**: efficiency, growth, welfare, autonomy, free markets, competition, profit. Basic values of **ethics**: justice, fairness, welfare, autonomy, moral rights, truth, dignity and equality. *Welfare* and *autonomy* appear in both.",
-      "Short definition: ethics = **“getting along well with each other”**. Business ethics = getting along well with **all stakeholders**, through responsible ethical leadership and stakeholder relationship management (SRM). It is the bridge between the functionalism of pure economics and the rigorism of pure ethics.",
-      "**Scope of ethics** (who is “each other”?): fellows → face-to-face ethics; all human beings → **anthropocentric**; all living beings → **biocentric**; all existing beings → **physiocentric**; future generations → **intergenerative**. In companies: shareholders → **economistic** business ethics; all stakeholders → **holistic** business ethics.",
-      "**Relativity of morality**: values change across time and place, e.g. growing resistance against *Pawahara* (power harassment) in Japan. Moral judgement shows up as outrage, atonement, sin, guilt or remorse.",
-      "**Three ethical approaches** (the synthesis diagram): **utilitarian** = responsibility **for consequences** (“what do we want, which benefits?”); **deontological** = responsibility **towards authorities** (“which duties, what shall we do?”); **virtue** = the **acting subject**, situational (“what can we do with our abilities in this situation?”). Discourse ethics (Apel/Habermas) is limited by power differences, so Schüz proposes a pragmatic discourse instead."
+    "rows": [
+     [
+      "Politician",
+      "Gambling debts gone",
+      "Fear of discovery, prosecution"
+     ],
+     [
+      "Aircraft manufacturer",
+      "New big order",
+      "Penalty fines, reputation, blackmail"
+     ],
+     [
+      "Employees",
+      "Job security",
+      "Jobs at risk if scandal"
+     ],
+     [
+      "Airline (customer)",
+      "—",
+      "Not necessarily the best plane or price"
+     ],
+     [
+      "All market participants",
+      "—",
+      "Distorted competition"
+     ],
+     [
+      "State of the politician",
+      "—",
+      "Misinvestment, lost trust, poverty"
+     ]
     ],
-    "narration": "Topic three: ethics, morals and values. The word ethics comes from the Greek ethos, meaning custom or habit. Moral comes from the Latin mos, which also means custom. The difference matters. Morals define what counts as good or bad within a particular group, and even the Mafia has its morals. Ethics is moral philosophy: it reflects critically on existing morals and looks for a basis that everyone can accept. Descriptive ethics simply describes people's actual preferences for action. Normative ethics establishes universally valid norms: it asks what is good. Values are lasting beliefs, shared by a group, about what is desirable. They define standards and ideals shared by a group, and they are shaped by culture and history, so they change. Normative ethics does not simply adopt values because many people share them. It asks whether they can be justified with good reasons. The course offers a very short definition: ethics is about getting along well with each other, and business ethics is about getting along well with all stakeholders. Who counts as each other? Fellow humans gives face-to-face ethics, all humans gives anthropocentric ethics, all living beings gives biocentric ethics, and future generations gives intergenerative ethics. Finally, remember the three approaches. Utilitarian ethics looks at consequences. Deontological ethics looks at duties towards authorities. Virtue ethics looks at the acting subject and what they are capable of in a given situation.",
-    "visuals": [
-      {"type": "dot", "title": "The three ethical approaches", "dot": "digraph{node[style=\"filled\" fontname=Helvetica shape=ellipse]; C[label=\"Structure of\\nethical responsibility\" shape=circle fillcolor=white]; V[label=\"VIRTUE ETHICS\\nacting subject · situational\\n“What can we do?”\" fillcolor=\"#ffe08a\"]; D[label=\"DEONTOLOGICAL\\nTOWARDS authorities · duties\\n“What shall we do?”\" fillcolor=\"#b9d8ff\"]; U[label=\"UTILITARIAN\\nFOR consequences · benefits\\n“What do we want?”\" fillcolor=\"#c8eba0\"]; V->C[dir=none]; D->C[dir=none]; U->C[dir=none];}"},
-      {"type": "versus", "title": "Morals vs. ethics", "left": {"title": "Morals (Latin mos)", "items": ["Define good/bad within a group", "Rules of a community", "Even the Mafia has morals", "Describes what IS held"]}, "right": {"title": "Ethics (Greek ethos)", "items": ["Moral philosophy", "Reflects on existing morals", "Seeks a basis acceptable to all", "Normative: asks what is good"]}}
+    "note": "Rough balance: total harm > total benefit → bribery is unethical in utilitarian terms."
+   },
+   {
+    "type": "versus",
+    "title": "Three levels of reasons to fight corruption",
+    "left": {
+     "title": "Macro & micro-economic",
+     "items": [
+      "Macro: distorted competition",
+      "Macro: misinvestment, misuse of resources",
+      "Macro: lower quality, less investment",
+      "Micro: reputation & trust damage",
+      "Micro: susceptible to blackmail",
+      "Micro: exclusion from public tenders"
+     ]
+    },
+    "right": {
+     "title": "Social & political",
+     "items": [
+      "Less trust in governmental institutions",
+      "Violation of democratic principles",
+      "Few enrich themselves, the majority is exploited",
+      "Countries with high corruption are the poorest"
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "T5",
+  "emoji": "📜",
+  "title": "Deontological (duty) ethics & Kant",
+  "area": "Business Ethics",
+  "week": "BE weeks 5–6",
+  "sources": [
+   "Handout wk 5 pt 1",
+   "Handout wk 6 pt 1",
+   "Exercise Deontological Ethics (Challenger)",
+   "Schüz (2019) ch. 5"
+  ],
+  "points": [
+   "From Greek *deon* = **obligation, duty**: ethics of duties and principles that say what one **should do**, regardless of consequences. Examples: **Ten Commandments, Golden Rule, Categorical Imperative, UN Global Compact, corporate principles, codes of conduct**. **Human dignity and the UN human rights** are based on deontological ethics.",
+   "**Golden Rule** (ethics of reciprocity): “Do unto others as you would have them do unto you” (Luke 6:31). It appears in Confucianism, Buddhism, Hinduism, Islam, Judaism and Taoism (example firm: Southwest Airlines). **Limits**: people's tastes differ (G. B. Shaw: “a sadist is just a masochist who follows the golden rule”), and it does **not prohibit corruption** (both sides may want the deal). It matches **Kohlberg's conventional** stage (reciprocity, enlightened self-interest).",
+   "**Categorical Imperative I** (universalisation; Kant, *Groundwork*, 1785): “Act only according to that maxim whereby you can at the same time will that it should become a **universal law**.”",
+   "**Categorical Imperative II** (human dignity): “Act in such a way that you always treat humanity, whether in your own person or in the person of any other, **never simply as a means, but always at the same time as an end**.” This means respecting human **dignity, intrinsic value, autonomy and self-determination**.",
+   "Applications from class. Selling a product without informing the client about risks: **no** (uses the client as a mere means). Secret data mining on clients: **no**. Tepco *requiring* staff to clean radioactive equipment: **no** (only voluntary, with informed consent). Buying from suppliers who use child labour: **not allowed**, so “a company may not purchase from them” is the Kantian answer. Lying to customers “to avoid panic”: no right to lie.",
+   "**Johnson & Johnson, Tylenol (1982)**: 7 deaths from cyanide. The Credo says the **first** responsibility is to doctors, nurses, mothers and users, and the **fifth and last** to stockholders. Result: a nationwide recall. **Enron** had a fine-sounding human-rights principle yet committed balance-sheet fraud: principles must be **lived**. **Liverpool FC** declined the Kempinski hotel in Qatar over workers' rights.",
+   "**Challenger (1986)**: the dilemma of **functional duty vs ethical responsibility**. NASA was under political pressure. Thiokol's engineers did not push hard because NASA was their most important customer, and their role as engineer clashed with their role as manager. Under Kant (CI II), the **astronauts should have been informed** of the O-ring risk. Remedy: change perspective with **De Bono's six thinking hats**: white = facts, red = emotions, black = bad points, yellow = good points, green = creativity, blue = thinking about thinking.",
+   "**Milgram experiment**: **26 of 40** participants went all the way to 450 V. People under functional constraint lose their autonomy.",
+   "**18 reasons for loss of ethical competence**. *Individual-psychological*: dutifulness; obedience and discipline; loyalty to authorities; psychological adjustment to an authority; embarrassment of opposing; getting used to unethical behaviour; reward and punishment (greed and fear); the shadow side of the psyche; drugs or alcohol. *Social-psychological*: peer pressure and group loyalty; limited view of the whole; **functionality before morality**; proving competence in a function; **diffusion of responsibility**; distance to the victims; the end justifies the means; justification through ideologies; scapegoat psychology.",
+   "Schüz's three phases of moral awakening: clan egoism → hierarchical state conventions → universal principles (Ten Commandments, CI), which mirrors Kohlberg. Because people lose autonomy, **virtue ethics** is needed to strengthen character."
+  ],
+  "narration": "Topic five: deontological or duty ethics. Deon is Greek for duty. Duty ethics asks what we should do, whatever the consequences. Examples are the Ten Commandments, the Golden Rule, Kant's Categorical Imperative, the UN Global Compact and corporate codes of conduct. Human rights and respect for human dignity are based on deontological ethics. The Golden Rule says: treat others as you would like to be treated. It exists in almost every religion, but it has limits. People's tastes differ, and it does not forbid corruption, because both briber and bribed may be happy. It belongs to Kohlberg's conventional, reciprocal stage. Immanuel Kant goes further. The first formula of the Categorical Imperative: act only according to a maxim that you could will to become a universal law. The second formula, the most testable one: always treat humanity, in yourself and in others, never merely as a means but always also as an end. Humans must never be used as mere means for higher purposes. So selling a product without explaining its risks, or buying from suppliers that use child labour, violates the Categorical Imperative. Johnson and Johnson's Tylenol recall shows principles in action, while Enron shows that principles on paper are worthless if not lived. In the Challenger disaster, functional pressure beat ethical duty: the astronauts were never told about the risk. The Milgram experiment and the eighteen reasons for losing ethical competence, such as diffusion of responsibility and functionality before morality, show why character, in other words virtue ethics, is needed too.",
+  "visuals": [
+   {
+    "type": "versus",
+    "title": "Kant's Categorical Imperative: two formulas",
+    "left": {
+     "title": "CI I · Universalisation",
+     "items": [
+      "“Act only according to that maxim whereby you can at the same time will that it should become a universal law.”",
+      "Test: could everyone do this?",
+      "Slide: enlightened self-interest; hypothetical, context-bound scope"
+     ]
+    },
+    "right": {
+     "title": "CI II · Human dignity",
+     "items": [
+      "“…treat humanity… never simply as a means, but at the same time as an end.”",
+      "Respect dignity, autonomy, self-determination",
+      "Slide: with ALL human beings; categorical scope"
+     ]
+    }
+   },
+   {
+    "type": "dot",
+    "title": "De Bono's six thinking hats (break functional tunnel vision)",
+    "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica]; W[label=\"WHITE\\nfacts\" fillcolor=white]; R[label=\"RED\\nemotions\" fillcolor=\"#ffb3b3\"]; B[label=\"BLACK\\nbad points\" fillcolor=\"#555555\" fontcolor=white]; Y[label=\"YELLOW\\ngood points\" fillcolor=\"#fff27a\"]; G[label=\"GREEN\\ncreativity\" fillcolor=\"#9be39b\"]; U[label=\"BLUE\\nthinking about thinking\" fillcolor=\"#9cc3ff\"]; W->R->B->Y->G->U[style=invis];}"
+   }
+  ]
+ },
+ {
+  "id": "T6",
+  "emoji": "🏛️",
+  "title": "Virtue ethics, integrity & compliance",
+  "area": "Business Ethics",
+  "week": "BE weeks 6–7",
+  "sources": [
+   "Handout wk 6 pt 1",
+   "Handout wk 7 pt 1",
+   "Exercise Virtue Ethics (middle managers)",
+   "Schüz (2019) ch. 6",
+   "Paine (1994) HBR"
+  ],
+  "points": [
+   "**Aristotle (384–322 BC)**: (1) virtues make human beings capable of a perfect life; (2) **through self-reflection**, virtues let people **do the right thing in a given situation with their existing abilities**; (3) developed virtues shape a **good character**. The goal is happiness and a successful community. Virtues are a **guideline for action** that tames our drives, and they **can be learned and changed**.",
+   "**Situation + ability = capability**. Not all people or companies can act the same way, because skills and situations differ. So there is **no situation-independent “best practice”**. Situational action: e.g. a leader is authoritarian in a catastrophe but cooperative when new ideas are needed.",
+   "**Golden mean** between excess and deficiency, relative to ability and situation: **courage** between cowardice and recklessness; **generosity** between stinginess and extravagance; **prudence** between inaction and haste; **wisdom** between stupidity and lordliness. Virtue is *not* an extreme.",
+   "**Plato's four cardinal virtues**: **wisdom, courage, moderation, justice**. The chariot allegory: **reason** (the charioteer) steers the **affects** and **drives** (the horses).",
+   "**Why virtues?** Duty ethics shows what is right, but people lose autonomy through external (Milgram) and internal (drives) influences. Virtue ethics **strengthens character** to resist them. Schüz's 3 steps: **self-observation → impact analysis → self-transformation**. Self-leadership exercise: self-observation, self-recognition, self-realisation (centring). Responsible leaders must also recognise their own dark side; mindfulness helps.",
+   "**Levi Strauss values**: **empathy** (walking in other people's shoes), **originality**, **integrity**, **courage**. “Business can drive **profits through principles**.” Child labour (Terms of Engagement): the child (under 15) gets schooling **while the family's income is sustained**. Lived virtue ethics **strengthens profitability**.",
+   "**Paine (1994): compliance vs integrity**. *Compliance*: ethos = **conformity with externally imposed standards**; objective = **prevent criminal misconduct**; leadership = **lawyer-driven**; methods = education, reduced discretion, auditing and controls, penalties; assumption = autonomous beings guided by **material self-interest**. *Integrity*: ethos = **self-governance according to chosen standards**; objective = **enable responsible conduct**; leadership = **management-driven** with lawyers, HR and others; methods = education, leadership, accountability, organisational systems and decision processes, auditing, penalties; assumption = **social beings** guided by self-interest, **values, ideals and peers**.",
+   "Underlying ethics: **compliance ≈ deontological** (rules and duties imposed from outside); **integrity ≈ virtue ethics** (character and self-governance). Paine's cases: **Sears Auto Centers** (quotas and commissions led to overselling, about $60m) and **Beech-Nut** (fake “100% pure” apple juice, about $25m) show that organisations shape behaviour. Integrity examples: Martin Marietta, NovaCare, Wetherill Associates, J&J. Daimler set up a compliance board function after its bribery cases (monitor: former FBI head Louis Freeh).",
+   "**Paine's hallmarks of an effective integrity strategy**: values make sense and are clearly communicated; leaders are personally committed, credible and willing to act; values are integrated into normal decision-making; systems and structures support the values; managers have the skills to make ethically sound decisions.",
+   "**Honesty experiment** (“Transactions” exhibition): 33% claimed the maximum payout (6.25% would be expected if honest). A signed **commitment** cut it to about 22%; **dealing with values and norms beforehand** cut it to about **6%**. **Middle-manager case** (Adario/McNeal): personal family values vs performance culture. His mistakes were delaying, misreading the situation and acting alone. Strength virtue: **empathy**; challenge virtue: **courage**. Middle managers tend to overestimate their influence."
+  ],
+  "narration": "Topic six: virtue ethics, integrity and compliance. Aristotle taught that virtues make people capable of a good life, and that through self-reflection they let us do the right thing in a given situation with the abilities we have. Remember the formula: situation plus ability equals capability. Because people and companies differ, there is no best practice that works regardless of the situation. Every virtue is a golden mean between two extremes. Courage lies between cowardice and recklessness, generosity between stinginess and extravagance, prudence between inaction and haste. Virtue is never an extreme, and virtues can be learned and developed. Plato's four cardinal virtues are wisdom, courage, moderation and justice: reason steers the horses of our affects and drives. Why do we need virtues after duty ethics? Because people lose their autonomy under pressure, as Milgram showed, and character helps them resist. Levi Strauss lives the values empathy, originality, integrity and courage, and believes profits can be driven through principles. Lynn Sharp Paine contrasts two strategies. A compliance strategy is about conformity with externally imposed standards. It aims to prevent criminal misconduct, is lawyer-driven, and assumes people are guided by material self-interest. An integrity strategy is about self-governance according to chosen standards. It aims to enable responsible conduct, is management-driven, and sees people as social beings guided by values, ideals and peers. Compliance is close to duty ethics, and integrity is close to virtue ethics.",
+  "visuals": [
+   {
+    "type": "means",
+    "title": "Aristotle's golden mean",
+    "rows": [
+     [
+      "Cowardice",
+      "COURAGE",
+      "Recklessness"
+     ],
+     [
+      "Stinginess",
+      "GENEROSITY",
+      "Extravagance"
+     ],
+     [
+      "Inaction",
+      "PRUDENCE",
+      "Haste"
+     ],
+     [
+      "Stupidity",
+      "WISDOM",
+      "Lordliness"
+     ]
     ]
-  },
-  {
-    "id": "T4",
-    "emoji": "🧮",
-    "title": "Utilitarian (utility) ethics",
-    "area": "Business Ethics",
-    "week": "BE week 4",
-    "sources": ["Handout wk 4 pt 1", "Schüz (2019) ch. 4"],
-    "points": [
-      "Utilitarian ethics is **not interested in the intention** behind an action but in its **consequences**, beneficial or harmful. It asks for the overall **utility** (Latin *utilitas* = benefit). Criterion: **the greatest good (happiness, pleasure, wellbeing) for the greatest number of all concerned**.",
-      "In business the good is usually measured **in money** and calculated through **cost-benefit analysis**, aiming to maximise profit. The difference: business counts only its own utility, whereas utilitarian ethics counts **everyone** affected.",
-      "Thinkers: **Jeremy Bentham** (founder; pleasures that are *likely, pure, fruitful, intense, prolonged* score higher), Francis Hutcheson, John Stuart Mill, and G. E. Moore (“ideal utilitarianism”: happiness, wealth, love and realisation all count). This is the *eudaimonic* approach.",
-      "**Bribery case** (aircraft maker; foreign minister with $1m gambling debts): weigh the benefits and harms for every stakeholder (politician, manufacturer, employees, airline, all market participants, the state). Utilitarian verdict: **unethical, because the total damage is greater than the total benefit**.",
-      "**Corruption** = “the misuse of public power for private gain”. The World Bank estimates bribes at **more than $1,000bn a year**.",
-      "Why fight corruption? **Macro-economic**: distorted competition, misinvestment, misuse of resources, lower quality, less willingness to invest, bribes acting as an extra tax. **Micro-economic**: damage to reputation and trust, **susceptibility to blackmail**, exclusion from public tenders. **Social/political**: less trust in government, violation of democratic principles, a few enriched at the majority's expense, and the most corrupt countries are the poorest.",
-      "**Trolley dilemma**: a utilitarian pulls the lever (1 dies instead of 5). Real case: Bad Dürrenast 2006, where a dispatcher diverted a runaway train (3 died, 11 track workers saved). Fukushima liquidators: “4,000 sacrificed for some million saved?”",
-      "**Risk management is utilitarian**: it weighs the probability and size of damage against the benefits, which is a consequence calculation.",
-      "**Main criticism**: the **individual can be sacrificed for the common good**, because utility is summed regardless of individual fate. Consequences are also hard to quantify or foresee, and intentions and rights are ignored. So an ethical authority that protects the individual is needed (→ Kant).",
-      "A responsible leader (utilitarian view) identifies **all affected stakeholders**, weighs the benefits and harms for each, and chooses the option with the best overall balance."
+   },
+   {
+    "type": "table",
+    "title": "Paine (1994): compliance vs integrity strategy",
+    "columns": [
+     "",
+     "Compliance",
+     "Integrity"
     ],
-    "narration": "Topic four: utilitarian ethics. Utilitarians do not care about the intention behind an action. They care about its consequences. The criterion is the greatest good for the greatest number of all concerned. In business the good is usually measured in money, through cost-benefit analysis, but true utilitarianism counts everyone affected, not just the company. The founder is Jeremy Bentham, who valued pleasures that are likely, pure, fruitful, intense and prolonged. The course case: an aircraft manufacturer could win a huge order by paying a foreign minister's gambling debts of one million dollars. List every stakeholder: the politician, the manufacturer, its employees, the airline, all market participants and the state. Then weigh benefits against harms. The bribe is unethical from a utilitarian view because its total damage is greater than its total benefit. Corruption is defined as the misuse of public power for private gain, and bribes worldwide exceed a thousand billion dollars a year. Reasons to fight it come at three levels. Macro-economic: distorted competition and misinvestment. Micro-economic: reputation damage and blackmail. Social and political: loss of trust and violated democratic principles. Modern risk management is a form of utilitarian thinking, because it weighs probabilities and damages. The key criticism to remember for the exam: the individual can be sacrificed for the common good, as in the trolley dilemma. That is why we need duty ethics as a counterweight.",
-    "visuals": [
-      {"type": "table", "title": "Bribery case: utilitarian stakeholder balance", "columns": ["Stakeholder", "Benefit (+)", "Harm (−)"], "rows": [["Politician", "Gambling debts gone", "Fear of discovery, prosecution"], ["Aircraft manufacturer", "New big order", "Penalty fines, reputation, blackmail"], ["Employees", "Job security", "Jobs at risk if scandal"], ["Airline (customer)", "—", "Not necessarily the best plane or price"], ["All market participants", "—", "Distorted competition"], ["State of the politician", "—", "Misinvestment, lost trust, poverty"]], "note": "Rough balance: total harm > total benefit → bribery is unethical in utilitarian terms."},
-      {"type": "versus", "title": "Three levels of reasons to fight corruption", "left": {"title": "Macro & micro-economic", "items": ["Macro: distorted competition", "Macro: misinvestment, misuse of resources", "Macro: lower quality, less investment", "Micro: reputation & trust damage", "Micro: susceptible to blackmail", "Micro: exclusion from public tenders"]}, "right": {"title": "Social & political", "items": ["Less trust in governmental institutions", "Violation of democratic principles", "Few enrich themselves, the majority is exploited", "Countries with high corruption are the poorest"]}}
+    "rows": [
+     [
+      "Ethos",
+      "Conformity with externally imposed standards",
+      "Self-governance according to chosen standards"
+     ],
+     [
+      "Objective",
+      "Prevent criminal misconduct",
+      "Enable responsible conduct"
+     ],
+     [
+      "Leadership",
+      "Lawyer-driven",
+      "Management-driven, with lawyers, HR, others"
+     ],
+     [
+      "Methods",
+      "Education, reduced discretion, auditing & controls, penalties",
+      "Education, leadership, accountability, org. systems & decision processes, auditing, penalties"
+     ],
+     [
+      "Behavioural assumptions",
+      "Autonomous beings guided by material self-interest",
+      "Social beings guided by self-interest, values, ideals, peers"
+     ],
+     [
+      "Ethical basis",
+      "≈ Deontological (rules)",
+      "≈ Virtue ethics (character)"
+     ]
     ]
-  },
-  {
-    "id": "T5",
-    "emoji": "📜",
-    "title": "Deontological (duty) ethics & Kant",
-    "area": "Business Ethics",
-    "week": "BE weeks 5–6",
-    "sources": ["Handout wk 5 pt 1", "Handout wk 6 pt 1", "Exercise Deontological Ethics (Challenger)", "Schüz (2019) ch. 5"],
-    "points": [
-      "From Greek *deon* = **obligation, duty**: ethics of duties and principles that say what one **should do**, regardless of consequences. Examples: **Ten Commandments, Golden Rule, Categorical Imperative, UN Global Compact, corporate principles, codes of conduct**. **Human dignity and the UN human rights** are based on deontological ethics.",
-      "**Golden Rule** (ethics of reciprocity): “Do unto others as you would have them do unto you” (Luke 6:31). It appears in Confucianism, Buddhism, Hinduism, Islam, Judaism and Taoism (example firm: Southwest Airlines). **Limits**: people's tastes differ (G. B. Shaw: “a sadist is just a masochist who follows the golden rule”), and it does **not prohibit corruption** (both sides may want the deal). It matches **Kohlberg's conventional** stage (reciprocity, enlightened self-interest).",
-      "**Categorical Imperative I** (universalisation; Kant, *Groundwork*, 1785): “Act only according to that maxim whereby you can at the same time will that it should become a **universal law**.”",
-      "**Categorical Imperative II** (human dignity): “Act in such a way that you always treat humanity, whether in your own person or in the person of any other, **never simply as a means, but always at the same time as an end**.” This means respecting human **dignity, intrinsic value, autonomy and self-determination**.",
-      "Applications from class. Selling a product without informing the client about risks: **no** (uses the client as a mere means). Secret data mining on clients: **no**. Tepco *requiring* staff to clean radioactive equipment: **no** (only voluntary, with informed consent). Buying from suppliers who use child labour: **not allowed**, so “a company may not purchase from them” is the Kantian answer. Lying to customers “to avoid panic”: no right to lie.",
-      "**Johnson & Johnson, Tylenol (1982)**: 7 deaths from cyanide. The Credo says the **first** responsibility is to doctors, nurses, mothers and users, and the **fifth and last** to stockholders. Result: a nationwide recall. **Enron** had a fine-sounding human-rights principle yet committed balance-sheet fraud: principles must be **lived**. **Liverpool FC** declined the Kempinski hotel in Qatar over workers' rights.",
-      "**Challenger (1986)**: the dilemma of **functional duty vs ethical responsibility**. NASA was under political pressure. Thiokol's engineers did not push hard because NASA was their most important customer, and their role as engineer clashed with their role as manager. Under Kant (CI II), the **astronauts should have been informed** of the O-ring risk. Remedy: change perspective with **De Bono's six thinking hats**: white = facts, red = emotions, black = bad points, yellow = good points, green = creativity, blue = thinking about thinking.",
-      "**Milgram experiment**: **26 of 40** participants went all the way to 450 V. People under functional constraint lose their autonomy.",
-      "**18 reasons for loss of ethical competence**. *Individual-psychological*: dutifulness; obedience and discipline; loyalty to authorities; psychological adjustment to an authority; embarrassment of opposing; getting used to unethical behaviour; reward and punishment (greed and fear); the shadow side of the psyche; drugs or alcohol. *Social-psychological*: peer pressure and group loyalty; limited view of the whole; **functionality before morality**; proving competence in a function; **diffusion of responsibility**; distance to the victims; the end justifies the means; justification through ideologies; scapegoat psychology.",
-      "Schüz's three phases of moral awakening: clan egoism → hierarchical state conventions → universal principles (Ten Commandments, CI), which mirrors Kohlberg. Because people lose autonomy, **virtue ethics** is needed to strengthen character."
+   }
+  ]
+ },
+ {
+  "id": "T7",
+  "emoji": "🚀",
+  "title": "Going international & country risk",
+  "area": "International Management",
+  "week": "IM weeks 1–2",
+  "sources": [
+   "Handout wk 3 pt 2 / 2.2",
+   "The International Business Environment (Deresky 2017)"
+  ],
+  "points": [
+   "**International management** (Luthans & Doh 2009) = applying management concepts and techniques in a **multinational environment** and **adapting** management practices to different **economic, political and cultural contexts**.",
+   "**Reactive / defensive reasons**: global competition, **trade barriers**, home-country regulations and restrictions, **customer demands**, **saturated domestic market**, declining domestic sales. Examples: unsolicited orders from abroad (Abercrombie & Fitch), reacting to a competitor (H&M followed Zara into India), prestige at home (Nivea).",
+   "**Proactive / aggressive reasons**: **economies of scale** (average cost falls as output rises), growth and diversification, **resource access**, talent recruitment, cost savings, tax benefits and government incentives.",
+   "**Political risk** = any governmental action or politically motivated event that could adversely affect a firm's long-term profitability or value (e.g. Argentina expropriating 51% of Repsol YPF). **Macro (country) risks**: **nationalization** = forced transfer from private to state ownership; **expropriation** = the government **compensates** the company after nationalizing its assets; **confiscation** = nationalization of foreign firms with **little or no compensation**; **sovereign immunity** = no nation may challenge another state's internal actions if it proceeded justly.",
+   "Other political risks: sector-specific micro risks, crime, terrorism, civil unrest, armed conflict, threat of invasion, weak institutions, **corruption**, unpredictable policy changes.",
+   "**Economic risk**: closely related to political risk; the likelihood that macro conditions (exchange rates, regulation, stability) hurt a business. It depends on a country's **ability or intention to meet its financial obligations**. Categories: abrupt monetary or fiscal policy changes, changes in foreign-investment policy (repatriation of profits), economic sanctions, **exchange-rate fluctuations / currency depreciation**. Analysis methods: quantitative, qualitative, a combination, checklist.",
+   "**External economic relations as risk**: **tariffs** (fees paid by the exporter to the importing country), **export controls**, **sanctions**, **embargo** (a *unilateral* government ban on trade with a country), **diversion** (using an export licence to supply a third party not on the licence), **boycott** (a *collaborative* effort among countries to ban trade with a nation). Plus protectionism, tax attractiveness and the degree of government involvement.",
+   "**Managing political risk** (Deresky): **avoidance**; **adaptation** (equity sharing/JVs, participative management, localisation, development assistance); **dependency** (input control, market control, position control: expatriates hold key positions); **hedging** (political risk insurance, local debt financing).",
+   "**Entry modes**, from low to high risk and control: exporting → licensing → franchising → contract manufacturing → turnkey operation → management contract → **international joint venture** → **fully owned subsidiary** (highest risk). E-business is a low-risk entry at the local level. Also offshoring, reshoring/nearshoring and service outsourcing. **CAGE distance** (Ghemawat): Cultural, Administrative, Geographic, Economic (e.g. Google in China = administrative distance through censorship).",
+   "Legal systems: **common law** (precedents; US plus 26 countries), **civil law** (codes; about 70 countries, mainly in Europe), **Islamic law** (27 countries). Technology: **appropriability** (profiting from your own technology by protecting it) and **appropriateness** for the local context. Staff: **parent-country nationals** (expatriates), **host-country nationals**, **third-country nationals**. Risk sources: Transparency International, Doing Business (now BEE), EIU, Marsh, Coface."
+  ],
+  "narration": "Topic seven: going international and country risk. International management means applying management concepts in a multinational environment and adapting them to different economic, political and cultural contexts. Firms go abroad for reactive or proactive reasons. Reactive, or defensive, reasons respond to pressure: global competition, trade barriers, regulations at home, customer demands, a saturated domestic market or declining domestic sales. Proactive, or aggressive, reasons seize opportunities: economies of scale, growth, resource access, talent, cost savings and tax benefits. Now political risk: any government action or politically motivated event that could hurt a firm's long-term profitability. Learn the four macro risks exactly as the slide defines them. Nationalization is a forced transfer from private to state ownership. Expropriation is when the government compensates the company after nationalizing its assets. Confiscation is nationalization of foreign firms with little or no compensation. Sovereign immunity is the principle that no nation may challenge another state's internal actions if it proceeded justly. Economic risk depends on a country's ability or intention to meet its financial obligations, and includes exchange rate fluctuations such as currency depreciation, sudden policy changes and sanctions. Distinguish an embargo, a unilateral ban by one government, from a boycott, a collaborative effort among countries. Firms manage political risk through avoidance, adaptation such as joint ventures, dependency and hedging with insurance. Among entry modes, the fully owned subsidiary carries the highest risk.",
+  "visuals": [
+   {
+    "type": "versus",
+    "title": "Reasons for going international",
+    "left": {
+     "title": "Reactive / defensive",
+     "items": [
+      "Global competition",
+      "Trade barriers",
+      "Regulations & restrictions (home)",
+      "Customer demands",
+      "Saturated domestic market",
+      "Declining domestic sales"
+     ]
+    },
+    "right": {
+     "title": "Proactive / aggressive",
+     "items": [
+      "Economies of scale",
+      "Growth / diversification",
+      "Resource access",
+      "Talent recruitment",
+      "Cost savings",
+      "Tax benefits & incentives"
+     ]
+    }
+   },
+   {
+    "type": "table",
+    "title": "Political risk: macro (country) risks, per course slide",
+    "columns": [
+     "Term",
+     "Definition"
     ],
-    "narration": "Topic five: deontological or duty ethics. Deon is Greek for duty. Duty ethics asks what we should do, whatever the consequences. Examples are the Ten Commandments, the Golden Rule, Kant's Categorical Imperative, the UN Global Compact and corporate codes of conduct. Human rights and respect for human dignity are based on deontological ethics. The Golden Rule says: treat others as you would like to be treated. It exists in almost every religion, but it has limits. People's tastes differ, and it does not forbid corruption, because both briber and bribed may be happy. It belongs to Kohlberg's conventional, reciprocal stage. Immanuel Kant goes further. The first formula of the Categorical Imperative: act only according to a maxim that you could will to become a universal law. The second formula, the most testable one: always treat humanity, in yourself and in others, never merely as a means but always also as an end. Humans must never be used as mere means for higher purposes. So selling a product without explaining its risks, or buying from suppliers that use child labour, violates the Categorical Imperative. Johnson and Johnson's Tylenol recall shows principles in action, while Enron shows that principles on paper are worthless if not lived. In the Challenger disaster, functional pressure beat ethical duty: the astronauts were never told about the risk. The Milgram experiment and the eighteen reasons for losing ethical competence, such as diffusion of responsibility and functionality before morality, show why character, in other words virtue ethics, is needed too.",
-    "visuals": [
-      {"type": "versus", "title": "Kant's Categorical Imperative: two formulas", "left": {"title": "CI I · Universalisation", "items": ["“Act only according to that maxim whereby you can at the same time will that it should become a universal law.”", "Test: could everyone do this?", "Slide: enlightened self-interest; hypothetical, context-bound scope"]}, "right": {"title": "CI II · Human dignity", "items": ["“…treat humanity… never simply as a means, but at the same time as an end.”", "Respect dignity, autonomy, self-determination", "Slide: with ALL human beings; categorical scope"]}},
-      {"type": "dot", "title": "De Bono's six thinking hats (break functional tunnel vision)", "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica]; W[label=\"WHITE\\nfacts\" fillcolor=white]; R[label=\"RED\\nemotions\" fillcolor=\"#ffb3b3\"]; B[label=\"BLACK\\nbad points\" fillcolor=\"#555555\" fontcolor=white]; Y[label=\"YELLOW\\ngood points\" fillcolor=\"#fff27a\"]; G[label=\"GREEN\\ncreativity\" fillcolor=\"#9be39b\"]; U[label=\"BLUE\\nthinking about thinking\" fillcolor=\"#9cc3ff\"]; W->R->B->Y->G->U[style=invis];}"}
+    "rows": [
+     [
+      "Nationalization",
+      "Government forces the transfer of ownership from private to state control"
+     ],
+     [
+      "Expropriation",
+      "Government compensates a company after nationalizing its assets"
+     ],
+     [
+      "Confiscation",
+      "Nationalization of foreign firms with little or no compensation offered"
+     ],
+     [
+      "Sovereign immunity",
+      "No nation may challenge the internal actions of another state if that state has proceeded justly"
+     ]
     ]
-  },
-  {
-    "id": "T6",
-    "emoji": "🏛️",
-    "title": "Virtue ethics, integrity & compliance",
-    "area": "Business Ethics",
-    "week": "BE weeks 6–7",
-    "sources": ["Handout wk 6 pt 1", "Handout wk 7 pt 1", "Exercise Virtue Ethics (middle managers)", "Schüz (2019) ch. 6", "Paine (1994) HBR"],
-    "points": [
-      "**Aristotle (384–322 BC)**: (1) virtues make human beings capable of a perfect life; (2) **through self-reflection**, virtues let people **do the right thing in a given situation with their existing abilities**; (3) developed virtues shape a **good character**. The goal is happiness and a successful community. Virtues are a **guideline for action** that tames our drives, and they **can be learned and changed**.",
-      "**Situation + ability = capability**. Not all people or companies can act the same way, because skills and situations differ. So there is **no situation-independent “best practice”**. Situational action: e.g. a leader is authoritarian in a catastrophe but cooperative when new ideas are needed.",
-      "**Golden mean** between excess and deficiency, relative to ability and situation: **courage** between cowardice and recklessness; **generosity** between stinginess and extravagance; **prudence** between inaction and haste; **wisdom** between stupidity and lordliness. Virtue is *not* an extreme.",
-      "**Plato's four cardinal virtues**: **wisdom, courage, moderation, justice**. The chariot allegory: **reason** (the charioteer) steers the **affects** and **drives** (the horses).",
-      "**Why virtues?** Duty ethics shows what is right, but people lose autonomy through external (Milgram) and internal (drives) influences. Virtue ethics **strengthens character** to resist them. Schüz's 3 steps: **self-observation → impact analysis → self-transformation**. Self-leadership exercise: self-observation, self-recognition, self-realisation (centring). Responsible leaders must also recognise their own dark side; mindfulness helps.",
-      "**Levi Strauss values**: **empathy** (walking in other people's shoes), **originality**, **integrity**, **courage**. “Business can drive **profits through principles**.” Child labour (Terms of Engagement): the child (under 15) gets schooling **while the family's income is sustained**. Lived virtue ethics **strengthens profitability**.",
-      "**Paine (1994): compliance vs integrity**. *Compliance*: ethos = **conformity with externally imposed standards**; objective = **prevent criminal misconduct**; leadership = **lawyer-driven**; methods = education, reduced discretion, auditing and controls, penalties; assumption = autonomous beings guided by **material self-interest**. *Integrity*: ethos = **self-governance according to chosen standards**; objective = **enable responsible conduct**; leadership = **management-driven** with lawyers, HR and others; methods = education, leadership, accountability, organisational systems and decision processes, auditing, penalties; assumption = **social beings** guided by self-interest, **values, ideals and peers**.",
-      "Underlying ethics: **compliance ≈ deontological** (rules and duties imposed from outside); **integrity ≈ virtue ethics** (character and self-governance). Paine's cases: **Sears Auto Centers** (quotas and commissions led to overselling, about $60m) and **Beech-Nut** (fake “100% pure” apple juice, about $25m) show that organisations shape behaviour. Integrity examples: Martin Marietta, NovaCare, Wetherill Associates, J&J. Daimler set up a compliance board function after its bribery cases (monitor: former FBI head Louis Freeh).",
-      "**Paine's hallmarks of an effective integrity strategy**: values make sense and are clearly communicated; leaders are personally committed, credible and willing to act; values are integrated into normal decision-making; systems and structures support the values; managers have the skills to make ethically sound decisions.",
-      "**Honesty experiment** (“Transactions” exhibition): 33% claimed the maximum payout (6.25% would be expected if honest). A signed **commitment** cut it to about 22%; **dealing with values and norms beforehand** cut it to about **6%**. **Middle-manager case** (Adario/McNeal): personal family values vs performance culture. His mistakes were delaying, misreading the situation and acting alone. Strength virtue: **empathy**; challenge virtue: **courage**. Middle managers tend to overestimate their influence."
+   },
+   {
+    "type": "dot",
+    "title": "Entry modes: rising risk & control",
+    "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; a[label=\"Exporting\" fillcolor=\"#e6f6ea\"]; b[label=\"Licensing /\\nFranchising\" fillcolor=\"#eef8d8\"]; c[label=\"Contract mfg /\\nTurnkey /\\nMgmt contract\" fillcolor=\"#fff6cc\"]; d[label=\"Joint venture\" fillcolor=\"#ffe3c2\"]; e[label=\"Fully owned\\nsubsidiary\" fillcolor=\"#ffc9c9\"]; a->b->c->d->e;}"
+   }
+  ]
+ },
+ {
+  "id": "T8",
+  "emoji": "🎭",
+  "title": "Managing across cultures",
+  "area": "International Management",
+  "week": "IM week 2 + ICC script",
+  "sources": [
+   "Handout wk 2 pt 2",
+   "Intercultural Competence Script (Koncilja)",
+   "ICD Reader (Bürki)",
+   "Handout wk 7 pt 2 (India outsourcing / GBS)"
+  ],
+  "points": [
+   "**Culture** is shared, learned and enduring, a powerful influence on behaviour, systematic and organised, **largely invisible**, and either **tight** (uniform) or **loose** (tolerant of difference). Its building blocks: values (what matters), norms (expected behaviour), sanctions (enforce norms; vital ones become laws) and institutions (transmit them). Storti's reasons we project our norms onto others: learning, unconsciousness, routine, necessity.",
+   "**Lewin**: “**peach**” cultures (e.g. the US) are soft and friendly on the outside with a hard private core; “**coconut**” cultures (Germany, France, Russia) are hard on the outside but warm once you're in.",
+   "**E. T. Hall**: **proxemics** (intimate, social/consultative and public space); **monochronic** (one thing at a time, deadlines are sacred, low-context) vs **polychronic** time (many things at once, promptness depends on the relationship, high-context); **high-context** communication (implicit, long relationships, strong in-group boundaries, relationship over task) vs **low-context** (explicit, rule- and task-oriented, codified knowledge, easy for outsiders to enter).",
+   "**Hofstede** (IBM study): **power distance**, **individualism–collectivism**, **masculinity–femininity**, **uncertainty avoidance**, plus later **long- vs short-term orientation** and **indulgence–restraint**. Six dimensions, all based on **values**.",
+   "**Trompenaars & Hampden-Turner**: **7 dimensions**. **Five concern relationships with people**: universalism–particularism (rules vs relationships; “a deal is a deal”), individualism–communitarianism, neutral–affective (hide vs show emotions), specific–diffuse (separate vs blend private and business life), achievement–ascription (status from what you do vs who you are). **Two concern time and the environment**: sequential–synchronic time, and inner- vs outer-directed (control vs harmony with the environment). Culture = how a group **solves problems and reconciles dilemmas** (after Schein). Example: Swiss people won't lie for a friend (universalist); Venezuelans would (particularist).",
+   "**Trompenaars' 4R model**, concrete and measurable actions over time: **Recognize** (increase awareness) → **Respect** (appreciate differences) → **Reconcile** (resolve cultural differences) → **Realize & Root** (implement reconciling actions). It is *not* reserved for servant leaders.",
+   "**Servant vs traditional leaders**. A servant leader sees leadership as an opportunity to serve, **shares** power and control to drive engagement, measures success through **growth and development**, **listens**, and understands it's not about them. A traditional leader sees leadership as a rank, uses power and control, measures output, speaks, and thinks it's about them.",
+   "**GLOBE** (Robert House; 62 countries; 9 dimensions): uncertainty avoidance, power distance, institutional collectivism, **in-group collectivism**, gender egalitarianism, future orientation, **assertiveness**, **performance orientation**, **humane orientation**. **Values = “what should be”**, **practices = “what is”**. Switzerland ranks high on uncertainty avoidance, future orientation and performance orientation, and **low on assertiveness**.",
+   "**Bennett's DMIS**: **ethnocentric** stages: denial, defense, minimization. **Ethnorelative** stages: acceptance, adaptation, integration. (The IDI's Intercultural Development Continuum uses denial, polarization, minimization, acceptance, adaptation.) **Cultural intelligence (CQ)** = knowledge + mindfulness + skills.",
+   "**India outsourcing (GBS) case**: see topic 13. In short: India has higher power distance, more rank-consciousness and **high-context** communication; the US is egalitarian and **fairly low-context**."
+  ],
+  "narration": "Topic eight: managing across cultures. Culture is shared, learned, enduring and largely invisible, like an iceberg. Kurt Lewin compares peach cultures such as the United States, friendly on the surface but private inside, with coconut cultures such as Germany or France, reserved at first but warm once you get in. Edward Hall gives us proxemics, monochronic versus polychronic time, and high versus low context. High-context cultures communicate implicitly through relationships. Low-context cultures spell things out explicitly. Geert Hofstede measures values on six dimensions: power distance, individualism versus collectivism, masculinity versus femininity, uncertainty avoidance, long-term orientation, and indulgence versus restraint. Fons Trompenaars and Charles Hampden-Turner describe seven cultural dilemmas. Five relate to relationships between people: universalism versus particularism, individualism versus communitarianism, neutral versus affective, specific versus diffuse, and achievement versus ascription. The other two relate to time and to the environment. To handle dilemmas, use the four R model: recognize, respect, reconcile, and finally realize and root. Servant leaders share power, listen, and measure success by people's growth. The GLOBE study, led by Robert House, covers sixty-two countries and nine dimensions, and it separates values, what should be, from practices, what is. Bennett's model runs from ethnocentric denial, defense and minimization to ethnorelative acceptance, adaptation and integration. In the India outsourcing case, remember that Indian communication tends to be influenced by rank, while US managers prefer low-context, direct communication.",
+  "visuals": [
+   {
+    "type": "poles",
+    "title": "Trompenaars' 7 dilemmas (5 people · 2 time/environment)",
+    "rows": [
+     [
+      "Universalism",
+      "Particularism",
+      "Rules vs relationships",
+      "people"
+     ],
+     [
+      "Individualism",
+      "Communitarianism",
+      "Me vs group",
+      "people"
+     ],
+     [
+      "Neutral",
+      "Affective",
+      "Hide vs show emotions",
+      "people"
+     ],
+     [
+      "Specific",
+      "Diffuse",
+      "Separate vs blend life spheres",
+      "people"
+     ],
+     [
+      "Achievement",
+      "Ascription",
+      "What you do vs who you are",
+      "people"
+     ],
+     [
+      "Sequential",
+      "Synchronic",
+      "One thing at a time vs juggling",
+      "time"
+     ],
+     [
+      "Inner-directed",
+      "Outer-directed",
+      "Control vs adapt to environment",
+      "environment"
+     ]
+    ]
+   },
+   {
+    "type": "dot",
+    "title": "Trompenaars' 4R model",
+    "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica]; a[label=\"Recognize\\nincrease awareness\" fillcolor=\"#dddddd\"]; b[label=\"Respect\\nappreciate differences\" fillcolor=\"#f7c6c6\"]; c[label=\"Reconcile\\nresolve differences\" fillcolor=\"#bfe6ff\"]; d[label=\"Realize & Root\\nimplement reconciling actions\" fillcolor=\"#f3d9b1\"]; a->b->c->d;}"
+   },
+   {
+    "type": "dot",
+    "title": "Bennett's DMIS",
+    "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; subgraph cluster0{label=\"Ethnocentric\"; style=dashed; a[label=\"Denial\" fillcolor=\"#fde2e2\"]; b[label=\"Defense\" fillcolor=\"#fde2e2\"]; c[label=\"Minimization\" fillcolor=\"#fde2e2\"];} subgraph cluster1{label=\"Ethnorelative\"; style=dashed; d[label=\"Acceptance\" fillcolor=\"#dff3e4\"]; e[label=\"Adaptation\" fillcolor=\"#dff3e4\"]; f[label=\"Integration\" fillcolor=\"#dff3e4\"];} a->b->c->d->e->f;}"
+   }
+  ]
+ },
+ {
+  "id": "T9",
+  "emoji": "🤝",
+  "title": "Corruption, favors & culture",
+  "area": "International Management",
+  "week": "IM readings",
+  "sources": [
+   "Seleim & Bontis (2009) The relationship between culture and corruption",
+   "McCarthy, Puffer, Dunlap & Jaeger (2012) A Stakeholder Approach to the Ethicality of BRIC-firm Managers' Use of Favors, J Bus Ethics 109",
+   "Handout wk 4 pt 1"
+  ],
+  "points": [
+   "**Seleim & Bontis (2009)** link the **GLOBE** dimensions of cultural **values** and **practices** to Transparency International's **Corruption Perception Index (CPI)** for about 60 countries (the GLOBE data come from about 18,000 respondents), controlling for **GDP per capita** and the **Human Development Index**.",
+   "Result: only **1 of 9 value hypotheses** was supported (gender egalitarianism values), but **7 of 9 practice hypotheses** were. After controls, **uncertainty avoidance values**, plus **humane orientation practices** and **in-group (“individual”) collectivism practices**, stayed significant. The practices model explains **66.7%** of the variance and the values model **59.7%**.",
+   "Direction. **More corruption** with high in-group collectivism practices (people favour their in-group over public goals), high **power distance practices**, and (after controls) humane orientation practices. **Less corruption** with high uncertainty avoidance practices (respect for formal rules), future orientation, institutional collectivism and performance orientation practices.",
+   "Key message: **distinguish cultural values from cultural practices**. **Practices (“what is”) explain corruption better than values (“what should be”)**. Practical use for MNCs: HR policies (recruiting, appraisal, training) and internal marketing of ethics (e.g. nepotism is viewed differently across cultures).",
+   "**McCarthy, Puffer, Dunlap & Jaeger (2012)**. A **favor** = an exchange of outcomes between individuals, typically **using one's connections**, based on a commonly understood **cultural tradition**, with reciprocity **not immediate** and a value **less than what would count as bribery** in that culture. Favors help get around formal regulations (licences, financing, suppliers, jobs). **Favors do not involve a bribe** and may even be used to avoid paying one.",
+   "**The four practices**: **jeito / jeitinho** (Brazil), **blat / sviazi** (Russia), **jaan-pehchaan** (India; *not* jugaad), **guanxi** (China). They are **informal, cultural-cognitive institutions** that fill the void left by **weak formal institutions** and pervasive bureaucracy (communist or colonial pasts).",
+   "**Stakeholders**: the giver and receiver, network insiders and outsiders, managers from BRIC, emerging and developed economies, and **society**. Society abets favors through tradition but is harmed, because favors **impede the development of legitimate formal institutions that sustain civil societies** and can **deteriorate into bribery**. Favors also raise the cost of doing business.",
+   "**Theory**: **institutional theory** (Scott's 3 pillars: regulative = laws; normative = e.g. professional bodies; **cultural-cognitive** = shared beliefs, where favors sit) and **Integrative Social Contracts Theory (ISCT)** (Donaldson & Dunfee): local norms are legitimate if broadly accepted in the community **and they don't violate hypernorms** (universal principles such as basic human rights). Explicitly **not ethical relativism**.",
+   "**Jeito (Brazil)**: bending or breaking rules through *simpatia* (example: a restaurateur gets a 30-day permit from a friendly clerk); no money changes hands, no return expected. It **arose in reaction to the rigid bureaucracy of the Portuguese colonial administration, a bureaucracy that exists to this day**, so jeito is **still alive**; it also rests on colonial paternalism. Middlemen called *despachantes* expedite dealings with the bureaucracy.",
+   "**Blat / sviazi (Russia)**: the exchange of favors of access under **Soviet shortages**; a *tolkach* obtained scarce supplies for enterprises. *Sviazi* (“connections”) is the post-Soviet term. Reciprocity is expected but not immediate; outside one's network, it can **escalate into bribery**.",
+   "**Jaan-pehchaan (India)**: “you get something done **through somebody you know**”. India has a **bicultural business system**: Western-style when needed, unwritten face-to-face relationships among Indians. Networks form along caste, language, religion and community. It is a handicap for foreign firms without the “right” connections.",
+   "**Guanxi (China)**: “cementing mutually beneficial relationships through gifts, favors and banquets” (Yang). It rests on **Confucian** principles (*wǔ-lún*, the five hierarchical relationships; harmony). Relationships were traditionally based on **loyalty, respect, kindness, love, trust, justice, harmony and peace**; **with more emphasis on individual opportunism rather than collectivistic goals, guanxi and corruption are becoming more closely intertwined**. Traditional guanxi is favor-seeking; modern guanxi is **rent-seeking**.",
+   "**Four propositions**: BRIC managers consider favors **ethical** when dealing with stakeholders (1) in their own country, (2) from other emerging economies and (3) from developed countries, **regardless of location**; (4) they consider **bribery unethical**, regardless of location.",
+   "**Implications**: policymakers should **strengthen formal institutions** (WTO, UN Global Compact) and reduce dependence on favors. Managers should consider the other party's ethical orientation: **gifts can look like bribes in low-context cultures** but show respect in high-context ones. Western firms must decide whether to adapt (e.g. **IKEA** postponed investment in Russia over the extra costs of weak institutions). **Favors are also used in developed economies like the US, but in a more bounded way.**",
+   "Corruption = misuse of public power for private gain. **CPI 2016**: Brazil, India and China tied in 79th place out of 176; Russia 131st (cited in the CEO study)."
+  ],
+  "narration": "Topic nine: corruption, favors and culture. Seleim and Bontis asked whether national culture explains corruption, using the GLOBE dimensions and Transparency International's Corruption Perception Index. Only one of nine hypotheses about cultural values was supported, but seven of nine about cultural practices. So practices, what people actually do, explain corruption better than values, what people say should be. Strong in-group collectivism and power distance practices go with more corruption. The sample answer key says values, but the paper says practices. The second reading, by McCarthy, Puffer, Dunlap and Jaeger, defines a favor as an exchange between people using their connections, rooted in cultural tradition, with delayed reciprocity, and worth less than a bribe. The four practices are jeito in Brazil, blat or sviazi in Russia, jaan-pehchaan in India, meaning you get something done through somebody you know, and guanxi in China. They are informal cultural institutions that fill the gaps left by weak formal institutions. Using institutional theory and integrative social contracts theory, the authors argue that BRIC managers see favors as ethical, but bribery as unethical. Jeito arose in reaction to the rigid bureaucracy of the Portuguese colonial administration, a bureaucracy that exists to this day, so jeito is very much alive. Guanxi was traditionally based on Confucian virtues such as loyalty, trust and harmony, but with more individual opportunism, guanxi and corruption are becoming intertwined. Finally, two conclusions the exam likes: favors are also used in developed economies like the US, but in a more bounded way, and over time favors impede the development of legitimate formal institutions that sustain civil societies.",
+  "visuals": [
+   {
+    "type": "bars",
+    "title": "Seleim & Bontis: hypotheses supported (out of 9)",
+    "unit": "",
+    "series": [
+     "Supported"
     ],
-    "narration": "Topic six: virtue ethics, integrity and compliance. Aristotle taught that virtues make people capable of a good life, and that through self-reflection they let us do the right thing in a given situation with the abilities we have. Remember the formula: situation plus ability equals capability. Because people and companies differ, there is no best practice that works regardless of the situation. Every virtue is a golden mean between two extremes. Courage lies between cowardice and recklessness, generosity between stinginess and extravagance, prudence between inaction and haste. Virtue is never an extreme, and virtues can be learned and developed. Plato's four cardinal virtues are wisdom, courage, moderation and justice: reason steers the horses of our affects and drives. Why do we need virtues after duty ethics? Because people lose their autonomy under pressure, as Milgram showed, and character helps them resist. Levi Strauss lives the values empathy, originality, integrity and courage, and believes profits can be driven through principles. Lynn Sharp Paine contrasts two strategies. A compliance strategy is about conformity with externally imposed standards. It aims to prevent criminal misconduct, is lawyer-driven, and assumes people are guided by material self-interest. An integrity strategy is about self-governance according to chosen standards. It aims to enable responsible conduct, is management-driven, and sees people as social beings guided by values, ideals and peers. Compliance is close to duty ethics, and integrity is close to virtue ethics.",
-    "visuals": [
-      {"type": "means", "title": "Aristotle's golden mean", "rows": [["Cowardice", "COURAGE", "Recklessness"], ["Stinginess", "GENEROSITY", "Extravagance"], ["Inaction", "PRUDENCE", "Haste"], ["Stupidity", "WISDOM", "Lordliness"]]},
-      {"type": "table", "title": "Paine (1994): compliance vs integrity strategy", "columns": ["", "Compliance", "Integrity"], "rows": [["Ethos", "Conformity with externally imposed standards", "Self-governance according to chosen standards"], ["Objective", "Prevent criminal misconduct", "Enable responsible conduct"], ["Leadership", "Lawyer-driven", "Management-driven, with lawyers, HR, others"], ["Methods", "Education, reduced discretion, auditing & controls, penalties", "Education, leadership, accountability, org. systems & decision processes, auditing, penalties"], ["Behavioural assumptions", "Autonomous beings guided by material self-interest", "Social beings guided by self-interest, values, ideals, peers"], ["Ethical basis", "≈ Deontological (rules)", "≈ Virtue ethics (character)"]]}
+    "items": [
+     [
+      "Cultural VALUES",
+      1
+     ],
+     [
+      "Cultural PRACTICES",
+      7
+     ]
     ]
-  },
-  {
-    "id": "T7",
-    "emoji": "🚀",
-    "title": "Going international & country risk",
-    "area": "International Management",
-    "week": "IM weeks 1–2",
-    "sources": ["Handout wk 3 pt 2 / 2.2", "The International Business Environment (Deresky 2017)"],
-    "points": [
-      "**International management** (Luthans & Doh 2009) = applying management concepts and techniques in a **multinational environment** and **adapting** management practices to different **economic, political and cultural contexts**.",
-      "**Reactive / defensive reasons**: global competition, **trade barriers**, home-country regulations and restrictions, **customer demands**, **saturated domestic market**, declining domestic sales. Examples: unsolicited orders from abroad (Abercrombie & Fitch), reacting to a competitor (H&M followed Zara into India), prestige at home (Nivea).",
-      "**Proactive / aggressive reasons**: **economies of scale** (average cost falls as output rises), growth and diversification, **resource access**, talent recruitment, cost savings, tax benefits and government incentives.",
-      "**Political risk** = any governmental action or politically motivated event that could adversely affect a firm's long-term profitability or value (e.g. Argentina expropriating 51% of Repsol YPF). **Macro (country) risks**: **nationalization** = forced transfer from private to state ownership; **expropriation** = the government **compensates** the company after nationalizing its assets; **confiscation** = nationalization of foreign firms with **little or no compensation**; **sovereign immunity** = no nation may challenge another state's internal actions if it proceeded justly.",
-      "Other political risks: sector-specific micro risks, crime, terrorism, civil unrest, armed conflict, threat of invasion, weak institutions, **corruption**, unpredictable policy changes.",
-      "**Economic risk**: closely related to political risk; the likelihood that macro conditions (exchange rates, regulation, stability) hurt a business. It depends on a country's **ability or intention to meet its financial obligations**. Categories: abrupt monetary or fiscal policy changes, changes in foreign-investment policy (repatriation of profits), economic sanctions, **exchange-rate fluctuations / currency depreciation**. Analysis methods: quantitative, qualitative, a combination, checklist.",
-      "**External economic relations as risk**: **tariffs** (fees paid by the exporter to the importing country), **export controls**, **sanctions**, **embargo** (a *unilateral* government ban on trade with a country), **diversion** (using an export licence to supply a third party not on the licence), **boycott** (a *collaborative* effort among countries to ban trade with a nation). Plus protectionism, tax attractiveness and the degree of government involvement.",
-      "**Managing political risk** (Deresky): **avoidance**; **adaptation** (equity sharing/JVs, participative management, localisation, development assistance); **dependency** (input control, market control, position control: expatriates hold key positions); **hedging** (political risk insurance, local debt financing).",
-      "**Entry modes**, from low to high risk and control: exporting → licensing → franchising → contract manufacturing → turnkey operation → management contract → **international joint venture** → **fully owned subsidiary** (highest risk). E-business is a low-risk entry at the local level. Also offshoring, reshoring/nearshoring and service outsourcing. **CAGE distance** (Ghemawat): Cultural, Administrative, Geographic, Economic (e.g. Google in China = administrative distance through censorship).",
-      "Legal systems: **common law** (precedents; US plus 26 countries), **civil law** (codes; about 70 countries, mainly in Europe), **Islamic law** (27 countries). Technology: **appropriability** (profiting from your own technology by protecting it) and **appropriateness** for the local context. Staff: **parent-country nationals** (expatriates), **host-country nationals**, **third-country nationals**. Risk sources: Transparency International, Doing Business (now BEE), EIU, Marsh, Coface."
+   },
+   {
+    "type": "table",
+    "title": "Favors in the BRIC countries (McCarthy et al. 2012)",
+    "columns": [
+     "Country",
+     "Practice",
+     "Remember"
     ],
-    "narration": "Topic seven: going international and country risk. International management means applying management concepts in a multinational environment and adapting them to different economic, political and cultural contexts. Firms go abroad for reactive or proactive reasons. Reactive, or defensive, reasons respond to pressure: global competition, trade barriers, regulations at home, customer demands, a saturated domestic market or declining domestic sales. Proactive, or aggressive, reasons seize opportunities: economies of scale, growth, resource access, talent, cost savings and tax benefits. Now political risk: any government action or politically motivated event that could hurt a firm's long-term profitability. Learn the four macro risks exactly as the slide defines them. Nationalization is a forced transfer from private to state ownership. Expropriation is when the government compensates the company after nationalizing its assets. Confiscation is nationalization of foreign firms with little or no compensation. Sovereign immunity is the principle that no nation may challenge another state's internal actions if it proceeded justly. Economic risk depends on a country's ability or intention to meet its financial obligations, and includes exchange rate fluctuations such as currency depreciation, sudden policy changes and sanctions. Distinguish an embargo, a unilateral ban by one government, from a boycott, a collaborative effort among countries. Firms manage political risk through avoidance, adaptation such as joint ventures, dependency and hedging with insurance. Among entry modes, the fully owned subsidiary carries the highest risk.",
-    "visuals": [
-      {"type": "versus", "title": "Reasons for going international", "left": {"title": "Reactive / defensive", "items": ["Global competition", "Trade barriers", "Regulations & restrictions (home)", "Customer demands", "Saturated domestic market", "Declining domestic sales"]}, "right": {"title": "Proactive / aggressive", "items": ["Economies of scale", "Growth / diversification", "Resource access", "Talent recruitment", "Cost savings", "Tax benefits & incentives"]}},
-      {"type": "table", "title": "Political risk: macro (country) risks, per course slide", "columns": ["Term", "Definition"], "rows": [["Nationalization", "Government forces the transfer of ownership from private to state control"], ["Expropriation", "Government compensates a company after nationalizing its assets"], ["Confiscation", "Nationalization of foreign firms with little or no compensation offered"], ["Sovereign immunity", "No nation may challenge the internal actions of another state if that state has proceeded justly"]]},
-      {"type": "dot", "title": "Entry modes: rising risk & control", "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; a[label=\"Exporting\" fillcolor=\"#e6f6ea\"]; b[label=\"Licensing /\\nFranchising\" fillcolor=\"#eef8d8\"]; c[label=\"Contract mfg /\\nTurnkey /\\nMgmt contract\" fillcolor=\"#fff6cc\"]; d[label=\"Joint venture\" fillcolor=\"#ffe3c2\"]; e[label=\"Fully owned\\nsubsidiary\" fillcolor=\"#ffc9c9\"]; a->b->c->d->e;}"}
+    "rows": [
+     [
+      "Brazil",
+      "Jeito / jeitinho",
+      "Bending rules via simpatia; reaction to the rigid Portuguese colonial bureaucracy, which still exists; despachantes"
+     ],
+     [
+      "Russia",
+      "Blat / sviazi",
+      "Favors of access under Soviet shortages (tolkach); sviazi = connections; can escalate to bribery"
+     ],
+     [
+      "India",
+      "Jaan-pehchaan",
+      "“Get something done through somebody you know”; bicultural business system; caste and community networks"
+     ],
+     [
+      "China",
+      "Guanxi",
+      "Gifts, favors, banquets; Confucian roots → increasingly intertwined with opportunism and corruption"
+     ]
     ]
-  },
-  {
-    "id": "T8",
-    "emoji": "🎭",
-    "title": "Managing across cultures",
-    "area": "International Management",
-    "week": "IM week 2 + ICC script",
-    "sources": ["Handout wk 2 pt 2", "Intercultural Competence Script (Koncilja)", "ICD Reader (Bürki)", "Handout wk 7 pt 2 (India outsourcing / GBS)"],
-    "points": [
-      "**Culture** is shared, learned and enduring, a powerful influence on behaviour, systematic and organised, **largely invisible**, and either **tight** (uniform) or **loose** (tolerant of difference). Its building blocks: values (what matters), norms (expected behaviour), sanctions (enforce norms; vital ones become laws) and institutions (transmit them). Storti's reasons we project our norms onto others: learning, unconsciousness, routine, necessity.",
-      "**Lewin**: “**peach**” cultures (e.g. the US) are soft and friendly on the outside with a hard private core; “**coconut**” cultures (Germany, France, Russia) are hard on the outside but warm once you're in.",
-      "**E. T. Hall**: **proxemics** (intimate, social/consultative and public space); **monochronic** (one thing at a time, deadlines are sacred, low-context) vs **polychronic** time (many things at once, promptness depends on the relationship, high-context); **high-context** communication (implicit, long relationships, strong in-group boundaries, relationship over task) vs **low-context** (explicit, rule- and task-oriented, codified knowledge, easy for outsiders to enter).",
-      "**Hofstede** (IBM study): **power distance**, **individualism–collectivism**, **masculinity–femininity**, **uncertainty avoidance**, plus later **long- vs short-term orientation** and **indulgence–restraint**. Six dimensions, all based on **values**.",
-      "**Trompenaars & Hampden-Turner**: **7 dimensions**. **Five concern relationships with people**: universalism–particularism (rules vs relationships; “a deal is a deal”), individualism–communitarianism, neutral–affective (hide vs show emotions), specific–diffuse (separate vs blend private and business life), achievement–ascription (status from what you do vs who you are). **Two concern time and the environment**: sequential–synchronic time, and inner- vs outer-directed (control vs harmony with the environment). Culture = how a group **solves problems and reconciles dilemmas** (after Schein). Example: Swiss people won't lie for a friend (universalist); Venezuelans would (particularist).",
-      "**Trompenaars' 4R model**, concrete and measurable actions over time: **Recognize** (increase awareness) → **Respect** (appreciate differences) → **Reconcile** (resolve cultural differences) → **Realize & Root** (implement reconciling actions). It is *not* reserved for servant leaders.",
-      "**Servant vs traditional leaders**. A servant leader sees leadership as an opportunity to serve, **shares** power and control to drive engagement, measures success through **growth and development**, **listens**, and understands it's not about them. A traditional leader sees leadership as a rank, uses power and control, measures output, speaks, and thinks it's about them.",
-      "**GLOBE** (Robert House; 62 countries; 9 dimensions): uncertainty avoidance, power distance, institutional collectivism, **in-group collectivism**, gender egalitarianism, future orientation, **assertiveness**, **performance orientation**, **humane orientation**. **Values = “what should be”**, **practices = “what is”**. Switzerland ranks high on uncertainty avoidance, future orientation and performance orientation, and **low on assertiveness**.",
-      "**Bennett's DMIS**: **ethnocentric** stages: denial, defense, minimization. **Ethnorelative** stages: acceptance, adaptation, integration. (The IDI's Intercultural Development Continuum uses denial, polarization, minimization, acceptance, adaptation.) **Cultural intelligence (CQ)** = knowledge + mindfulness + skills.",
-      "**India outsourcing (GBS) case**: watch power distance, assertiveness, high vs low context, and sequential vs synchronic time. **Indian communication is influenced by rank** (hierarchy, high power distance), and Indian staff tend to **expect close guidance**. US managers prefer **low-context**, direct communication and give staff more autonomy. Recognise and address differences; company culture matters."
+   },
+   {
+    "type": "dot",
+    "title": "Why favors exist and why they matter",
+    "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; W[label=\"Weak formal institutions\\n+ pervasive bureaucracy\" fillcolor=\"#fde2e2\"]; F[label=\"Favors = informal\\ncultural-cognitive institutions\" fillcolor=\"#fff1c9\"]; E[label=\"Seen as ETHICAL by BRIC managers\\n(institutional theory + ISCT)\" fillcolor=\"#dff3e4\"]; H[label=\"Society harmed:\\nimpede formal institutions,\\nmay slide into bribery\" fillcolor=\"#fde2e2\"]; W->F->E; F->H;}"
+   }
+  ]
+ },
+ {
+  "id": "T10",
+  "emoji": "🐉",
+  "title": "Doing business in China",
+  "area": "International Management",
+  "week": "IM China I & II",
+  "sources": [
+   "Handout wk 5 pt 2",
+   "Handout wk 7 pt 2",
+   "Berger, Herstein & Mitki (2013) Guanxi",
+   "Lardy (2014) Markets over Mao"
+  ],
+  "points": [
+   "**Shift in global economic power** towards China. China's story: **scale, speed, open direction** under **state-led / authoritarian capitalism**: investment, exports, capital controls, urbanisation, rising consumption, rising technological sophistication (*Made in China 2025*). Lin (2012): factors of production, industrial structure, institutions, borrowed technology.",
+   "Tech and green leadership: about **40% of China's 2023 GDP growth** came from clean-energy industries ($676bn invested, double the US); China leads in **37 of 44** tracked technologies (ASPI 2023: batteries, hypersonics, 5G/6G); R&D spending rose **ten-fold since 2000** (US: +39%).",
+   "**Challenges**: geopolitics (US rivalry), **ageing** (a shrinking working-age population), inequality, authoritarianism, and environmental, social, political and economic problems.",
+   "**Governance**: three pillars, **party, government and military**. **CCP** leadership makes it a one-party autocracy. **Factionalism** inside the CCP drives competition and experimentation. **Federalism** drives competition between local and central government (vertical and horizontal authorities).",
+   "**Xi Jinping**: 2017, Xi Thought was enshrined in the party constitution (status like Mao's); 2018, the NPC **removed the two-term limit**. **Two Centenaries**: by 2021 a “moderately prosperous society” (achieved); by 2049 a “modern socialist country”. Under Xi (since 2013) the **number of laws and regulations has risen substantially** (NPC lawmaking chart), in a push for “law-based governance” or *rule by law*.",
+   "**For foreign managers**: central **and** local regulators both matter, but **implementation differs substantially across provinces**, so focus on the **local regulators in the provinces where you operate**. **Competition**: Chinese firms in telecoms, batteries and cars (EVs) are **key innovators**, so foreign firms must take them seriously in China and globally.",
+   "Germany and China: China is a major destination for German exports and its **top source of imports**. German car imports from China have surged. Germany is **growing factories in China, not exports to China**. China's share of world exports is still rising (about 15%).",
+   "**Lardy, *Markets over Mao* (2014)**: the **private sector**, not state firms, is the main driver of China's growth. **Private firms produce about two-thirds of output and almost all urban employment (growth)**.",
+   "**Guanxi paper** (Berger, Herstein & Mitki 2013): guanxi = a **social network or social capital** that firms draw on when **formal legal institutions are unavailable or unreliable**. It rests on **Confucianism** (how to be a good human and manager; unequal, hierarchical relationships; respect for elders and seniors) and **Taoism** (harmony; how to run a good company). Western models are the hardware; Chinese culture is the software.",
+   "Five stages of Chinese management: (1) communist period, pre-1978; (2) basic theory creation, 1978–82; (3) initial implementation, 1982–94 (“**socialism with Chinese characteristics**”); (4) Western period with Chinese adaptation, 1994–2001 (tax-assignment system *fenshuizhi*; SOEs become legal entities; end of the “iron rice bowl”); (5) modern period since **WTO entry on 11 December 2001**. *Yi* (fair norms of distributing wealth) vs *Li* (profit for oneself). Weber thought Confucianism inhibits capitalism."
+  ],
+  "narration": "Topic ten: doing business in China. Global economic power is shifting towards China. Its rise combined enormous scale, speed and an open direction under state-led capitalism, powered by investment, exports, urbanisation and rising technological sophistication. Today China leads in thirty-seven of forty-four tracked technologies, and around forty percent of its 2023 growth came from clean energy. But there are challenges: geopolitics, an ageing population, inequality and authoritarianism. China's governance rests on three pillars: party, government and military. Factionalism inside the Communist Party and competition between central and local government drive experimentation. Under Xi Jinping, his thought was written into the party constitution in 2017, and the two-term limit was removed in 2018. Since Xi came to power in 2013, the number of laws and regulations has risen substantially. For foreign managers this means that both central and local regulators matter, but implementation differs a lot between provinces, so you must understand the local regulators where you operate. Do not underestimate Chinese competitors either: in telecoms, batteries and cars they are key innovators. Nicholas Lardy's book Markets over Mao shows that private firms, not state firms, now drive growth. They produce about two-thirds of output and almost all urban employment. Finally, guanxi: personal networks that act as social capital where formal institutions are unreliable, rooted in Confucianism and Taoism.",
+  "visuals": [
+   {
+    "type": "timeline",
+    "title": "Evolution of Chinese management (Berger et al.) & key dates",
+    "items": [
+     [
+      "pre-1978",
+      "Communist management period: class struggle, morality over profit"
+     ],
+     [
+      "1978",
+      "Deng's open-door policy & legal-system push"
+     ],
+     [
+      "1978–82",
+      "Basic managerial theory creation"
+     ],
+     [
+      "1982–94",
+      "Initial implementation: “socialism with Chinese characteristics”"
+     ],
+     [
+      "1994–2001",
+      "Western management with Chinese adaptation: fenshuizhi, SOEs as legal entities, end of the iron rice bowl"
+     ],
+     [
+      "11 Dec 2001",
+      "WTO entry → modern managerial period"
+     ],
+     [
+      "2013",
+      "Xi Jinping: big rise in laws & regulations"
+     ],
+     [
+      "2014–2020",
+      "Social Credit System, first phase"
+     ],
+     [
+      "2017 / 2018",
+      "Xi Thought in party constitution / term limit removed"
+     ],
+     [
+      "2021 → 2049",
+      "Two Centenaries: moderately prosperous → modern socialist country"
+     ]
+    ]
+   },
+   {
+    "type": "bars",
+    "title": "NPC lawmaking under Xi (new laws + revisions + pending)",
+    "unit": "",
+    "series": [
+     "Total"
     ],
-    "narration": "Topic eight: managing across cultures. Culture is shared, learned, enduring and largely invisible, like an iceberg. Kurt Lewin compares peach cultures such as the United States, friendly on the surface but private inside, with coconut cultures such as Germany or France, reserved at first but warm once you get in. Edward Hall gives us proxemics, monochronic versus polychronic time, and high versus low context. High-context cultures communicate implicitly through relationships. Low-context cultures spell things out explicitly. Geert Hofstede measures values on six dimensions: power distance, individualism versus collectivism, masculinity versus femininity, uncertainty avoidance, long-term orientation, and indulgence versus restraint. Fons Trompenaars and Charles Hampden-Turner describe seven cultural dilemmas. Five relate to relationships between people: universalism versus particularism, individualism versus communitarianism, neutral versus affective, specific versus diffuse, and achievement versus ascription. The other two relate to time and to the environment. To handle dilemmas, use the four R model: recognize, respect, reconcile, and finally realize and root. Servant leaders share power, listen, and measure success by people's growth. The GLOBE study, led by Robert House, covers sixty-two countries and nine dimensions, and it separates values, what should be, from practices, what is. Bennett's model runs from ethnocentric denial, defense and minimization to ethnorelative acceptance, adaptation and integration. In the India outsourcing case, remember that Indian communication tends to be influenced by rank, while US managers prefer low-context, direct communication.",
-    "visuals": [
-      {"type": "poles", "title": "Trompenaars' 7 dilemmas (5 people · 2 time/environment)", "rows": [["Universalism", "Particularism", "Rules vs relationships", "people"], ["Individualism", "Communitarianism", "Me vs group", "people"], ["Neutral", "Affective", "Hide vs show emotions", "people"], ["Specific", "Diffuse", "Separate vs blend life spheres", "people"], ["Achievement", "Ascription", "What you do vs who you are", "people"], ["Sequential", "Synchronic", "One thing at a time vs juggling", "time"], ["Inner-directed", "Outer-directed", "Control vs adapt to environment", "environment"]]},
-      {"type": "dot", "title": "Trompenaars' 4R model", "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica]; a[label=\"Recognize\\nincrease awareness\" fillcolor=\"#dddddd\"]; b[label=\"Respect\\nappreciate differences\" fillcolor=\"#f7c6c6\"]; c[label=\"Reconcile\\nresolve differences\" fillcolor=\"#bfe6ff\"]; d[label=\"Realize & Root\\nimplement reconciling actions\" fillcolor=\"#f3d9b1\"]; a->b->c->d;}"},
-      {"type": "dot", "title": "Bennett's DMIS", "dot": "digraph{rankdir=LR; node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; subgraph cluster0{label=\"Ethnocentric\"; style=dashed; a[label=\"Denial\" fillcolor=\"#fde2e2\"]; b[label=\"Defense\" fillcolor=\"#fde2e2\"]; c[label=\"Minimization\" fillcolor=\"#fde2e2\"];} subgraph cluster1{label=\"Ethnorelative\"; style=dashed; d[label=\"Acceptance\" fillcolor=\"#dff3e4\"]; e[label=\"Adaptation\" fillcolor=\"#dff3e4\"]; f[label=\"Integration\" fillcolor=\"#dff3e4\"];} a->b->c->d->e->f;}"}
+    "items": [
+     [
+      "2013",
+      8
+     ],
+     [
+      "2015",
+      20
+     ],
+     [
+      "2017",
+      27
+     ],
+     [
+      "2019",
+      26
+     ],
+     [
+      "2021",
+      48
+     ]
     ]
-  },
-  {
-    "id": "T9",
-    "emoji": "🤝",
-    "title": "Corruption, favors & culture",
-    "area": "International Management",
-    "week": "IM readings",
-    "sources": ["Seleim & Bontis (2009) The relationship between culture and corruption", "McCarthy, Puffer, Dunlap & Jaeger (2012) Use of favors in BRIC", "Handout wk 4 pt 1"],
-    "points": [
-      "**Seleim & Bontis (2009)** link the **GLOBE** dimensions of cultural **values** and **practices** to Transparency International's **Corruption Perception Index (CPI)** for about 60 countries (the GLOBE data come from about 18,000 respondents), controlling for **GDP per capita** and the **Human Development Index**.",
-      "Result: only **1 of 9 value hypotheses** was supported (gender egalitarianism values), but **7 of 9 practice hypotheses** were. After controls, **uncertainty avoidance values**, plus **humane orientation practices** and **in-group (“individual”) collectivism practices**, stayed significant. The practices model explains **66.7%** of the variance and the values model **59.7%**.",
-      "Direction. **More corruption** with high in-group collectivism practices (people favour their in-group over public goals), high **power distance practices**, and (after controls) humane orientation practices. **Less corruption** with high uncertainty avoidance practices (respect for formal rules), future orientation, institutional collectivism and performance orientation practices.",
-      "Key message: **distinguish cultural values from cultural practices**. **Practices (“what is”) explain corruption better than values (“what should be”)**. Practical use for MNCs: HR policies (recruiting, appraisal, training) and internal marketing of ethics (e.g. nepotism is viewed differently across cultures).",
-      "**McCarthy, Puffer, Dunlap & Jaeger (2012)**, a stakeholder approach to the ethicality of BRIC managers' use of **favors**: **guanxi** (China), **blat** (Russia), **jeitinho / jeito** (Brazil), **jugaad** (India). Favors fill gaps left by **weak formal institutions**.",
-      "**Guanxi** was traditionally based on **Confucian** principles (loyalty, respect, kindness, trust, justice, harmony). As **individual opportunism** grows, guanxi and corruption become **more intertwined**. **Jeito** arose as a reaction to the rigid Portuguese colonial bureaucracy, and it **still exists today**.",
-      "Over time, favors can **impede the development of legitimate formal institutions** that sustain civil societies. Favors also exist in **developed economies** (e.g. US networking, the “old boys' network”), but in a more limited way.",
-      "Corruption = misuse of public power for private gain. **CPI 2016**: Brazil, India and China tied in 79th place out of 176; Russia was 131st (cited in the CEO study)."
+   }
+  ]
+ },
+ {
+  "id": "T11",
+  "emoji": "📋",
+  "title": "Social Credit System & Bavarian firms",
+  "area": "International Management",
+  "week": "IM China II",
+  "sources": [
+   "Serrano Oswald, Selmanovic, Lee & Arndt (2022) Techno-Regulation in China (bidt)",
+   "Handout wk 7 pt 2"
+  ],
+  "points": [
+   "**SCS** first development phase **2014–2020**. It is a “system of systems”: the **government SCS** (compulsory; run by the NDRC; national, provincial and city levels) and a **commercial SCS** (voluntary; overseen by the central bank PBoC; Baihang Credit; Alibaba's Zhima/Sesame Credit, Tencent Credit).",
+   "**Not one national score.** For firms it works through **redlists (rewards)** and **blacklists (punishment)**, plus **administrative penalty records** and **watchlists**. Joint reward and punishment run through **MoUs between regulators**. City pilots (e.g. Rongcheng) use points. Engelmann et al.: **273 blacklists, 154 redlists**. The most common blacklist is “Dishonest persons subject to enforcement” (*laolai*); the most common redlist is “**Class A taxpayer**”.",
+   "Every firm registered in China automatically gets an **18-digit Unified Social Credit Code**, and foreign legal representatives are recorded too. Purpose: to **enforce existing laws and regulations** (“rule **by** law”, not rule of law), to fight corruption and weak enforcement, and to build trust. It puts existing rules “on steroids”.",
+   "**Serrano et al. (2022)**: 193 Bavarian firms in China identified, **170 analysed**. **80% (136) are on redlists**, mostly as Class A taxpayers (8 also with customs). **≈9% (15) have administrative penalties**, but **none are blacklisted**. Penalties were mostly for **environment** and **health & safety**, plus tax and advertising (using “excellent” or “national”).",
+   "**Large firms are over-represented on redlists** (76% of redlistings vs 71% of firms); micro and medium firms are slightly under-represented. Of the 15 penalised firms, 13 were large and 2 micro.",
+   "**Regional differences**: most firms are in **Shanghai (64)** and **Jiangsu (36)**, and regulators there are the most active. **Jiangsu focuses on health & safety, Shanghai on environmental protection.** Beijing and Guangdong are much less active. Implementation is **less homogeneous, less high-tech and less centralised** than often assumed.",
+   "**Interviews (10 firms)**. Large firms understand the SCS well (some have dedicated teams); SMEs and micro firms are less informed. **Positives**: more transparency, a **more level playing field** (Chinese firms must apply similar standards), less corruption. **Negatives**: a new layer of bureaucracy, lack of information, possible **misuse by local regulators**, more state control, and “**ambiguity by design**” (a sword of Damocles).",
+   "Firms often **don't know how to remove a negative record**. The **best strategy is compliance with local rules**. Higher environmental and safety standards rarely affect Bavarian firms, which already meet high standards. Few yet use the SCS to check suppliers. Recommendation: Bavarian authorities should monitor the SCS and support firms."
+  ],
+  "narration": "Topic eleven: China's Social Credit System. The first phase ran from 2014 to 2020. Forget the Western image of one national score for every citizen. For companies, the government-run system works through redlists that reward and blacklists that punish, plus records of administrative penalties. Different regulators run these lists and share them through memoranda of understanding, so a penalty from one regulator can trigger joint punishment by others. Every company registered in China automatically receives an eighteen-digit unified social credit code. The aim is to enforce existing rules, rule by law rather than rule of law, and to fight corruption. Serrano and colleagues studied 170 Bavarian firms in China. About eighty percent were on positive redlists, mostly as Class A taxpayers, and large firms were over-represented on these lists. About nine percent had administrative penalties, mainly for environmental and health and safety violations, but none was blacklisted. Implementation varies a lot by province. Shanghai's regulators focus on environmental protection, Jiangsu's on health and safety, while Beijing and Guangdong are much less active. In interviews, managers welcomed more transparency, less corruption and a more level playing field, because Chinese firms now have to apply similar standards. But they feared misuse by local regulators and found the system deliberately ambiguous, a sword of Damocles. Their best strategy: strict compliance with local rules.",
+  "visuals": [
+   {
+    "type": "bars",
+    "title": "Bavarian firms in the SCS (n = 170)",
+    "unit": "%",
+    "series": [
+     "Share of firms"
     ],
-    "narration": "Topic nine: corruption, favors and culture. Seleim and Bontis asked whether national culture explains corruption. They combined the GLOBE culture dimensions with Transparency International's Corruption Perception Index and controlled for wealth and human development. The crucial finding: only one of nine hypotheses about cultural values was supported, but seven of nine about cultural practices. So cultural practices, what people actually do, explain corruption better than cultural values, what people say should be. In particular, societies with strong in-group collectivism practices, where people put family and friends before public rules, and with high power distance practices, are more corrupt. Societies with high uncertainty avoidance practices, future orientation and performance orientation are less corrupt. Watch out: the sample exam's answer key says values, but the paper itself supports practices. The second reading, by McCarthy, Puffer, Dunlap and Jaeger, looks at favors in the BRIC countries: blat in Russia, guanxi in China, jeitinho in Brazil and jugaad in India. Favors fill the gaps left by weak formal institutions. Guanxi was traditionally rooted in Confucian virtues such as loyalty, trust and harmony, but with growing individual opportunism, guanxi and corruption are becoming more closely intertwined. Jeito arose as a reaction to rigid Portuguese colonial bureaucracy, and it still exists today. Over time, favors can impede the development of legitimate formal institutions.",
-    "visuals": [
-      {"type": "bars", "title": "Seleim & Bontis: hypotheses supported (out of 9)", "unit": "", "series": ["Supported"], "items": [["Cultural VALUES", 1], ["Cultural PRACTICES", 7]]},
-      {"type": "table", "title": "Favors in the BRIC countries", "columns": ["Country", "Practice", "Remember"], "rows": [["China", "Guanxi", "Confucian roots → increasingly intertwined with opportunism & corruption"], ["Russia", "Blat", "Soviet-era exchange of favors to get scarce goods"], ["Brazil", "Jeitinho / jeito", "Reaction to rigid Portuguese colonial bureaucracy; still exists"], ["India", "Jugaad", "Improvised workaround to get around constraints"]]}
+    "items": [
+     [
+      "On redlists",
+      80
+     ],
+     [
+      "Admin. penalty",
+      9
+     ],
+     [
+      "Blacklisted",
+      0
+     ]
     ]
-  },
-  {
-    "id": "T10",
-    "emoji": "🐉",
-    "title": "Doing business in China",
-    "area": "International Management",
-    "week": "IM China I & II",
-    "sources": ["Handout wk 5 pt 2", "Handout wk 7 pt 2", "Berger, Herstein & Mitki (2013) Guanxi", "Lardy (2014) Markets over Mao"],
-    "points": [
-      "**Shift in global economic power** towards China. China's story: **scale, speed, open direction** under **state-led / authoritarian capitalism**: investment, exports, capital controls, urbanisation, rising consumption, rising technological sophistication (*Made in China 2025*). Lin (2012): factors of production, industrial structure, institutions, borrowed technology.",
-      "Tech and green leadership: about **40% of China's 2023 GDP growth** came from clean-energy industries ($676bn invested, double the US); China leads in **37 of 44** tracked technologies (ASPI 2023: batteries, hypersonics, 5G/6G); R&D spending rose **ten-fold since 2000** (US: +39%).",
-      "**Challenges**: geopolitics (US rivalry), **ageing** (a shrinking working-age population), inequality, authoritarianism, and environmental, social, political and economic problems.",
-      "**Governance**: three pillars, **party, government and military**. **CCP** leadership makes it a one-party autocracy. **Factionalism** inside the CCP drives competition and experimentation. **Federalism** drives competition between local and central government (vertical and horizontal authorities).",
-      "**Xi Jinping**: 2017, Xi Thought was enshrined in the party constitution (status like Mao's); 2018, the NPC **removed the two-term limit**. **Two Centenaries**: by 2021 a “moderately prosperous society” (achieved); by 2049 a “modern socialist country”. Under Xi (since 2013) the **number of laws and regulations has risen substantially** (NPC lawmaking chart), in a push for “law-based governance” or *rule by law*.",
-      "**For foreign managers**: central **and** local regulators both matter, but **implementation differs substantially across provinces**, so focus on the **local regulators in the provinces where you operate**. **Competition**: Chinese firms in telecoms, batteries and cars (EVs) are **key innovators**, so foreign firms must take them seriously in China and globally.",
-      "Germany and China: China is a major destination for German exports and its **top source of imports**. German car imports from China have surged. Germany is **growing factories in China, not exports to China**. China's share of world exports is still rising (about 15%).",
-      "**Lardy, *Markets over Mao* (2014)**: the **private sector**, not state firms, is the main driver of China's growth. **Private firms produce about two-thirds of output and almost all urban employment (growth)**.",
-      "**Guanxi paper** (Berger, Herstein & Mitki 2013): guanxi = a **social network or social capital** that firms draw on when **formal legal institutions are unavailable or unreliable**. It rests on **Confucianism** (how to be a good human and manager; unequal, hierarchical relationships; respect for elders and seniors) and **Taoism** (harmony; how to run a good company). Western models are the hardware; Chinese culture is the software.",
-      "Five stages of Chinese management: (1) communist period, pre-1978; (2) basic theory creation, 1978–82; (3) initial implementation, 1982–94 (“**socialism with Chinese characteristics**”); (4) Western period with Chinese adaptation, 1994–2001 (tax-assignment system *fenshuizhi*; SOEs become legal entities; end of the “iron rice bowl”); (5) modern period since **WTO entry on 11 December 2001**. *Yi* (fair norms of distributing wealth) vs *Li* (profit for oneself). Weber thought Confucianism inhibits capitalism."
+   },
+   {
+    "type": "bars",
+    "title": "Bavarian firms by province (location)",
+    "unit": "",
+    "series": [
+     "Firms"
     ],
-    "narration": "Topic ten: doing business in China. Global economic power is shifting towards China. Its rise combined enormous scale, speed and an open direction under state-led capitalism, powered by investment, exports, urbanisation and rising technological sophistication. Today China leads in thirty-seven of forty-four tracked technologies, and around forty percent of its 2023 growth came from clean energy. But there are challenges: geopolitics, an ageing population, inequality and authoritarianism. China's governance rests on three pillars: party, government and military. Factionalism inside the Communist Party and competition between central and local government drive experimentation. Under Xi Jinping, his thought was written into the party constitution in 2017, and the two-term limit was removed in 2018. Since Xi came to power in 2013, the number of laws and regulations has risen substantially. For foreign managers this means that both central and local regulators matter, but implementation differs a lot between provinces, so you must understand the local regulators where you operate. Do not underestimate Chinese competitors either: in telecoms, batteries and cars they are key innovators. Nicholas Lardy's book Markets over Mao shows that private firms, not state firms, now drive growth. They produce about two-thirds of output and almost all urban employment. Finally, guanxi: personal networks that act as social capital where formal institutions are unreliable, rooted in Confucianism and Taoism.",
-    "visuals": [
-      {"type": "timeline", "title": "Evolution of Chinese management (Berger et al.) & key dates", "items": [["pre-1978", "Communist management period: class struggle, morality over profit"], ["1978", "Deng's open-door policy & legal-system push"], ["1978–82", "Basic managerial theory creation"], ["1982–94", "Initial implementation: “socialism with Chinese characteristics”"], ["1994–2001", "Western management with Chinese adaptation: fenshuizhi, SOEs as legal entities, end of the iron rice bowl"], ["11 Dec 2001", "WTO entry → modern managerial period"], ["2013", "Xi Jinping: big rise in laws & regulations"], ["2014–2020", "Social Credit System, first phase"], ["2017 / 2018", "Xi Thought in party constitution / term limit removed"], ["2021 → 2049", "Two Centenaries: moderately prosperous → modern socialist country"]]},
-      {"type": "bars", "title": "NPC lawmaking under Xi (new laws + revisions + pending)", "unit": "", "series": ["Total"], "items": [["2013", 8], ["2015", 20], ["2017", 27], ["2019", 26], ["2021", 48]]}
+    "items": [
+     [
+      "Shanghai",
+      64
+     ],
+     [
+      "Jiangsu",
+      36
+     ],
+     [
+      "Guangdong",
+      19
+     ],
+     [
+      "Beijing",
+      17
+     ],
+     [
+      "Zhejiang",
+      9
+     ],
+     [
+      "Tianjin",
+      6
+     ]
     ]
-  },
-  {
-    "id": "T11",
-    "emoji": "📋",
-    "title": "Social Credit System & Bavarian firms",
-    "area": "International Management",
-    "week": "IM China II",
-    "sources": ["Serrano Oswald, Selmanovic, Lee & Arndt (2022) Techno-Regulation in China (bidt)", "Handout wk 7 pt 2"],
-    "points": [
-      "**SCS** first development phase **2014–2020**. It is a “system of systems”: the **government SCS** (compulsory; run by the NDRC; national, provincial and city levels) and a **commercial SCS** (voluntary; overseen by the central bank PBoC; Baihang Credit; Alibaba's Zhima/Sesame Credit, Tencent Credit).",
-      "**Not one national score.** For firms it works through **redlists (rewards)** and **blacklists (punishment)**, plus **administrative penalty records** and **watchlists**. Joint reward and punishment run through **MoUs between regulators**. City pilots (e.g. Rongcheng) use points. Engelmann et al.: **273 blacklists, 154 redlists**. The most common blacklist is “Dishonest persons subject to enforcement” (*laolai*); the most common redlist is “**Class A taxpayer**”.",
-      "Every firm registered in China automatically gets an **18-digit Unified Social Credit Code**, and foreign legal representatives are recorded too. Purpose: to **enforce existing laws and regulations** (“rule **by** law”, not rule of law), to fight corruption and weak enforcement, and to build trust. It puts existing rules “on steroids”.",
-      "**Serrano et al. (2022)**: 193 Bavarian firms in China identified, **170 analysed**. **80% (136) are on redlists**, mostly as Class A taxpayers (8 also with customs). **≈9% (15) have administrative penalties**, but **none are blacklisted**. Penalties were mostly for **environment** and **health & safety**, plus tax and advertising (using “excellent” or “national”).",
-      "**Large firms are over-represented on redlists** (76% of redlistings vs 71% of firms); micro and medium firms are slightly under-represented. Of the 15 penalised firms, 13 were large and 2 micro.",
-      "**Regional differences**: most firms are in **Shanghai (64)** and **Jiangsu (36)**, and regulators there are the most active. **Jiangsu focuses on health & safety, Shanghai on environmental protection.** Beijing and Guangdong are much less active. Implementation is **less homogeneous, less high-tech and less centralised** than often assumed.",
-      "**Interviews (10 firms)**. Large firms understand the SCS well (some have dedicated teams); SMEs and micro firms are less informed. **Positives**: more transparency, a **more level playing field** (Chinese firms must apply similar standards), less corruption. **Negatives**: a new layer of bureaucracy, lack of information, possible **misuse by local regulators**, more state control, and “**ambiguity by design**” (a sword of Damocles).",
-      "Firms often **don't know how to remove a negative record**. The **best strategy is compliance with local rules**. Higher environmental and safety standards rarely affect Bavarian firms, which already meet high standards. Few yet use the SCS to check suppliers. Recommendation: Bavarian authorities should monitor the SCS and support firms."
+   },
+   {
+    "type": "dot",
+    "title": "SCS: a system of systems",
+    "dot": "digraph{node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; S[label=\"Social Credit System\" fillcolor=\"#ffe9a8\"]; G[label=\"Government SCS (NDRC)\\nCOMPULSORY\\nred/blacklists, penalties\" fillcolor=\"#eef4ff\"]; C[label=\"Commercial SCS (PBoC)\\nVOLUNTARY\\nBaihang, Zhima, Tencent\" fillcolor=\"#e6f6ea\"]; S->G; S->C; N[label=\"National\"]; P[label=\"Provincial\"]; Ci[label=\"City pilots\\n(points)\"]; G->N; G->P; G->Ci;}"
+   }
+  ]
+ },
+ {
+  "id": "T12",
+  "emoji": "🧕",
+  "title": "Diversity: the headscarf hiring study",
+  "area": "International Management",
+  "week": "Reading (Weichselbaumer 2020)",
+  "sources": [
+   "Weichselbaumer (2020) ILR Review 73(3)"
+  ],
+  "points": [
+   "**Method**: a **correspondence test** (field experiment) in the German labour market. **Three fictitious female applicants** had identical CVs and the same photographed person: **Sandra Bauer** (German name), **Meryem Öztürk** (Turkish name, bareheaded) and **Meryem Öztürk wearing a headscarf**. About 1,500 applications were sent (to chief accountant, accountant and secretary jobs).",
+   "**Callback rates**: German name **18.8%**, Turkish name **13.5%**, Turkish name with **headscarf 4.2%**.",
+   "The headscarf applicant must send **4.5 times as many applications** as Sandra to get the same number of callbacks. The bareheaded Turkish applicant needs about **1.4 times as many**. Compared with the bareheaded Turkish applicant, the headscarf version needs **3.2 times as many**. For chief accountant jobs the gap is **7.6 times**.",
+   "Theory: **stigma**, **social identity** and **multiple discrimination / intersectionality**. Immigrant women who wear a headscarf face discrimination based on **ethnicity *and* religion** together.",
+   "Link to ethics: discrimination violates **human dignity** (Kant's CI II) and equality; for MNC HR this is a diversity and fairness issue."
+  ],
+  "narration": "Topic twelve: diversity and discrimination. Doris Weichselbaumer ran a correspondence test in Germany. She sent about fifteen hundred job applications from three fictitious women with identical qualifications and the same photo. One had a German name, Sandra Bauer. One had a Turkish name, Meryem Öztürk. The third was Meryem Öztürk wearing a headscarf. The callback rates tell the story: 18.8 percent for the German name, 13.5 percent for the Turkish name, and only 4.2 percent for the applicant with a headscarf. So a woman with a Turkish name who wears a headscarf has to send four and a half times as many applications as an identical German applicant to get the same number of interview invitations, and for chief accountant positions even seven point six times as many. The study explains this with stigma, social identity and multiple discrimination, also called intersectionality: ethnicity and religion add up. From an ethics perspective, this kind of discrimination clearly violates human dignity and equal treatment.",
+  "visuals": [
+   {
+    "type": "bars",
+    "title": "Callback rates, Weichselbaumer (2020)",
+    "unit": "%",
+    "series": [
+     "Callback rate"
     ],
-    "narration": "Topic eleven: China's Social Credit System. The first phase ran from 2014 to 2020. Forget the Western image of one national score for every citizen. For companies, the government-run system works through redlists that reward and blacklists that punish, plus records of administrative penalties. Different regulators run these lists and share them through memoranda of understanding, so a penalty from one regulator can trigger joint punishment by others. Every company registered in China automatically receives an eighteen-digit unified social credit code. The aim is to enforce existing rules, rule by law rather than rule of law, and to fight corruption. Serrano and colleagues studied 170 Bavarian firms in China. About eighty percent were on positive redlists, mostly as Class A taxpayers, and large firms were over-represented on these lists. About nine percent had administrative penalties, mainly for environmental and health and safety violations, but none was blacklisted. Implementation varies a lot by province. Shanghai's regulators focus on environmental protection, Jiangsu's on health and safety, while Beijing and Guangdong are much less active. In interviews, managers welcomed more transparency, less corruption and a more level playing field, because Chinese firms now have to apply similar standards. But they feared misuse by local regulators and found the system deliberately ambiguous, a sword of Damocles. Their best strategy: strict compliance with local rules.",
-    "visuals": [
-      {"type": "bars", "title": "Bavarian firms in the SCS (n = 170)", "unit": "%", "series": ["Share of firms"], "items": [["On redlists", 80], ["Admin. penalty", 9], ["Blacklisted", 0]]},
-      {"type": "bars", "title": "Bavarian firms by province (location)", "unit": "", "series": ["Firms"], "items": [["Shanghai", 64], ["Jiangsu", 36], ["Guangdong", 19], ["Beijing", 17], ["Zhejiang", 9], ["Tianjin", 6]]},
-      {"type": "dot", "title": "SCS: a system of systems", "dot": "digraph{node[shape=box style=\"rounded,filled\" fontname=Helvetica fontsize=10]; S[label=\"Social Credit System\" fillcolor=\"#ffe9a8\"]; G[label=\"Government SCS (NDRC)\\nCOMPULSORY\\nred/blacklists, penalties\" fillcolor=\"#eef4ff\"]; C[label=\"Commercial SCS (PBoC)\\nVOLUNTARY\\nBaihang, Zhima, Tencent\" fillcolor=\"#e6f6ea\"]; S->G; S->C; N[label=\"National\"]; P[label=\"Provincial\"]; Ci[label=\"City pilots\\n(points)\"]; G->N; G->P; G->Ci;}"}
+    "items": [
+     [
+      "German name",
+      18.8
+     ],
+     [
+      "Turkish name",
+      13.5
+     ],
+     [
+      "Turkish + headscarf",
+      4.2
+     ]
     ]
-  },
-  {
-    "id": "T12",
-    "emoji": "🧕",
-    "title": "Diversity: the headscarf hiring study",
-    "area": "International Management",
-    "week": "Reading (Weichselbaumer 2020)",
-    "sources": ["Weichselbaumer (2020) ILR Review 73(3)"],
-    "points": [
-      "**Method**: a **correspondence test** (field experiment) in the German labour market. **Three fictitious female applicants** had identical CVs and the same photographed person: **Sandra Bauer** (German name), **Meryem Öztürk** (Turkish name, bareheaded) and **Meryem Öztürk wearing a headscarf**. About 1,500 applications were sent (to chief accountant, accountant and secretary jobs).",
-      "**Callback rates**: German name **18.8%**, Turkish name **13.5%**, Turkish name with **headscarf 4.2%**.",
-      "The headscarf applicant must send **4.5 times as many applications** as Sandra to get the same number of callbacks. The bareheaded Turkish applicant needs about **1.4 times as many**. Compared with the bareheaded Turkish applicant, the headscarf version needs **3.2 times as many**. For chief accountant jobs the gap is **7.6 times**.",
-      "Theory: **stigma**, **social identity** and **multiple discrimination / intersectionality**. Immigrant women who wear a headscarf face discrimination based on **ethnicity *and* religion** together.",
-      "Link to ethics: discrimination violates **human dignity** (Kant's CI II) and equality; for MNC HR this is a diversity and fairness issue."
+   }
+  ]
+ },
+ {
+  "id": "T13",
+  "emoji": "🌏",
+  "title": "Offshoring to India: the GBS case",
+  "area": "International Management",
+  "week": "IM wk 7 pt 2 (case study)",
+  "sources": [
+   "Storti & Franklin, “Cultural Aspects of Offshoring to India” (Intercultural Management, ch. 14)",
+   "Handout wk 7 pt 2"
+  ],
+  "points": [
+   "**Why India?** A large pool of well-educated professionals (especially IT), comparatively low labour costs, **English widely used**, and a matured skillset. Top reasons to offshore (Statistic Brain): **reduce or control costs**, access IT resources unavailable internally, free up internal resources, improve business or customer focus. Models range from vendors through partnerships/JVs to wholly owned subsidiaries.",
+   "**GBS** = a large US global business services company (about 60,000 employees in North America, more than 100 countries, revenue over $30bn in 2011). It chose India over Ireland and Mexico (a larger labour pool, about **60% cost savings**) and aimed for about 15,000 offshore staff.",
+   "GBS “sold” the move with the **“you-won't-notice-any-difference”** argument. Three concerns: **language** (the Indian accent; Americans got used to it), **time difference** (solved with **three daily shifts**; overnight work became an advantage), and **culture**, which was **not addressed but dismissed**. A 14-week orientation covered “the GBS way”. Both sides tend to **underestimate culture** (Indians feel familiar with the West; differences are seen as superficial, similarities as profound).",
+   "**Three American complaints** after about 18 months: (1) Indians **fall behind but don't say so** and miss deadlines; (2) Indians **say they understand when they don't**, so work has to be redone; (3) Indians **don't give honest feedback** or say when something won't work.",
+   "**The Indian view**: (1) “We **do** tell you, indirectly”: reminders, asking whether the deadline still stands, mentioning overtime. (2) “You give us little guidance; saying we don't understand would **embarrass you** (face), so we say ‘yes’ and expect you to follow up. We'd like you to **proactively offer guidance**.” (3) “We can't say anything negative; **silence doesn't mean agreement**.”",
+   "Because culture had been taken off the agenda, GBS blamed the **“usual suspects”** (wrong skillset, incompetence, difficult individuals) and tightened hiring and training. That changed nothing for **two years**, until an **outside cultural consultant** (Craig Storti) found that **cultural differences were at the heart of all three complaints**.",
+   "**Concepts**: people interpret culture B's behaviour from culture A's point of view; **behaviour has no built-in meaning**, so meaning is **co-constructed and negotiated**. Three strategies for cultural misunderstandings: **flexible communication styles**, **sharing background information before focusing on the task**, and **double-checking the meaning of key words**. **Face** (Goffman: the public self-image a person claims) and politeness theory (Brown & Levinson; face-threatening acts). Ting-Toomey: **individualists mainly protect their own face, collectivists mainly protect others' face**.",
+   "**USA vs India** (Hofstede / GLOBE practices): power distance US **40** (lower) vs India **77** (higher); individualism US **91** vs India **48**; in-group collectivism higher in India; communication **US fairly low-context vs India high-context** (Hall & Hall).",
+   "**Management styles**: Americans **delegate authority** (“those who manage least manage best”: give broad objectives, then leave people alone). **Indian managers centralize, retain more control** (they are held more accountable), and **staff expect close guidance and supervision**. The US is egalitarian and **minimizes rank** (don't “pull rank”); **Indians emphasize rank** and treat superiors, peers and inferiors differently. **Rank determines how one gives feedback and challenges directions.**",
+   "**Intercultural training** (Gudykunst & Hammer): **culture-general vs culture-specific** × **didactic (expository) vs experiential (discovery)**, giving four quadrants. Fowler & Blohm's methods (lectures, case studies, simulations, role plays, critical incidents, culture assimilators…) develop **knowledge, skills and attitudes**. Measures for GBS: acknowledge culture openly, train both sides, clarify expectations, regular check-ins, and explicit, safe channels for bad news."
+  ],
+  "narration": "Topic thirteen: the GBS case, offshoring to India. GBS is a large American business services company that moved thousands of jobs to India for its talent pool, its English skills and around sixty percent cost savings. To win over sceptical staff, management claimed you won't notice any difference. They solved the language issue and the time difference with three shifts, but they simply dismissed culture. Eighteen months later, Americans had three complaints: Indians fall behind without saying so, they say they understand when they don't, and they never give honest feedback. The Indians saw it differently. They did signal delays, but indirectly. Admitting they didn't understand would embarrass the American manager, so they said yes and expected follow-up and close guidance. And they cannot say anything negative to a superior, so silence does not mean agreement. GBS blamed skills and difficult individuals for two years, until a cultural consultant showed that culture was at the heart of all three problems. The key differences: India has much higher power distance, seventy-seven against forty, and is high-context, while the US is fairly low-context and individualistic. American managers delegate and believe those who manage least manage best. Indian managers keep more control, and their staff expect close guidance and supervision. Americans minimise rank; Indians emphasise it, and rank determines how feedback is given. Remember face: collectivists protect the other person's face. And remember the three strategies against misunderstanding: flexible communication styles, sharing background before the task, and double-checking the meaning of key words.",
+  "visuals": [
+   {
+    "type": "table",
+    "title": "Three complaints: two interpretations",
+    "columns": [
+     "American complaint",
+     "Indian explanation",
+     "Cultural driver"
     ],
-    "narration": "Topic twelve: diversity and discrimination. Doris Weichselbaumer ran a correspondence test in Germany. She sent about fifteen hundred job applications from three fictitious women with identical qualifications and the same photo. One had a German name, Sandra Bauer. One had a Turkish name, Meryem Öztürk. The third was Meryem Öztürk wearing a headscarf. The callback rates tell the story: 18.8 percent for the German name, 13.5 percent for the Turkish name, and only 4.2 percent for the applicant with a headscarf. So a woman with a Turkish name who wears a headscarf has to send four and a half times as many applications as an identical German applicant to get the same number of interview invitations, and for chief accountant positions even seven point six times as many. The study explains this with stigma, social identity and multiple discrimination, also called intersectionality: ethnicity and religion add up. From an ethics perspective, this kind of discrimination clearly violates human dignity and equal treatment.",
-    "visuals": [
-      {"type": "bars", "title": "Callback rates, Weichselbaumer (2020)", "unit": "%", "series": ["Callback rate"], "items": [["German name", 18.8], ["Turkish name", 13.5], ["Turkish + headscarf", 4.2]]}
+    "rows": [
+     [
+      "They fall behind but don't tell us",
+      "We tell you indirectly (reminders, overtime, updates)",
+      "High-context, indirect communication"
+     ],
+     [
+      "They say they understand when they don't",
+      "Saying no would embarrass you; we expect you to follow up and guide us",
+      "Face-saving, power distance, expectation of close guidance"
+     ],
+     [
+      "They don't give honest feedback",
+      "We can't say anything negative; silence ≠ agreement",
+      "Rank-consciousness, politeness, face"
+     ]
     ]
-  }
+   },
+   {
+    "type": "versus",
+    "title": "US vs Indian management style (Storti & Franklin)",
+    "left": {
+     "title": "USA",
+     "items": [
+      "Delegate authority: those who manage least manage best",
+      "Broad objectives, then leave staff alone",
+      "Egalitarian: minimize rank, don't pull rank",
+      "Fairly low-context, direct",
+      "PD 40 · IDV 91"
+     ]
+    },
+    "right": {
+     "title": "India",
+     "items": [
+      "Centralize authority; managers retain control",
+      "Staff expect close guidance and supervision",
+      "Emphasize rank: superiors, peers, inferiors",
+      "High-context, indirect; rank shapes feedback",
+      "PD 77 · IDV 48"
+     ]
+    }
+   },
+   {
+    "type": "bars",
+    "title": "Hofstede scores: USA vs India",
+    "unit": "",
+    "series": [
+     "USA",
+     "India"
+    ],
+    "items": [
+     [
+      "Power distance",
+      40,
+      77
+     ],
+     [
+      "Individualism",
+      91,
+      48
+     ]
+    ]
+   }
+  ]
+ }
 ]

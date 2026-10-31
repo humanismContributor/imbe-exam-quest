@@ -256,12 +256,12 @@ def page_home():
 
     st.subheader("How to play")
     st.markdown(
-        "- **Quest map**: learn each of the 12 topics (key points, diagrams, 🔊 narration), then beat its **boss battle** (4/5 = ⭐).\n"
+        f"- **Quest map**: learn each of the {len(TOPICS)} topics (key points, diagrams, 🔊 narration), then beat its **boss battle** (4/5 = ⭐).\n"
         "- **Lightning round**: 10 rapid questions; streaks multiply your XP.\n"
         "- **Flashcards / Sort it / Match-up**: drill definitions, classifications and who-said-what.\n"
         "- **Exam simulator**: the real AS23 sample exam or a random 30-question mock against the clock.\n"
         "- **Mistake review**: everything you last got wrong, until it's gone.\n"
-        "- 🚩 Three answers in the AS23 sample key **contradict the course material** (Q2, Q4, Q13) and one can't be checked (Q6). Each is flagged where it appears."
+        "- 🚩 Four answers in the AS23 sample key **contradict the course material** (Q2, Q4, Q6, Q13). Each is flagged where it appears, and the game uses the answer the sources support."
     )
 
 

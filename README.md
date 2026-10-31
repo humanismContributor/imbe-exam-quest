@@ -7,16 +7,16 @@ A Streamlit learning game for the **International Management & Business Ethics (
 | Mode | What you do |
 |---|---|
 | 🏠 Home & plan | Countdown, XP and level, topic mastery table, 5-day study plan checklist |
-| 🗺️ Quest map | 12 topics with key points, diagrams and a 🔊 audio lesson, plus a 5-question **boss battle** per topic |
+| 🗺️ Quest map | 13 topics with key points, diagrams and a 🔊 audio lesson, plus a 5-question **boss battle** per topic |
 | ⚡ Lightning round | 10 rapid questions with streak multipliers and speed bonuses |
-| 🃏 Flashcards | 62 cards with Leitner boxes (again, almost, got it) and read-aloud |
+| 🃏 Flashcards | 71 cards with Leitner boxes (again, almost, got it) and read-aloud |
 | 🧩 Sort it | Classify items, e.g. reactive vs proactive, compliance vs integrity, Hofstede vs Trompenaars vs Hall |
 | 🔗 Match-up | Match terms to definitions or thinkers |
 | 📝 Exam simulator | The AS23 sample exam (29 questions) or a random 30-question mock, timed, with per-topic results |
 | 🎯 Mistake review | Every question you last answered wrongly, until you clear it |
-| 🚩 Traps & review | Exam traps, 28 review questions with model answers, answer-key checks |
+| 🚩 Traps & review | Exam traps, 31 review questions with model answers, answer-key checks |
 
-**155 questions** in total: the AS23 sample questions plus new ones covering business ethics (responsibility, Kohlberg, utilitarian, deontological and virtue ethics, Paine) and international management (going international and risk, Trompenaars/Hofstede/Hall/GLOBE, culture and corruption, favors, China, Lardy, the Social Credit System, the Weichselbaumer study).
+**177 questions** in total: the AS23 sample questions plus new ones covering business ethics (responsibility, Kohlberg, utilitarian, deontological and virtue ethics, Paine) and international management (going international and risk, Trompenaars/Hofstede/Hall/GLOBE, culture and corruption, favors in the BRICs (McCarthy et al. 2012), the GBS offshoring-to-India case, China, Lardy, the Social Credit System, the Weichselbaumer study).
 
 Audio uses the browser's built-in text-to-speech (works in Chrome, Edge and Safari). Progress lives in the browser session; use **💾 Save progress** in the sidebar to download it and load it again later.
 

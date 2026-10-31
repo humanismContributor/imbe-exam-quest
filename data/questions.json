@@ -25,9 +25,9 @@
 ],
 "a": 1,
 "key": 2,
-"flag": "The answer key says C (both), but statement a contains “it no longer exists today”, and jeitinho still exists. Course logic therefore points to B. Read every clause of a statement: one false half-sentence makes the whole option false.",
-"x": "Jeito did arise as a reaction to rigid Portuguese colonial bureaucracy, but it is still alive in Brazil today. Guanxi: Confucian roots, increasingly intertwined with opportunism and corruption.",
-"s": "McCarthy et al. (2012)"
+"flag": "Confirmed with the paper: the answer key's C is wrong. Statement b is quoted almost word for word from McCarthy et al. (p. 34), but statement a is false. The paper says jeito arose in reaction to the rigid bureaucracy of the Portuguese colonial administration, “which exists to this day”, and describes jeito as a living Brazilian practice. Answer: B.",
+"x": "Jeito arose as a reaction to the rigid colonial bureaucracy (which still exists) and is still practised today. Guanxi: Confucian roots, increasingly intertwined with opportunism and corruption.",
+"s": "McCarthy et al. (2012), pp. 30–34"
 },
 {
 "id": "S3",
@@ -83,11 +83,11 @@
 "Favors are also used in developed economies like the US, but in a more limited way.",
 "The use of favors may over time affect society, since such practices generally impede the development of legitimate formal institutions that sustain civil societies."
 ],
-"a": 2,
+"a": 0,
 "key": 2,
-"flag": "Uncertain item: the key says C, but statement b may also appear in the paper, which would make A right. The McCarthy et al. paper wasn't in the files provided. Check the paper if you can.",
-"x": "Favors substitute for weak formal institutions and, over time, impede the development of legitimate formal institutions.",
-"s": "McCarthy et al. (2012)"
+"flag": "Confirmed with the paper: the answer key's C is wrong. The conclusion (p. 36) states BOTH that favors “also are used in developed economies like the US, but in a more bounded way” AND that they “generally impede the development of legitimate formal institutions that sustain civil societies”. Answer: A (both statements are correct).",
+"x": "Both are stated in the paper's conclusion.",
+"s": "McCarthy et al. (2012), p. 36"
 },
 {
 "id": "S7",
@@ -156,8 +156,8 @@
 "US Americans' preferred style of communication is high context."
 ],
 "a": 0,
-"x": "India: higher power distance, so communication follows rank. US: low-context, more autonomy for staff.",
-"s": "Handout wk 7 pt 2 (outsourcing to India)"
+"x": "The GBS case: Indians are very aware of rank, and rank determines how feedback is given. It is INDIAN managers who keep control and whose staff expect close guidance; the US is “fairly low context”.",
+"s": "Storti & Franklin, GBS case, pp. 190–191"
 },
 {
 "id": "S13",
@@ -1744,12 +1744,12 @@
 "t": "T9",
 "q": "Which pairing of favor practice and country is correct?",
 "o": [
-"Guanxi: Brazil; Jeitinho: China",
-"Blat: India; Jugaad: Russia",
-"Blat: Russia; Jugaad: India"
+"Blat/sviazi: Russia; jaan-pehchaan: India",
+"Guanxi: Brazil; jeitinho: China",
+"Blat: India; jaan-pehchaan: Russia"
 ],
-"a": 2,
-"x": "Guanxi = China, jeitinho = Brazil.",
+"a": 0,
+"x": "Guanxi = China, jeito/jeitinho = Brazil. India's practice in the paper is jaan-pehchaan.",
 "s": "McCarthy et al. (2012)"
 },
 {
@@ -2050,5 +2050,291 @@
 "a": 0,
 "x": "Based on stigma and social identity theory.",
 "s": "Weichselbaumer (2020)"
+},
+{
+"id": "C1",
+"t": "T9",
+"q": "McCarthy et al. define a favor as an exchange of outcomes between individuals…",
+"o": [
+"with immediate reciprocity and a value higher than a typical bribe",
+"typically using one's connections, based on a cultural tradition, with non-immediate reciprocity and a value below what would count as bribery",
+"that always involves a monetary payment to a public official"
+],
+"a": 1,
+"x": "Favors do not involve a bribe and may even be used to avoid one.",
+"s": "McCarthy et al. (2012), p. 27"
+},
+{
+"id": "C2",
+"t": "T9",
+"q": "Which theories do McCarthy et al. use to argue that BRIC managers see favors as ethical?",
+"o": [
+"Institutional theory and Integrative Social Contracts Theory (ISCT)",
+"Agency theory and utilitarianism",
+"Hofstede's dimensions and the CPI"
+],
+"a": 0,
+"x": "Institutional theory explains why favors are relied on; ISCT supports their ethicality in the local context.",
+"s": "McCarthy et al. (2012)"
+},
+{
+"id": "C3",
+"t": "T9",
+"q": "According to ISCT, a local business practice such as favors is legitimate if…",
+"o": [
+"it is legal in the investor's home country",
+"it is profitable for both parties",
+"it is broadly accepted within the community and does not violate universal hypernorms"
+],
+"a": 2,
+"x": "Hypernorms = principles fundamental to human existence (e.g. basic human rights). The authors explicitly reject pure ethical relativism.",
+"s": "McCarthy et al. (2012), pp. 29–30"
+},
+{
+"id": "C4",
+"t": "T9",
+"q": "In which of Scott's institutional pillars do McCarthy et al. place favors?",
+"o": [
+"Regulative (laws and enforcement)",
+"Cultural-cognitive (shared beliefs and values)",
+"Normative (professional bodies)"
+],
+"a": 1,
+"x": "Favors are informal cultural-cognitive institutions that fill the void left by weak formal institutions.",
+"s": "McCarthy et al. (2012), p. 29"
+},
+{
+"id": "C5",
+"t": "T9",
+"q": "India's practice of favors in the McCarthy et al. paper is called…",
+"o": [
+"jaan-pehchaan: “you get something done through somebody you know”",
+"jugaad: frugal improvisation",
+"sviazi: connections"
+],
+"a": 0,
+"x": "Sviazi is the Russian post-Soviet term; jugaad is not the term used in this paper.",
+"s": "McCarthy et al. (2012), p. 32"
+},
+{
+"id": "C6",
+"t": "T9",
+"q": "Blat in Russia arose mainly…",
+"o": [
+"as a reaction to Portuguese colonial bureaucracy",
+"out of Confucian hierarchy",
+"out of necessity during the shortage-ridden Soviet era, as favors of access to scarce goods"
+],
+"a": 2,
+"x": "The tolkach used favors to obtain scarce supplies for enterprises; sviazi is today's preferred term.",
+"s": "McCarthy et al. (2012), p. 31"
+},
+{
+"id": "C7",
+"t": "T9",
+"q": "Which proposition do McCarthy et al. make about BRIC managers and BRIBERY?",
+"o": [
+"They consider bribery ethical at home but unethical abroad",
+"They generally consider bribery unethical, regardless of where it occurs",
+"They make no distinction between favors and bribes"
+],
+"a": 1,
+"x": "Propositions 1–3: favors are ethical in every setting; Proposition 4: bribery is unethical.",
+"s": "McCarthy et al. (2012), pp. 34–35"
+},
+{
+"id": "C8",
+"t": "T9",
+"q": "According to McCarthy et al., how is society affected by favors?",
+"o": [
+"Society only benefits, through lower transaction costs",
+"Favors have no effect on society",
+"Society abets favors through tradition but is harmed because they impede legitimate formal institutions and can slide into bribery"
+],
+"a": 2,
+"x": "Favors also raise the cost of doing business.",
+"s": "McCarthy et al. (2012), pp. 28, 36"
+},
+{
+"id": "C9",
+"t": "T9",
+"q": "Why can gift giving be misread across cultures, according to McCarthy et al.?",
+"o": [
+"In low-context (developed) cultures gifts may be perceived as bribes, while in high-context cultures they show mutual respect",
+"Gifts are illegal everywhere",
+"High-context cultures forbid gifts"
+],
+"a": 0,
+"x": "Managers should consider the ethical orientation of the other party.",
+"s": "McCarthy et al. (2012), p. 35"
+},
+{
+"id": "C10",
+"t": "T9",
+"q": "Which example of a firm reacting to weak institutions in Russia do McCarthy et al. give?",
+"o": [
+"Siemens",
+"IKEA postponing further investment over extra costs",
+"Glencore"
+],
+"a": 1,
+"x": "IKEA reported hundreds of millions in extra costs and was asked to use particular contractors.",
+"s": "McCarthy et al. (2012), p. 36"
+},
+{
+"id": "G1",
+"t": "T13",
+"q": "How did GBS initially “sell” offshoring to India internally?",
+"o": [
+"With the “you-won't-notice-any-difference” argument",
+"By promising salary increases",
+"By hiring a cultural consultant first"
+],
+"a": 0,
+"x": "Culture was dismissed rather than addressed.",
+"s": "GBS case"
+},
+{
+"id": "G2",
+"t": "T13",
+"q": "How did GBS handle the time-difference concern?",
+"o": [
+"It moved all work to Mexico",
+"It scheduled three daily shifts so staff were available during US working hours",
+"It ignored it"
+],
+"a": 1,
+"x": "Overnight work even became an advantage.",
+"s": "GBS case"
+},
+{
+"id": "G3",
+"t": "T13",
+"q": "Which was NOT one of the three American complaints about Indian colleagues?",
+"o": [
+"They fall behind and don't tell us",
+"They say they understand when they don't",
+"They refuse to work overtime"
+],
+"a": 2,
+"x": "The third complaint: they don't give honest feedback. In fact, Indians mentioned working overtime and weekends.",
+"s": "GBS case"
+},
+{
+"id": "G4",
+"t": "T13",
+"q": "Why did Indian staff say “yes” when they did not understand?",
+"o": [
+"Saying they didn't understand could embarrass the American (face); they expected follow-up and proactive guidance",
+"They wanted to finish faster",
+"They were told never to ask questions by HR"
+],
+"a": 0,
+"x": "Face-saving plus the expectation of close guidance.",
+"s": "GBS case"
+},
+{
+"id": "G5",
+"t": "T13",
+"q": "From the Indian perspective, what does silence in response to an American proposal mean?",
+"o": [
+"Full agreement",
+"Not necessarily agreement: they can't say anything negative, so they say nothing positive",
+"Lack of interest in the job"
+],
+"a": 1,
+"x": "Indirect, rank-conscious communication.",
+"s": "GBS case"
+},
+{
+"id": "G6",
+"t": "T13",
+"q": "Before the consultant came in, how did GBS explain the problems?",
+"o": [
+"As cultural differences",
+"As time-zone problems",
+"Through the “usual suspects”: wrong skillset, incompetence, difficult individuals"
+],
+"a": 2,
+"x": "These fixes had no effect for two years.",
+"s": "GBS case"
+},
+{
+"id": "G7",
+"t": "T13",
+"q": "Which statement on US vs Indian management styles (GBS case) is correct?",
+"o": [
+"Indian managers typically retain more control and staff expect close guidance; Americans delegate authority",
+"American managers retain more control; Indian staff prefer to be left alone",
+"Both cultures minimize differences in rank"
+],
+"a": 0,
+"x": "US: “those who manage least manage best”.",
+"s": "GBS case, p. 191"
+},
+{
+"id": "G8",
+"t": "T13",
+"q": "Which is one of the three strategies research identifies for handling culturally influenced misunderstandings?",
+"o": [
+"Avoid all small talk",
+"Double-check the meaning of key words",
+"Always communicate in writing only"
+],
+"a": 1,
+"x": "Also: be flexible in communication styles; share background information before focusing on the task.",
+"s": "GBS case, p. 189"
+},
+{
+"id": "G9",
+"t": "T13",
+"q": "According to Ting-Toomey (cited in the GBS case)…",
+"o": [
+"everyone is equally concerned only with their own face",
+"face does not matter in business",
+"individualists are mainly concerned with their own face, collectivists mainly with other people's face"
+],
+"a": 2,
+"x": "Brown & Levinson instead see face sensitivities as universal.",
+"s": "GBS case, p. 190"
+},
+{
+"id": "G10",
+"t": "T13",
+"q": "Gudykunst & Hammer classify intercultural training along which two axes?",
+"o": [
+"Culture-general vs culture-specific, and didactic vs experiential",
+"Short vs long, and cheap vs expensive",
+"Online vs classroom, and individual vs group"
+],
+"a": 0,
+"x": "Four quadrants of training techniques.",
+"s": "GBS case, p. 191"
+},
+{
+"id": "G11",
+"t": "T13",
+"q": "What were Hofstede's power-distance scores for the USA and India cited in the case?",
+"o": [
+"USA 77, India 40",
+"USA 40, India 77",
+"Both around 60"
+],
+"a": 1,
+"x": "Individualism: USA 91, India 48.",
+"s": "GBS case, Table 14.1"
+},
+{
+"id": "G12",
+"t": "T13",
+"q": "Why is India a popular offshoring location, according to the case?",
+"o": [
+"A large pool of educated professionals, comparatively low labour costs, widespread English, a matured skillset",
+"No time difference with the US",
+"Identical business culture to the US"
+],
+"a": 0,
+"x": "GBS also expected about 60% cost savings.",
+"s": "GBS case"
 }
 ]
