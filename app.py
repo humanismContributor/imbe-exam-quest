@@ -1,8 +1,10 @@
 """IMBE Exam Quest: a learning game for International Management & Business Ethics (BFH)."""
 
 import datetime as dt
+import html
 import json
 import random
+import re
 import time
 from pathlib import Path
 
@@ -48,6 +50,7 @@ def init_state():
         "matches_done": [],
         "exam_results": [],
         "exam_date": DEFAULT_EXAM_DATE.isoformat(),
+        "choices": {},        # qid -> last chosen option index
     }
     for k, v in defaults.items():
         st.session_state.setdefault(k, v)
@@ -61,8 +64,10 @@ def add_xp(n):
     S.xp += n
 
 
-def record(qid, ok):
+def record(qid, ok, chosen=None):
     S.history.setdefault(qid, []).append(bool(ok))
+    if chosen is not None:
+        S.choices[qid] = chosen
     if ok:
         add_xp(10)
 
@@ -169,17 +174,84 @@ def option_label(q, i):
     return f"{'abc'[i]}) {q['o'][i]}"
 
 
-def show_feedback(q, chosen):
-    ok = chosen == q["a"]
-    right = option_label(q, q["a"]).rstrip(".")
-    if ok:
-        st.success(f"✅ Correct: **{right}**. {q['x']}")
-    else:
-        st.error(f"❌ Correct answer: **{right}**. {q['x']}")
-    if q.get("flag"):
-        st.warning(f"🚩 Answer-key note: {q['flag']}")
-    st.caption(f"Source: {q.get('s', '')}" + (f" · Sample exam {q['sample']}" if q.get("sample") else ""))
-    return ok
+# Review cards follow the lecture slides' "Multiple Choice Questions" layout: slate-blue heading,
+# stem with key terms in blue, every option listed a./b./c., footer line with source and number.
+REVIEW_CSS = """
+.qslide{border:1px solid #c9ced6;border-radius:6px;padding:20px 26px 10px;margin:10px 0 18px;background:#fff;color:#1f2328;
+  box-shadow:0 1px 3px rgba(0,0,0,.06);font-size:1.02rem;line-height:1.45;font-family:"Source Sans Pro","Segoe UI",Helvetica,Arial,sans-serif}
+.qslide .qhead{display:flex;justify-content:space-between;gap:12px;color:#697c91;font-weight:600;font-size:1.18rem;margin-bottom:10px}
+.qslide .tag{font-size:.8rem;padding:2px 10px;border-radius:999px;white-space:nowrap;align-self:center}
+.qslide .tag.ok{background:#e3f4e8;color:#1e6b3a}.qslide .tag.no{background:#fde8e8;color:#a12a2a}.qslide .tag.na{background:#eef0f3;color:#57606a}
+.qslide .stem{margin:0 0 8px}.qslide .hl{color:#0000ff}
+.qslide ul.opts{list-style:none;margin:0 0 6px;padding:0}
+.qslide ul.opts li{display:flex;gap:10px;align-items:flex-start;padding:5px 10px;margin:3px 0;border-radius:5px;border:1px solid transparent}
+.qslide .let{min-width:1.4em;font-weight:600;color:#697c91}
+.qslide .mark{margin-left:auto;padding-left:12px;font-size:.82rem;font-weight:600;white-space:nowrap}
+.qslide li.right{background:#e8f5ec;border-color:#9fd3b0}.qslide li.right .let,.qslide li.right .mark{color:#1e8449}
+.qslide li.wrong{background:#fdecec;border-color:#f1b0b0}.qslide li.wrong .let,.qslide li.wrong .mark{color:#b42318}
+.qslide .why{border-left:3px solid #faa500;background:#fff8ec;padding:8px 12px;margin:10px 0 4px;border-radius:0 4px 4px 0;font-size:.95rem}
+.qslide .flag{border-left:3px solid #d4a017;background:#fff6d6;padding:8px 12px;margin:8px 0 4px;border-radius:0 4px 4px 0;font-size:.92rem}
+.qslide .foot{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #e3e6ea;margin-top:12px;padding-top:6px;color:#697c91;font-size:.72rem}
+"""
+ACRONYMS = {"GBS", "CEO", "CEOS", "LOHAS", "SCS", "BRIC", "BRICS", "GDP", "HDI", "CPI", "NPC", "ASPI", "CAGE", "GLOBE", "DMIS",
+            "ISCT", "USA", "CCP", "WTO", "FDI", "IBM", "NASA", "MNC", "PBOC", "NDRC", "CSR", "SOE", "SOES", "RED", "IDV", "IDI", "IDC"}
+
+
+def fmt(text):
+    t = html.escape(str(text), quote=False).replace("$", "&#36;")
+    t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
+    return re.sub(r"(?<![\w*])\*([^*]+?)\*(?![\w*])", r"<i>\1</i>", t)
+
+
+def fmt_stem(text):
+    t = fmt(text)
+    t = re.sub(r"“[^”]+”", lambda m: f'<span class="hl">{m.group(0)}</span>', t)
+    return re.sub(r"\b[A-Z]{3,}\b", lambda m: m.group(0) if m.group(0) in ACRONYMS else f'<span class="hl">{m.group(0)}</span>', t)
+
+
+def review_card(q, chosen=None, number=None, reveal=True, exam=False):
+    """HTML for one question showing every option, the correct answer and (optionally) the user's choice."""
+    answered = chosen is not None
+    head = f"Question {number}" if number else "Multiple Choice Question"
+    if q.get("sample"):
+        head += f" · AS23 {q['sample']}"
+    tag = ""
+    if reveal and answered:
+        tag = '<span class="tag ok">✓ Correct</span>' if chosen == q["a"] else '<span class="tag no">✗ Wrong</span>'
+    elif reveal and exam:
+        tag = '<span class="tag na">Not answered</span>'
+    items = []
+    for i, o in enumerate(q["o"]):
+        cls = mark = ""
+        if reveal and i == q["a"]:
+            cls, mark = "right", ("✓ Your answer · correct" if chosen == i else "✓ Correct answer")
+        elif reveal and chosen == i:
+            cls, mark = "wrong", "✗ Your answer"
+        items.append(f'<li class="{cls}"><span class="let">{"abc"[i]}.</span><span>{fmt(o)}</span><span class="mark">{mark}</span></li>')
+    extra = ""
+    if reveal:
+        extra += f'<div class="why"><b>Why:</b> {fmt(q["x"])}</div>'
+        if q.get("flag"):
+            extra += f'<div class="flag">🚩 <b>Answer-key note</b> (key said {"abc"[q["key"]]}): {fmt(q["flag"])}</div>'
+    t = TOPIC[q["t"]]
+    foot = (f'<div class="foot"><span>Bern University of Applied Sciences | IMBE | {fmt(t["title"])} | Source: {fmt(q.get("s", ""))}</span>'
+            f'<span>{number or ""}</span></div>')
+    return (f'<div class="qslide"><div class="qhead"><span>{head}</span>{tag}</div><div class="stem">{fmt_stem(q["q"])}</div>'
+            f'<ul class="opts">{"".join(items)}</ul>{extra}{foot}</div>')
+
+
+def show_feedback(q, chosen, number=None, exam=False):
+    st.markdown(review_card(q, chosen, number, exam=exam), unsafe_allow_html=True)
+    return chosen == q["a"]
+
+
+def review_document(items, title):
+    """Stand-alone printable HTML (open in a browser, then print to PDF). items: list of (q, chosen)."""
+    cards = "".join(review_card(q, ch, n) for n, (q, ch) in enumerate(items, 1))
+    return (f'<!doctype html><html><head><meta charset="utf-8"><title>{html.escape(title)}</title><style>{REVIEW_CSS}'
+            'body{max-width:860px;margin:24px auto;padding:0 16px;background:#f6f7f9}h1{font-family:Helvetica,Arial,sans-serif;color:#697c91}'
+            '@media print{body{background:#fff}.qslide{break-inside:avoid;box-shadow:none}}</style></head>'
+            f'<body><h1>{html.escape(title)}</h1>{cards}</body></html>')
 
 
 def question_audio_text(q):
@@ -200,11 +272,11 @@ with st.sidebar:
     page = st.radio(
         "Choose a mode",
         ["🏠 Home & plan", "🗺️ Quest map", "⚡ Lightning round", "🃏 Flashcards", "🧩 Sort it", "🔗 Match-up",
-         "📝 Exam simulator", "🎯 Mistake review", "🚩 Traps & review questions"],
+         "📝 Exam simulator", "📖 Question review", "🎯 Mistake review", "🚩 Traps & review questions"],
     )
     st.divider()
     st.caption("Progress lives in this browser session. Save it to keep it between visits:")
-    keys = ["xp", "history", "stars", "boxes", "plan_done", "best_lightning", "sorts_done", "matches_done", "exam_results", "exam_date"]
+    keys = ["xp", "history", "stars", "boxes", "plan_done", "best_lightning", "sorts_done", "matches_done", "exam_results", "exam_date", "choices"]
     st.download_button("💾 Save progress", json.dumps({k: S[k] for k in keys}), "imbe_progress.json", "application/json")
     up = st.file_uploader("Load progress", type="json", label_visibility="collapsed")
     if up is not None and st.button("Restore loaded progress"):
@@ -260,6 +332,7 @@ def page_home():
         "- **Lightning round**: 10 rapid questions; streaks multiply your XP.\n"
         "- **Flashcards / Sort it / Match-up**: drill definitions, classifications and who-said-what.\n"
         "- **Exam simulator**: the real AS23 sample exam or a random 30-question mock against the clock.\n"
+        "- **Question review**: browse every question with all options, the correct answer and why, filter by topic, and download a printable copy.\n"
         "- **Mistake review**: everything you last got wrong, until it's gone.\n"
         "- 🚩 Four answers in the AS23 sample key **contradict the course material** (Q2, Q4, Q6, Q13). Each is flagged where it appears, and the game uses the answer the sources support."
     )
@@ -303,11 +376,10 @@ def page_quest():
             submitted = st.form_submit_button("⚔️ Submit answers")
         if submitted:
             score = 0
-            for qid, ch in answers.items():
-                q = QBY[qid]
-                st.markdown(f"**{q['q']}**")
-                ok = show_feedback(q, ch)
-                record(qid, ok)
+            for n, (qid, ch) in enumerate(answers.items(), 1):
+                ok = show_feedback(QBY[qid], ch, n, exam=True)
+                if ch is not None:
+                    record(qid, ok, ch)
                 score += ok
             S.stars[tid] = max(S.stars.get(tid, 0), score)
             if score >= 4:
@@ -341,13 +413,13 @@ def page_lightning():
     c[1].metric("Points", lr["points"])
     c[2].metric("Streak", f"🔥 {lr['streak']}")
     c[3].metric("Multiplier", f"×{1 + min(lr['streak'], 4) * 0.5:.1f}")
-    st.subheader(q["q"])
-    st.caption(f"{TOPIC[q['t']]['emoji']} {TOPIC[q['t']]['title']}")
     if lr["answered"] is None:
+        st.subheader(q["q"])
+        st.caption(f"{TOPIC[q['t']]['emoji']} {TOPIC[q['t']]['title']}")
         for i in range(3):
             if st.button(option_label(q, i), key=f"lr{lr['i']}{i}", width="stretch"):
                 ok = i == q["a"]
-                record(q["id"], ok)
+                record(q["id"], ok, i)
                 secs = time.time() - lr["t0"]
                 if ok:
                     lr["streak"] += 1
@@ -359,7 +431,7 @@ def page_lightning():
                 st.rerun()
         speak(question_audio_text(q), f"lrq{lr['i']}", "🔊 Read question")
     else:
-        show_feedback(q, lr["answered"])
+        show_feedback(q, lr["answered"], lr["i"] + 1)
         if st.button("Next ➡", type="primary"):
             lr["i"] += 1
             lr["answered"] = None
@@ -503,11 +575,15 @@ def page_exam():
             score = 0
             for qid, ch in answers.items():
                 ok = ch == QBY[qid]["a"]
-                record(qid, ok)
+                if ch is not None:  # blanks aren't counted as mistakes in your history
+                    record(qid, ok, ch)
                 score += ok
             ex["score"] = score
-            S.exam_results.append({"when": dt.datetime.now().strftime("%d %b %H:%M"), "exam": ex["kind"][:22],
-                                   "score": f"{score}/{len(ex['ids'])}", "pct": round(100 * score / len(ex["ids"])), "minutes": ex["used"]})
+            blanks = sum(ch is None for ch in answers.values())
+            S.exam_results.append({"when": dt.datetime.now().strftime("%d %b %H:%M"),
+                                   "exam": "AS23 sample" if ex["kind"].startswith("AS23") else "Random mock",
+                                   "score": f"{score}/{len(ex['ids'])}", "percent": f"{round(100 * score / len(ex['ids']))}%",
+                                   "blank": blanks, "minutes": ex["used"]})
             add_xp(score * 5)
             st.rerun()
         if st.button("Abandon exam"):
@@ -517,7 +593,8 @@ def page_exam():
     n = len(ex["ids"])
     pct = ex["score"] / n
     st.metric("Result", f"{ex['score']}/{n} ({pct:.0%})", f"{ex['used']} of {ex['minutes']} min")
-    (st.balloons() if pct >= 0.8 else None)
+    if pct >= 0.8:
+        st.balloons()
     by_topic = {}
     for qid in ex["ids"]:
         t = QBY[qid]["t"]
@@ -528,16 +605,16 @@ def page_exam():
     st.altair_chart(alt.Chart(df).mark_bar().encode(x=alt.X("score %:Q", scale=alt.Scale(domain=[0, 100])), y=alt.Y("topic:N", sort="x", title=None),
                     color=alt.condition("datum['score %'] >= 75", alt.value("#2e9e5b"), alt.value("#d9534f"))).properties(height=28 * len(df)),
                     width="stretch")
-    only_wrong = st.toggle("Show only mistakes", value=True)
-    for k, qid in enumerate(ex["ids"], 1):
-        q = QBY[qid]
-        if only_wrong and ex["answers"][qid] == q["a"]:
+    st.subheader("Question review")
+    c1, c2 = st.columns([3, 2])
+    only_wrong = c1.toggle("Show only questions I got wrong or left blank", value=False)
+    items = [(QBY[qid], ex["answers"][qid]) for qid in ex["ids"]]
+    c2.download_button("📄 Download this review (print to PDF)", review_document(items, f"IMBE exam review · {ex['kind'][:40]}"),
+                       "imbe_exam_review.html", "text/html", width="stretch")
+    for k, (q, ch) in enumerate(items, 1):
+        if only_wrong and ch == q["a"]:
             continue
-        with st.container(border=True):
-            st.markdown(f"**{k}. {q['q']}**")
-            ch = ex["answers"][qid]
-            st.caption(f"Your answer: {option_label(q, ch) if ch is not None else '— (blank)'}")
-            show_feedback(q, ch)
+        show_feedback(q, ch, k, exam=True)
     if st.button("🔁 New exam", type="primary"):
         S.pop("exam")
         st.rerun()
@@ -559,7 +636,7 @@ def page_mistakes():
     if ch is not None:
         ok = show_feedback(q, ch)
         if st.button("Next ➡", type="primary"):
-            record(qid, ok)
+            record(qid, ok, ch)
             rest = [i for i in ids if i != qid]
             S.mq = random.choice(rest) if rest else None
             st.rerun()
@@ -584,15 +661,56 @@ def page_traps():
                 st.caption(f"Source: {r['s']}")
                 speak(r["q"] + " Model answer: " + r["a"], f"rv{k}", "🔊 Listen")
     with t3:
-        st.markdown("The AS23 sample exam came with an answer key. These items disagree with the course material or couldn't be verified:")
+        st.markdown("The AS23 sample exam came with an answer key. On these items the key disagrees with the lecture slides or readings; "
+                    "the green option is the one the sources support:")
         for q in QUESTIONS:
             if q.get("flag"):
-                with st.container(border=True):
-                    st.markdown(f"**{q['sample']}: {q['q']}**")
-                    st.markdown(f"Key says **{'abc'[q['key']]}** · course material supports **{'abc'[q['a']]}**")
-                    st.caption(q["flag"])
+                st.markdown(review_card(q), unsafe_allow_html=True)
 
 
+def page_review():
+    st.title("📖 Question review")
+    st.caption("Every question with all of its options, the correct answer, the explanation and the source, laid out like the "
+               "“Multiple Choice Questions” slides. Your last answer is marked wherever you've answered a question.")
+    c1, c2 = st.columns([2, 3])
+    qset = c1.radio("Questions", ["All", "AS23 sample exam", "Practice questions", "My mistakes", "Answered by me"])
+    tsel = c2.multiselect("Topics (empty = all)", [t["id"] for t in TOPICS], format_func=lambda i: f"{TOPIC[i]['emoji']} {TOPIC[i]['title']}")
+    search = c2.text_input("Search question text", placeholder="e.g. Kant, guanxi, expropriation")
+    hide = c2.toggle("Quiz me: hide the answers until I reveal them")
+    mistakes = set(wrong_ids())
+    pool = []
+    for q in QUESTIONS:
+        if tsel and q["t"] not in tsel:
+            continue
+        if qset == "AS23 sample exam" and not q.get("sample"):
+            continue
+        if qset == "Practice questions" and q.get("sample"):
+            continue
+        if qset == "My mistakes" and q["id"] not in mistakes:
+            continue
+        if qset == "Answered by me" and q["id"] not in S.choices:
+            continue
+        if search and search.lower() not in (q["q"] + " " + " ".join(q["o"])).lower():
+            continue
+        pool.append(q)
+    items = [(q, S.choices.get(q["id"])) for q in pool]
+    a, b = st.columns([3, 2])
+    a.markdown(f"**{len(pool)}** question(s)")
+    if pool:
+        b.download_button("📄 Download as printable review (print to PDF)", review_document(items, f"IMBE question review · {qset}"),
+                          "imbe_question_review.html", "text/html", width="stretch")
+    if not pool:
+        st.info("No questions match these filters.")
+    for n, (q, ch) in enumerate(items, 1):
+        if not hide:
+            st.markdown(review_card(q, ch, n), unsafe_allow_html=True)
+            continue
+        slot = st.container()
+        shown = st.toggle("Reveal answer", key=f"rev{q['id']}")
+        slot.markdown(review_card(q, ch if shown else None, n, reveal=shown), unsafe_allow_html=True)
+
+
+st.markdown(f"<style>{REVIEW_CSS}</style>", unsafe_allow_html=True)
 {
     "🏠 Home & plan": page_home,
     "🗺️ Quest map": page_quest,
@@ -601,6 +719,7 @@ def page_traps():
     "🧩 Sort it": page_sort,
     "🔗 Match-up": page_match,
     "📝 Exam simulator": page_exam,
+    "📖 Question review": page_review,
     "🎯 Mistake review": page_mistakes,
     "🚩 Traps & review questions": page_traps,
 }[page]()
