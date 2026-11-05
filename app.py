@@ -7,6 +7,7 @@ import random
 import re
 import time
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import altair as alt
 import pandas as pd
@@ -51,6 +52,7 @@ def init_state():
         "exam_results": [],
         "exam_date": DEFAULT_EXAM_DATE.isoformat(),
         "choices": {},        # qid -> last chosen option index
+        "attempts": [],       # one entry per exam / boss battle / lightning round / mistake-review session
     }
     for k, v in defaults.items():
         st.session_state.setdefault(k, v)
@@ -70,6 +72,39 @@ def record(qid, ok, chosen=None):
         S.choices[qid] = chosen
     if ok:
         add_xp(10)
+
+
+SAMPLE_KIND = "AS23 sample exam"
+
+
+def now_local():
+    """Current time in the viewer's browser timezone (Streamlit Cloud servers run on UTC)."""
+    try:
+        return dt.datetime.now(ZoneInfo(st.context.timezone or "Europe/Zurich"))
+    except Exception:
+        return dt.datetime.now()
+
+
+def new_attempt(kind):
+    att = {"id": len(S.attempts) + 1, "kind": kind, "when": now_local().strftime("%d %b %Y %H:%M"), "answers": []}
+    S.attempts.append(att)
+    return att
+
+
+def attempt_by_id(aid):
+    return next((a for a in S.attempts if a["id"] == aid), None)
+
+
+def attempt_stats(att):
+    """(correct, answered, total) for an attempt; answers are [qid, chosen-or-None] pairs."""
+    pairs = [(QBY[qid], ch) for qid, ch in att["answers"] if qid in QBY]
+    return sum(ch == q["a"] for q, ch in pairs), sum(ch is not None for _, ch in pairs), len(pairs)
+
+
+def attempt_label(att):
+    right, answered, total = attempt_stats(att)
+    blank = f" · {total - answered} blank" if total - answered else ""
+    return f"#{att['id']} · {att['kind']} · {att['when']} · {right}/{total} correct{blank}"
 
 
 def level():
@@ -246,8 +281,8 @@ def show_feedback(q, chosen, number=None, exam=False):
 
 
 def review_document(items, title):
-    """Stand-alone printable HTML (open in a browser, then print to PDF). items: list of (q, chosen)."""
-    cards = "".join(review_card(q, ch, n) for n, (q, ch) in enumerate(items, 1))
+    """Stand-alone printable HTML (open in a browser, then print to PDF). items: list of (number, q, chosen)."""
+    cards = "".join(review_card(q, ch, n) for n, q, ch in items)
     return (f'<!doctype html><html><head><meta charset="utf-8"><title>{html.escape(title)}</title><style>{REVIEW_CSS}'
             'body{max-width:860px;margin:24px auto;padding:0 16px;background:#f6f7f9}h1{font-family:Helvetica,Arial,sans-serif;color:#697c91}'
             '@media print{body{background:#fff}.qslide{break-inside:avoid;box-shadow:none}}</style></head>'
@@ -276,7 +311,8 @@ with st.sidebar:
     )
     st.divider()
     st.caption("Progress lives in this browser session. Save it to keep it between visits:")
-    keys = ["xp", "history", "stars", "boxes", "plan_done", "best_lightning", "sorts_done", "matches_done", "exam_results", "exam_date", "choices"]
+    keys = ["xp", "history", "stars", "boxes", "plan_done", "best_lightning", "sorts_done", "matches_done", "exam_results", "exam_date",
+            "choices", "attempts"]
     st.download_button("💾 Save progress", json.dumps({k: S[k] for k in keys}), "imbe_progress.json", "application/json")
     up = st.file_uploader("Load progress", type="json", label_visibility="collapsed")
     if up is not None and st.button("Restore loaded progress"):
@@ -376,6 +412,7 @@ def page_quest():
             submitted = st.form_submit_button("⚔️ Submit answers")
         if submitted:
             score = 0
+            new_attempt(f"Boss battle · {t['title']}")["answers"] = [[qid, ch] for qid, ch in answers.items()]
             for n, (qid, ch) in enumerate(answers.items(), 1):
                 ok = show_feedback(QBY[qid], ch, n, exam=True)
                 if ch is not None:
@@ -404,7 +441,7 @@ def page_lightning():
         if st.button("▶ Start round", type="primary"):
             pool = [q["id"] for q in QUESTIONS if not topics or q["t"] in topics]
             S.lr = {"ids": random.sample(pool, min(10, len(pool))), "i": 0, "correct": 0, "streak": 0, "points": 0,
-                    "t0": time.time(), "answered": None, "finished": False}
+                    "t0": time.time(), "answered": None, "finished": False, "attempt": new_attempt("Lightning round")["id"]}
             st.rerun()
         return
     q = QBY[lr["ids"][lr["i"]]]
@@ -420,6 +457,9 @@ def page_lightning():
             if st.button(option_label(q, i), key=f"lr{lr['i']}{i}", width="stretch"):
                 ok = i == q["a"]
                 record(q["id"], ok, i)
+                att = attempt_by_id(lr.get("attempt"))
+                if att:
+                    att["answers"].append([q["id"], i])
                 secs = time.time() - lr["t0"]
                 if ok:
                     lr["streak"] += 1
@@ -554,6 +594,7 @@ def page_exam():
         if S.exam_results:
             st.subheader("Previous attempts")
             st.dataframe(pd.DataFrame(S.exam_results), hide_index=True, width="stretch")
+            st.caption("Review any attempt question by question in **📖 Question review**.")
         return
     end = ex["start"] + ex["minutes"] * 60
     if not ex["submitted"]:
@@ -580,7 +621,10 @@ def page_exam():
                 score += ok
             ex["score"] = score
             blanks = sum(ch is None for ch in answers.values())
-            S.exam_results.append({"when": dt.datetime.now().strftime("%d %b %H:%M"),
+            att = new_attempt(SAMPLE_KIND if ex["kind"].startswith("AS23") else "Random mock exam")
+            att["answers"] = [[qid, ch] for qid, ch in answers.items()]
+            ex["attempt"] = att["id"]
+            S.exam_results.append({"attempt": f"#{att['id']}", "when": att["when"],
                                    "exam": "AS23 sample" if ex["kind"].startswith("AS23") else "Random mock",
                                    "score": f"{score}/{len(ex['ids'])}", "percent": f"{round(100 * score / len(ex['ids']))}%",
                                    "blank": blanks, "minutes": ex["used"]})
@@ -592,7 +636,7 @@ def page_exam():
         return
     n = len(ex["ids"])
     pct = ex["score"] / n
-    st.metric("Result", f"{ex['score']}/{n} ({pct:.0%})", f"{ex['used']} of {ex['minutes']} min")
+    st.metric(f"Result · attempt #{ex.get('attempt', '?')}", f"{ex['score']}/{n} ({pct:.0%})", f"{ex['used']} of {ex['minutes']} min")
     if pct >= 0.8:
         st.balloons()
     by_topic = {}
@@ -608,10 +652,10 @@ def page_exam():
     st.subheader("Question review")
     c1, c2 = st.columns([3, 2])
     only_wrong = c1.toggle("Show only questions I got wrong or left blank", value=False)
-    items = [(QBY[qid], ex["answers"][qid]) for qid in ex["ids"]]
+    items = [(k, QBY[qid], ex["answers"][qid]) for k, qid in enumerate(ex["ids"], 1)]
     c2.download_button("📄 Download this review (print to PDF)", review_document(items, f"IMBE exam review · {ex['kind'][:40]}"),
                        "imbe_exam_review.html", "text/html", width="stretch")
-    for k, (q, ch) in enumerate(items, 1):
+    for k, q, ch in items:
         if only_wrong and ch == q["a"]:
             continue
         show_feedback(q, ch, k, exam=True)
@@ -637,6 +681,9 @@ def page_mistakes():
         ok = show_feedback(q, ch)
         if st.button("Next ➡", type="primary"):
             record(qid, ok, ch)
+            att = attempt_by_id(S.get("mr_att")) or new_attempt("Mistake review")
+            S.mr_att = att["id"]
+            att["answers"].append([qid, ch])
             rest = [i for i in ids if i != qid]
             S.mq = random.choice(rest) if rest else None
             st.rerun()
@@ -668,49 +715,76 @@ def page_traps():
                 st.markdown(review_card(q), unsafe_allow_html=True)
 
 
+REVIEW_SHOW = {"all": "All questions", "wrong": "My mistakes", "answered": "Answered by me", "blank": "Not answered"}
+
+
 def page_review():
     st.title("📖 Question review")
     st.caption("Every question with all of its options, the correct answer, the explanation and the source, laid out like the "
-               "“Multiple Choice Questions” slides. Your last answer is marked wherever you've answered a question.")
-    c1, c2 = st.columns([2, 3])
-    qset = c1.radio("Questions", ["All", "AS23 sample exam", "Practice questions", "My mistakes", "Answered by me"])
-    tsel = c2.multiselect("Topics (empty = all)", [t["id"] for t in TOPICS], format_func=lambda i: f"{TOPIC[i]['emoji']} {TOPIC[i]['title']}")
+               "“Multiple Choice Questions” slides. Pick an attempt to see exactly what you answered that time.")
+    view = st.radio("Review", ["sample", "practice", "bank"], horizontal=True, format_func=lambda v: {
+        "sample": f"📝 AS23 sample exam attempts ({sum(a['kind'] == SAMPLE_KIND for a in S.attempts)})",
+        "practice": f"🎯 Practice attempts ({sum(a['kind'] != SAMPLE_KIND for a in S.attempts)})",
+        "bank": "📚 Question bank (all questions)"}[v])
+
+    if view == "bank":
+        qset = st.radio("Questions", ["All", "AS23 sample exam", "Practice questions"], horizontal=True)
+        rows = [(n, q, None) for n, q in enumerate(
+            (q for q in QUESTIONS if qset == "All" or bool(q.get("sample")) == (qset == "AS23 sample exam")), 1)]
+        title, fname, key_prefix = f"IMBE question bank · {qset}", "imbe_question_bank.html", "bank"
+    else:
+        atts = [a for a in reversed(S.attempts) if (a["kind"] == SAMPLE_KIND) == (view == "sample")]
+        if not atts:
+            where = "the **📝 Exam simulator** (AS23 sample exam)" if view == "sample" else \
+                "a **random mock exam**, a **boss battle**, a **lightning round** or **mistake review**"
+            st.info(f"No attempts yet. Each time you finish {where}, it appears here as its own numbered attempt.")
+            return
+        aid = st.selectbox("Attempt (newest first)", [a["id"] for a in atts], format_func=lambda i: attempt_label(attempt_by_id(i)))
+        att = attempt_by_id(aid)
+        right, answered, total = attempt_stats(att)
+        m = st.columns(4)
+        m[0].metric("Score", f"{right}/{total}", f"{round(100 * right / total) if total else 0}%", delta_color="off")
+        m[1].metric("Answered", answered)
+        m[2].metric("Mistakes", answered - right)
+        m[3].metric("Not answered", total - answered)
+        counts = {"all": total, "wrong": answered - right, "answered": answered, "blank": total - answered}
+        show = st.radio("Show", list(REVIEW_SHOW), horizontal=True, key=f"show{view}",
+                        format_func=lambda k: f"{REVIEW_SHOW[k]} ({counts[k]})")
+        rows = []
+        for n, (qid, ch) in enumerate(att["answers"], 1):
+            q = QBY.get(qid)
+            if q is None:
+                continue
+            if (show == "wrong" and (ch is None or ch == q["a"])) or (show == "answered" and ch is None) or (show == "blank" and ch is not None):
+                continue
+            rows.append((n, q, ch))
+        title = f"IMBE review · attempt #{att['id']} · {att['kind']} · {att['when']} · {REVIEW_SHOW[show]}"
+        fname, key_prefix = f"imbe_attempt_{att['id']}_{show}.html", f"a{att['id']}"
+
+    c1, c2, c3 = st.columns([3, 3, 2])
+    tsel = c1.multiselect("Topics (empty = all)", [t["id"] for t in TOPICS], format_func=lambda i: f"{TOPIC[i]['emoji']} {TOPIC[i]['title']}")
     search = c2.text_input("Search question text", placeholder="e.g. Kant, guanxi, expropriation")
-    hide = c2.toggle("Quiz me: hide the answers until I reveal them")
-    mistakes = set(wrong_ids())
-    pool = []
-    for q in QUESTIONS:
-        if tsel and q["t"] not in tsel:
-            continue
-        if qset == "AS23 sample exam" and not q.get("sample"):
-            continue
-        if qset == "Practice questions" and q.get("sample"):
-            continue
-        if qset == "My mistakes" and q["id"] not in mistakes:
-            continue
-        if qset == "Answered by me" and q["id"] not in S.choices:
-            continue
-        if search and search.lower() not in (q["q"] + " " + " ".join(q["o"])).lower():
-            continue
-        pool.append(q)
-    items = [(q, S.choices.get(q["id"])) for q in pool]
+    hide = c3.toggle("Quiz me: hide answers")
+    rows = [(n, q, ch) for n, q, ch in rows if (not tsel or q["t"] in tsel)
+            and (not search or search.lower() in (q["q"] + " " + " ".join(q["o"])).lower())]
     a, b = st.columns([3, 2])
-    a.markdown(f"**{len(pool)}** question(s)")
-    if pool:
-        b.download_button("📄 Download as printable review (print to PDF)", review_document(items, f"IMBE question review · {qset}"),
-                          "imbe_question_review.html", "text/html", width="stretch")
-    if not pool:
+    a.markdown(f"**{len(rows)}** question(s)")
+    if not rows:
         st.info("No questions match these filters.")
-    for n, (q, ch) in enumerate(items, 1):
+        return
+    b.download_button("📄 Download as printable review (print to PDF)", review_document(rows, title), fname, "text/html", width="stretch")
+    for n, q, ch in rows:
         if not hide:
-            st.markdown(review_card(q, ch, n), unsafe_allow_html=True)
+            st.markdown(review_card(q, ch, n, exam=view != "bank"), unsafe_allow_html=True)
             continue
         slot = st.container()
-        shown = st.toggle("Reveal answer", key=f"rev{q['id']}")
-        slot.markdown(review_card(q, ch if shown else None, n, reveal=shown), unsafe_allow_html=True)
+        shown = st.toggle("Reveal answer", key=f"rev{key_prefix}{n}{q['id']}")
+        slot.markdown(review_card(q, ch if shown else None, n, reveal=shown, exam=view != "bank"), unsafe_allow_html=True)
 
 
 st.markdown(f"<style>{REVIEW_CSS}</style>", unsafe_allow_html=True)
+if page != "🎯 Mistake review":
+    S.pop("mr_att", None)  # each visit to Mistake review becomes its own attempt
 {
     "🏠 Home & plan": page_home,
     "🗺️ Quest map": page_quest,

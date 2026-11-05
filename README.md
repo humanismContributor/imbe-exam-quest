@@ -13,6 +13,7 @@ A Streamlit learning game for the **International Management & Business Ethics (
 | 🧩 Sort it | Classify items, e.g. reactive vs proactive, compliance vs integrity, Hofstede vs Trompenaars vs Hall |
 | 🔗 Match-up | Match terms to definitions or thinkers |
 | 📝 Exam simulator | The AS23 sample exam (29 questions) or a random 30-question mock, timed, with per-topic results |
+| 📖 Question review | Every attempt (sample exam, mock exams, boss battles, lightning rounds) reviewed separately with all options; filter by mistakes, answered or not answered; browse the full question bank; printable download |
 | 🎯 Mistake review | Every question you last answered wrongly, until you clear it |
 | 🚩 Traps & review | Exam traps, 31 review questions with model answers, answer-key checks |
 
